@@ -1,0 +1,3882 @@
+{
+  "prompt": "desktop, web, landing page, encabezado superior con logotipo alineado a la izquierda, menú de navegación horizontal con 4 opciones alineadas a la derecha, sección principal con fondo de imagen de oficina, título centrado, subtítulo centrado, barra de búsqueda con selector de ubicación, selector de fecha y botón azul alineada al centro, enlace “Take virtual tour of our spaces” debajo de la barra de búsqueda, sección de métricas con 3 datos alineados horizontalmente, sección de ubicaciones populares con 3 tarjetas de imagen y texto en fila horizontal, sección de equipo con dos imágenes alineadas horizontalmente y texto a la izquierda, sección de beneficios con 3 iconos y descripciones alineadas horizontalmente, sección de soporte con fondo oscuro dividida en dos columnas, columna izquierda con lista de características y columna derecha con acordeón de preguntas frecuentes, sección de suscripción a boletín con campo de correo y botón azul centrado, footer con logotipo, enlaces y redes sociales, fondo principal blanco, tipografía sans-serif, detalles en color azul y verde, alineación centrada en la mayoría de bloques.",
+  "layout": [
+    {
+      "id": "225:1502",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1600,
+        "height": 5719
+      },
+      "fillColor": "rgba(253,253,255,1.00)",
+      "parent": "203:1431",
+      "children": [
+        "225:1503",
+        "225:1504",
+        "225:1514",
+        "225:1559",
+        "225:1585",
+        "225:1598",
+        "225:1623",
+        "225:1634",
+        "225:1661"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1503",
+      "type": "INSTANCE",
+      "position": {
+        "x": 0,
+        "y": 5154
+      },
+      "size": {
+        "width": 1601,
+        "height": 533
+      },
+      "parent": "225:1502",
+      "children": [
+        "I225:1503;0:4513"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4513",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0.5
+      },
+      "size": {
+        "width": 1601,
+        "height": 532.5
+      },
+      "parent": "225:1503",
+      "children": [
+        "I225:1503;0:4514",
+        "I225:1503;0:4517",
+        "I225:1503;0:4520",
+        "I225:1503;0:4523",
+        "I225:1503;0:4526",
+        "I225:1503;0:4529",
+        "I225:1503;0:4553"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4514",
+      "type": "FRAME",
+      "position": {
+        "x": 245,
+        "y": 121
+      },
+      "size": {
+        "width": 144,
+        "height": 206
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I225:1503;0:4513",
+      "children": [
+        "I225:1503;0:4515",
+        "I225:1503;0:4516"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4515",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 68,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Company",
+      "parent": "I225:1503;0:4514",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4516",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 46
+      },
+      "size": {
+        "width": 144,
+        "height": 160
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "About us\nContact us\nCareers\nPress",
+      "parent": "I225:1503;0:4514",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4517",
+      "type": "FRAME",
+      "position": {
+        "x": 435,
+        "y": 121
+      },
+      "size": {
+        "width": 125,
+        "height": 246
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I225:1503;0:4513",
+      "children": [
+        "I225:1503;0:4518",
+        "I225:1503;0:4519"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4518",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 54,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Product",
+      "parent": "I225:1503;0:4517",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4519",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 46
+      },
+      "size": {
+        "width": 125,
+        "height": 200
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Features\nPricing\nNews\nHelp desk\nSupport",
+      "parent": "I225:1503;0:4517",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4520",
+      "type": "FRAME",
+      "position": {
+        "x": 625,
+        "y": 121
+      },
+      "size": {
+        "width": 156,
+        "height": 206
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I225:1503;0:4513",
+      "children": [
+        "I225:1503;0:4521",
+        "I225:1503;0:4522"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4521",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 56,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Services",
+      "parent": "I225:1503;0:4520",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4522",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 46
+      },
+      "size": {
+        "width": 156,
+        "height": 160
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Digital Marketing\nContent Writing\nSEO for Business\nUI Design",
+      "parent": "I225:1503;0:4520",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4523",
+      "type": "FRAME",
+      "position": {
+        "x": 846,
+        "y": 121
+      },
+      "size": {
+        "width": 161,
+        "height": 166
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I225:1503;0:4513",
+      "children": [
+        "I225:1503;0:4524",
+        "I225:1503;0:4525"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4524",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 38,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Legal",
+      "parent": "I225:1503;0:4523",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4525",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 46
+      },
+      "size": {
+        "width": 161,
+        "height": 120
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Privacy Policy\nTerms & Conditions\nReturn Policy",
+      "parent": "I225:1503;0:4523",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4526",
+      "type": "FRAME",
+      "position": {
+        "x": 1072,
+        "y": 121
+      },
+      "size": {
+        "width": 250,
+        "height": 126
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I225:1503;0:4513",
+      "children": [
+        "I225:1503;0:4527",
+        "I225:1503;0:4528"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4527",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 76,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Contact us",
+      "parent": "I225:1503;0:4526",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4528",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 46
+      },
+      "size": {
+        "width": 250,
+        "height": 80
+      },
+      "fillColor": "rgba(71,59,240,1.00)",
+      "text": "support@brainwave.io\n+133-394-3439-1435",
+      "parent": "I225:1503;0:4526",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4529",
+      "type": "FRAME",
+      "position": {
+        "x": 245,
+        "y": 475
+      },
+      "size": {
+        "width": 1111,
+        "height": 58
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I225:1503;0:4513",
+      "children": [
+        "I225:1503;0:4530",
+        "I225:1503;0:4549",
+        "I225:1503;0:4550",
+        "I225:1503;0:4552"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4530",
+      "type": "GROUP",
+      "position": {
+        "x": 944,
+        "y": 36
+      },
+      "size": {
+        "width": 166,
+        "height": 19
+      },
+      "parent": "I225:1503;0:4529",
+      "children": [
+        "I225:1503;0:4531",
+        "I225:1503;0:4533",
+        "I225:1503;0:4535",
+        "I225:1503;0:4543"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4531",
+      "type": "GROUP",
+      "position": {
+        "x": 944,
+        "y": 38
+      },
+      "size": {
+        "width": 18,
+        "height": 15
+      },
+      "parent": "I225:1503;0:4530",
+      "children": [
+        "I225:1503;0:4532"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4532",
+      "type": "VECTOR",
+      "position": {
+        "x": 944,
+        "y": 38
+      },
+      "size": {
+        "width": 18,
+        "height": 15
+      },
+      "fillColor": "rgba(22,28,45,0.40)",
+      "parent": "I225:1503;0:4531",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4533",
+      "type": "GROUP",
+      "position": {
+        "x": 992,
+        "y": 36
+      },
+      "size": {
+        "width": 19,
+        "height": 19
+      },
+      "parent": "I225:1503;0:4530",
+      "children": [
+        "I225:1503;0:4534"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4534",
+      "type": "VECTOR",
+      "position": {
+        "x": 992,
+        "y": 36
+      },
+      "size": {
+        "width": 19,
+        "height": 19
+      },
+      "fillColor": "rgba(71,59,240,1.00)",
+      "parent": "I225:1503;0:4533",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4535",
+      "type": "GROUP",
+      "position": {
+        "x": 1042,
+        "y": 36
+      },
+      "size": {
+        "width": 19,
+        "height": 19
+      },
+      "parent": "I225:1503;0:4530",
+      "children": [
+        "I225:1503;0:4538",
+        "I225:1503;0:4541",
+        "I225:1503;0:4542"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4538",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 1042,
+        "y": 36
+      },
+      "size": {
+        "width": 19,
+        "height": 19
+      },
+      "fillColor": "rgba(22,28,45,0.40)",
+      "parent": "I225:1503;0:4535",
+      "children": [
+        "I225:1503;0:4536",
+        "I225:1503;0:4537"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4536",
+      "type": "VECTOR",
+      "position": {
+        "x": 1043.7115833759308,
+        "y": 37.711583375930786
+      },
+      "size": {
+        "width": 15.576833724975586,
+        "height": 15.576833724975586
+      },
+      "parent": "I225:1503;0:4538",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4537",
+      "type": "VECTOR",
+      "position": {
+        "x": 1042,
+        "y": 36
+      },
+      "size": {
+        "width": 19,
+        "height": 19
+      },
+      "parent": "I225:1503;0:4538",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4541",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 1047.1818180084229,
+        "y": 41.18181800842285
+      },
+      "size": {
+        "width": 9.5,
+        "height": 9.5
+      },
+      "fillColor": "rgba(22,28,45,0.40)",
+      "parent": "I225:1503;0:4535",
+      "children": [
+        "I225:1503;0:4539",
+        "I225:1503;0:4540"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4539",
+      "type": "VECTOR",
+      "position": {
+        "x": 1047.1818180084229,
+        "y": 41.18181800842285
+      },
+      "size": {
+        "width": 9.5,
+        "height": 9.5
+      },
+      "parent": "I225:1503;0:4541",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4540",
+      "type": "VECTOR",
+      "position": {
+        "x": 1048.8484035730362,
+        "y": 42.848403573036194
+      },
+      "size": {
+        "width": 6.1668291091918945,
+        "height": 6.1668291091918945
+      },
+      "parent": "I225:1503;0:4541",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4542",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 1054.9545450210571,
+        "y": 39.45454549789429
+      },
+      "size": {
+        "width": 2.590909004211426,
+        "height": 2.590909004211426
+      },
+      "fillColor": "rgba(22,28,45,0.40)",
+      "parent": "I225:1503;0:4535",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4543",
+      "type": "GROUP",
+      "position": {
+        "x": 1091,
+        "y": 36
+      },
+      "size": {
+        "width": 19,
+        "height": 19
+      },
+      "parent": "I225:1503;0:4530",
+      "children": [
+        "I225:1503;0:4546"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4546",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 1091,
+        "y": 36
+      },
+      "size": {
+        "width": 19,
+        "height": 19
+      },
+      "fillColor": "rgba(22,28,45,0.40)",
+      "parent": "I225:1503;0:4543",
+      "children": [
+        "I225:1503;0:4544",
+        "I225:1503;0:4545",
+        "I225:1503;0:4547",
+        "I225:1503;0:4548"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4544",
+      "type": "VECTOR",
+      "position": {
+        "x": 1091,
+        "y": 36
+      },
+      "size": {
+        "width": 19,
+        "height": 19
+      },
+      "parent": "I225:1503;0:4546",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4545",
+      "type": "VECTOR",
+      "position": {
+        "x": 1093.8104166984558,
+        "y": 43.125
+      },
+      "size": {
+        "width": 2.8104166984558105,
+        "height": 9.064583778381348
+      },
+      "parent": "I225:1503;0:4546",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4547",
+      "type": "VECTOR",
+      "position": {
+        "x": 1093.6124999523163,
+        "y": 38.65208339691162
+      },
+      "size": {
+        "width": 3.245833396911621,
+        "height": 3.245833396911621
+      },
+      "parent": "I225:1503;0:4546",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4548",
+      "type": "VECTOR",
+      "position": {
+        "x": 1098.4020833969116,
+        "y": 42.88749980926514
+      },
+      "size": {
+        "width": 8.787500381469727,
+        "height": 9.302083015441895
+      },
+      "parent": "I225:1503;0:4546",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4549",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 32
+      },
+      "size": {
+        "width": 421,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "© 2024 Copyright, All Right Reserved, Made by Seju_ui_ux with",
+      "parent": "I225:1503;0:4529",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4550",
+      "type": "GROUP",
+      "position": {
+        "x": 407,
+        "y": 40
+      },
+      "size": {
+        "width": 14,
+        "height": 13
+      },
+      "parent": "I225:1503;0:4529",
+      "children": [
+        "I225:1503;0:4551"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4551",
+      "type": "VECTOR",
+      "position": {
+        "x": 407,
+        "y": 40
+      },
+      "size": {
+        "width": 14,
+        "height": 13
+      },
+      "fillColor": "rgba(104,213,133,1.00)",
+      "parent": "I225:1503;0:4550",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4552",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 0.5
+      },
+      "size": {
+        "width": 1111,
+        "height": 2
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "I225:1503;0:4529",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1503;0:4553",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 0.5
+      },
+      "size": {
+        "width": 1601,
+        "height": 1
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "I225:1503;0:4513",
+      "rotation": 0
+    },
+    {
+      "id": "225:1504",
+      "type": "GROUP",
+      "position": {
+        "x": 537,
+        "y": 4634
+      },
+      "size": {
+        "width": 527,
+        "height": 406
+      },
+      "parent": "225:1502",
+      "children": [
+        "225:1505",
+        "225:1509",
+        "225:1510"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1505",
+      "type": "GROUP",
+      "position": {
+        "x": 615,
+        "y": 4826
+      },
+      "size": {
+        "width": 369,
+        "height": 59
+      },
+      "parent": "225:1504",
+      "children": [
+        "225:1506"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1506",
+      "type": "FRAME",
+      "position": {
+        "x": 615,
+        "y": 4826
+      },
+      "size": {
+        "width": 369,
+        "height": 59
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1505",
+      "children": [
+        "225:1507",
+        "225:1508"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1507",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 369,
+        "height": 59
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1506",
+      "rotation": 0
+    },
+    {
+      "id": "225:1508",
+      "type": "TEXT",
+      "position": {
+        "x": 22,
+        "y": 15
+      },
+      "size": {
+        "width": 318.2913818359375,
+        "height": 29
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Enter your email",
+      "parent": "225:1506",
+      "rotation": 0
+    },
+    {
+      "id": "225:1509",
+      "type": "INSTANCE",
+      "position": {
+        "x": 616,
+        "y": 4902
+      },
+      "size": {
+        "width": 368,
+        "height": 59
+      },
+      "parent": "225:1504",
+      "children": [
+        "I225:1509;0:4555"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1509;0:4555",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 368,
+        "height": 59
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1509",
+      "children": [
+        "I225:1509;0:4556",
+        "I225:1509;0:4557"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1509;0:4556",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 368,
+        "height": 59
+      },
+      "fillColor": "rgba(71,59,240,1.00)",
+      "parent": "I225:1509;0:4555",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1509;0:4557",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 13
+      },
+      "size": {
+        "width": 368,
+        "height": 32
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Subscribe",
+      "parent": "I225:1509;0:4555",
+      "rotation": 0
+    },
+    {
+      "id": "225:1510",
+      "type": "FRAME",
+      "position": {
+        "x": 537,
+        "y": 4634
+      },
+      "size": {
+        "width": 527,
+        "height": 406
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1504",
+      "children": [
+        "225:1511",
+        "225:1512",
+        "225:1513"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1511",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 74
+      },
+      "size": {
+        "width": 527,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+      "parent": "225:1510",
+      "rotation": 0
+    },
+    {
+      "id": "225:1512",
+      "type": "TEXT",
+      "position": {
+        "x": 81,
+        "y": 354
+      },
+      "size": {
+        "width": 365,
+        "height": 52
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "We’ll never share your details with third parties.\nView our Privacy Policy for more info.",
+      "parent": "225:1510",
+      "rotation": 0
+    },
+    {
+      "id": "225:1513",
+      "type": "TEXT",
+      "position": {
+        "x": 69.5,
+        "y": 0
+      },
+      "size": {
+        "width": 388,
+        "height": 58
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Get latest updates",
+      "parent": "225:1510",
+      "rotation": 0
+    },
+    {
+      "id": "225:1514",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 3725
+      },
+      "size": {
+        "width": 1600,
+        "height": 795
+      },
+      "parent": "225:1502",
+      "children": [
+        "225:1515",
+        "225:1516",
+        "225:1542"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1515",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 3725
+      },
+      "size": {
+        "width": 1600,
+        "height": 795
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "parent": "225:1514",
+      "rotation": 0
+    },
+    {
+      "id": "225:1516",
+      "type": "GROUP",
+      "position": {
+        "x": 815,
+        "y": 3902
+      },
+      "size": {
+        "width": 540,
+        "height": 447
+      },
+      "parent": "225:1514",
+      "children": [
+        "225:1517",
+        "225:1521",
+        "225:1527",
+        "225:1532",
+        "225:1537"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1517",
+      "type": "GROUP",
+      "position": {
+        "x": 815,
+        "y": 3902
+      },
+      "size": {
+        "width": 540,
+        "height": 447
+      },
+      "parent": "225:1516",
+      "children": [
+        "225:1518",
+        "225:1519",
+        "225:1520"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1518",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 815,
+        "y": 3902
+      },
+      "size": {
+        "width": 540,
+        "height": 447
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1517",
+      "rotation": 0
+    },
+    {
+      "id": "225:1519",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 815,
+        "y": 3902
+      },
+      "size": {
+        "width": 540,
+        "height": 447
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1517",
+      "rotation": 0
+    },
+    {
+      "id": "225:1520",
+      "type": "VECTOR",
+      "position": {
+        "x": 811.5,
+        "y": 3903.5
+      },
+      "size": {
+        "width": 551,
+        "height": 1
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "225:1517",
+      "rotation": 0
+    },
+    {
+      "id": "225:1521",
+      "type": "FRAME",
+      "position": {
+        "x": 848,
+        "y": 3930
+      },
+      "size": {
+        "width": 479,
+        "height": 161
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1516",
+      "children": [
+        "225:1522",
+        "225:1523",
+        "225:1524",
+        "225:1526"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1522",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 232,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "How to setup Shade Pro?",
+      "parent": "225:1521",
+      "rotation": 0
+    },
+    {
+      "id": "225:1523",
+      "type": "TEXT",
+      "position": {
+        "x": 1,
+        "y": 49
+      },
+      "size": {
+        "width": 456,
+        "height": 87
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page with coding. Build your next landing page. Integer ut obe ryn. Sed feugiat vitae turpis a porta.",
+      "parent": "225:1521",
+      "rotation": 0
+    },
+    {
+      "id": "225:1524",
+      "type": "GROUP",
+      "position": {
+        "x": 467,
+        "y": 15
+      },
+      "size": {
+        "width": 12,
+        "height": 6
+      },
+      "parent": "225:1521",
+      "children": [
+        "225:1525"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1525",
+      "type": "VECTOR",
+      "position": {
+        "x": 467,
+        "y": 21
+      },
+      "size": {
+        "width": 6,
+        "height": 12
+      },
+      "parent": "225:1524",
+      "rotation": 90
+    },
+    {
+      "id": "225:1526",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 160
+      },
+      "size": {
+        "width": 477,
+        "height": 1
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "225:1521",
+      "rotation": 0
+    },
+    {
+      "id": "225:1527",
+      "type": "FRAME",
+      "position": {
+        "x": 848,
+        "y": 4116
+      },
+      "size": {
+        "width": 477,
+        "height": 61
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1516",
+      "children": [
+        "225:1528",
+        "225:1529",
+        "225:1531"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1528",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 323,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Can I use Shade Pro for my clients?",
+      "parent": "225:1527",
+      "rotation": 0
+    },
+    {
+      "id": "225:1529",
+      "type": "GROUP",
+      "position": {
+        "x": 476,
+        "y": 12
+      },
+      "size": {
+        "width": 12,
+        "height": 6
+      },
+      "parent": "225:1527",
+      "children": [
+        "225:1530"
+      ],
+      "rotation": -90
+    },
+    {
+      "id": "225:1530",
+      "type": "VECTOR",
+      "position": {
+        "x": 470,
+        "y": 12
+      },
+      "size": {
+        "width": 6,
+        "height": 12
+      },
+      "parent": "225:1529",
+      "rotation": 0
+    },
+    {
+      "id": "225:1531",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 60
+      },
+      "size": {
+        "width": 477,
+        "height": 1
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "225:1527",
+      "rotation": 0
+    },
+    {
+      "id": "225:1532",
+      "type": "FRAME",
+      "position": {
+        "x": 848,
+        "y": 4202
+      },
+      "size": {
+        "width": 477,
+        "height": 61
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1516",
+      "children": [
+        "225:1533",
+        "225:1534",
+        "225:1536"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1533",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 318,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "How often do you release update?",
+      "parent": "225:1532",
+      "rotation": 0
+    },
+    {
+      "id": "225:1534",
+      "type": "GROUP",
+      "position": {
+        "x": 476,
+        "y": 12
+      },
+      "size": {
+        "width": 12,
+        "height": 6
+      },
+      "parent": "225:1532",
+      "children": [
+        "225:1535"
+      ],
+      "rotation": -90
+    },
+    {
+      "id": "225:1535",
+      "type": "VECTOR",
+      "position": {
+        "x": 470,
+        "y": 12
+      },
+      "size": {
+        "width": 6,
+        "height": 12
+      },
+      "parent": "225:1534",
+      "rotation": 0
+    },
+    {
+      "id": "225:1536",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 60
+      },
+      "size": {
+        "width": 477,
+        "height": 1
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "225:1532",
+      "rotation": 0
+    },
+    {
+      "id": "225:1537",
+      "type": "FRAME",
+      "position": {
+        "x": 848,
+        "y": 4288
+      },
+      "size": {
+        "width": 477,
+        "height": 61
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1516",
+      "children": [
+        "225:1538",
+        "225:1539",
+        "225:1541"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1538",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 297,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "How can I access to old version?",
+      "parent": "225:1537",
+      "rotation": 0
+    },
+    {
+      "id": "225:1539",
+      "type": "GROUP",
+      "position": {
+        "x": 476,
+        "y": 12
+      },
+      "size": {
+        "width": 12,
+        "height": 6
+      },
+      "parent": "225:1537",
+      "children": [
+        "225:1540"
+      ],
+      "rotation": -90
+    },
+    {
+      "id": "225:1540",
+      "type": "VECTOR",
+      "position": {
+        "x": 470,
+        "y": 12
+      },
+      "size": {
+        "width": 6,
+        "height": 12
+      },
+      "parent": "225:1539",
+      "rotation": 0
+    },
+    {
+      "id": "225:1541",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 60
+      },
+      "size": {
+        "width": 477,
+        "height": 1
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "225:1537",
+      "rotation": 0
+    },
+    {
+      "id": "225:1542",
+      "type": "FRAME",
+      "position": {
+        "x": 246,
+        "y": 3874
+      },
+      "size": {
+        "width": 469,
+        "height": 497
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1514",
+      "children": [
+        "225:1543",
+        "225:1550",
+        "225:1557",
+        "225:1558"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1543",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 255
+      },
+      "size": {
+        "width": 391,
+        "height": 101
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1542",
+      "children": [
+        "225:1544",
+        "225:1545",
+        "225:1546"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1544",
+      "type": "TEXT",
+      "position": {
+        "x": 52,
+        "y": 43
+      },
+      "size": {
+        "width": 339,
+        "height": 58
+      },
+      "fillColor": "rgba(255,255,255,0.65)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. ",
+      "parent": "225:1543",
+      "rotation": 0
+    },
+    {
+      "id": "225:1545",
+      "type": "TEXT",
+      "position": {
+        "x": 52,
+        "y": 0
+      },
+      "size": {
+        "width": 191,
+        "height": 32
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Noise Free Locations",
+      "parent": "225:1543",
+      "rotation": 0
+    },
+    {
+      "id": "225:1546",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 8
+      },
+      "size": {
+        "width": 30,
+        "height": 30
+      },
+      "parent": "225:1543",
+      "children": [
+        "225:1547",
+        "225:1548"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1547",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 0,
+        "y": 8
+      },
+      "size": {
+        "width": 30,
+        "height": 30
+      },
+      "fillColor": "rgba(104,213,133,1.00)",
+      "parent": "225:1546",
+      "rotation": 0
+    },
+    {
+      "id": "225:1548",
+      "type": "GROUP",
+      "position": {
+        "x": 8,
+        "y": 18
+      },
+      "size": {
+        "width": 14,
+        "height": 9.692307472229004
+      },
+      "parent": "225:1546",
+      "children": [
+        "225:1549"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1549",
+      "type": "VECTOR",
+      "position": {
+        "x": 8,
+        "y": 18
+      },
+      "size": {
+        "width": 14,
+        "height": 9.692307472229004
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1548",
+      "rotation": 0
+    },
+    {
+      "id": "225:1550",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 396
+      },
+      "size": {
+        "width": 391,
+        "height": 101
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1542",
+      "children": [
+        "225:1551",
+        "225:1552",
+        "225:1553"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1551",
+      "type": "TEXT",
+      "position": {
+        "x": 52,
+        "y": 43
+      },
+      "size": {
+        "width": 339,
+        "height": 58
+      },
+      "fillColor": "rgba(255,255,255,0.65)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. ",
+      "parent": "225:1550",
+      "rotation": 0
+    },
+    {
+      "id": "225:1552",
+      "type": "TEXT",
+      "position": {
+        "x": 52,
+        "y": 0
+      },
+      "size": {
+        "width": 172,
+        "height": 32
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "24/7 Hour Support",
+      "parent": "225:1550",
+      "rotation": 0
+    },
+    {
+      "id": "225:1553",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 8
+      },
+      "size": {
+        "width": 30,
+        "height": 30
+      },
+      "parent": "225:1550",
+      "children": [
+        "225:1554",
+        "225:1555"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1554",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 0,
+        "y": 8
+      },
+      "size": {
+        "width": 30,
+        "height": 30
+      },
+      "fillColor": "rgba(104,213,133,1.00)",
+      "parent": "225:1553",
+      "rotation": 0
+    },
+    {
+      "id": "225:1555",
+      "type": "GROUP",
+      "position": {
+        "x": 8,
+        "y": 18
+      },
+      "size": {
+        "width": 14,
+        "height": 9.692307472229004
+      },
+      "parent": "225:1553",
+      "children": [
+        "225:1556"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1556",
+      "type": "VECTOR",
+      "position": {
+        "x": 8,
+        "y": 18
+      },
+      "size": {
+        "width": 14,
+        "height": 9.692307472229004
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1555",
+      "rotation": 0
+    },
+    {
+      "id": "225:1557",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 469,
+        "height": 116
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "We are always here for your backup.",
+      "parent": "225:1542",
+      "rotation": 0
+    },
+    {
+      "id": "225:1558",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 131
+      },
+      "size": {
+        "width": 384,
+        "height": 64
+      },
+      "fillColor": "rgba(255,255,255,0.65)",
+      "text": "We share common trends and strategies for creating & improving your rental income.",
+      "parent": "225:1542",
+      "rotation": 0
+    },
+    {
+      "id": "225:1559",
+      "type": "GROUP",
+      "position": {
+        "x": 246,
+        "y": 3471
+      },
+      "size": {
+        "width": 1105,
+        "height": 136
+      },
+      "parent": "225:1502",
+      "children": [
+        "225:1560",
+        "225:1569",
+        "225:1576"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1560",
+      "type": "FRAME",
+      "position": {
+        "x": 246,
+        "y": 3471
+      },
+      "size": {
+        "width": 349,
+        "height": 136
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1559",
+      "children": [
+        "225:1561",
+        "225:1562",
+        "225:1563"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1561",
+      "type": "TEXT",
+      "position": {
+        "x": 70,
+        "y": 0
+      },
+      "size": {
+        "width": 149,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Dedicated Desk",
+      "parent": "225:1560",
+      "rotation": 0
+    },
+    {
+      "id": "225:1562",
+      "type": "TEXT",
+      "position": {
+        "x": 70,
+        "y": 49
+      },
+      "size": {
+        "width": 279,
+        "height": 87
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+      "parent": "225:1560",
+      "rotation": 0
+    },
+    {
+      "id": "225:1563",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 10
+      },
+      "size": {
+        "width": 44.5,
+        "height": 36
+      },
+      "parent": "225:1560",
+      "children": [
+        "225:1564",
+        "225:1565",
+        "225:1566",
+        "225:1567",
+        "225:1568"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1564",
+      "type": "VECTOR",
+      "position": {
+        "x": 28,
+        "y": 21.5
+      },
+      "size": {
+        "width": 8,
+        "height": 1
+      },
+      "parent": "225:1563",
+      "rotation": 0
+    },
+    {
+      "id": "225:1565",
+      "type": "VECTOR",
+      "position": {
+        "x": 20,
+        "y": 16
+      },
+      "size": {
+        "width": 24,
+        "height": 12
+      },
+      "parent": "225:1563",
+      "rotation": 0
+    },
+    {
+      "id": "225:1566",
+      "type": "VECTOR",
+      "position": {
+        "x": 43.5,
+        "y": 16
+      },
+      "size": {
+        "width": 1,
+        "height": 30
+      },
+      "parent": "225:1563",
+      "rotation": 0
+    },
+    {
+      "id": "225:1567",
+      "type": "VECTOR",
+      "position": {
+        "x": 19.5,
+        "y": 28
+      },
+      "size": {
+        "width": 1,
+        "height": 18
+      },
+      "parent": "225:1563",
+      "rotation": 0
+    },
+    {
+      "id": "225:1568",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 10
+      },
+      "size": {
+        "width": 44,
+        "height": 36
+      },
+      "parent": "225:1563",
+      "rotation": 0
+    },
+    {
+      "id": "225:1569",
+      "type": "FRAME",
+      "position": {
+        "x": 627,
+        "y": 3471
+      },
+      "size": {
+        "width": 345,
+        "height": 136
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1559",
+      "children": [
+        "225:1570",
+        "225:1571",
+        "225:1572"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1570",
+      "type": "TEXT",
+      "position": {
+        "x": 67,
+        "y": 0
+      },
+      "size": {
+        "width": 186,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "High Speed Internet",
+      "parent": "225:1569",
+      "rotation": 0
+    },
+    {
+      "id": "225:1571",
+      "type": "TEXT",
+      "position": {
+        "x": 67,
+        "y": 49
+      },
+      "size": {
+        "width": 278,
+        "height": 87
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+      "parent": "225:1569",
+      "rotation": 0
+    },
+    {
+      "id": "225:1572",
+      "type": "GROUP",
+      "position": {
+        "x": 0.20001220703125,
+        "y": 10
+      },
+      "size": {
+        "width": 39.599998474121094,
+        "height": 32
+      },
+      "parent": "225:1569",
+      "children": [
+        "225:1573",
+        "225:1574",
+        "225:1575"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1573",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 16,
+        "y": 34
+      },
+      "size": {
+        "width": 8,
+        "height": 8
+      },
+      "parent": "225:1572",
+      "rotation": 0
+    },
+    {
+      "id": "225:1574",
+      "type": "VECTOR",
+      "position": {
+        "x": 8.699999809265137,
+        "y": 22
+      },
+      "size": {
+        "width": 22.600000381469727,
+        "height": 4.699999809265137
+      },
+      "parent": "225:1572",
+      "rotation": 0
+    },
+    {
+      "id": "225:1575",
+      "type": "VECTOR",
+      "position": {
+        "x": 0.20000000298023224,
+        "y": 10
+      },
+      "size": {
+        "width": 39.599998474121094,
+        "height": 8.199999809265137
+      },
+      "parent": "225:1572",
+      "rotation": 0
+    },
+    {
+      "id": "225:1576",
+      "type": "FRAME",
+      "position": {
+        "x": 1006,
+        "y": 3471
+      },
+      "size": {
+        "width": 345,
+        "height": 136
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1559",
+      "children": [
+        "225:1577",
+        "225:1578",
+        "225:1579"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1577",
+      "type": "TEXT",
+      "position": {
+        "x": 67,
+        "y": 0
+      },
+      "size": {
+        "width": 155,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Unlimited Coffee",
+      "parent": "225:1576",
+      "rotation": 0
+    },
+    {
+      "id": "225:1578",
+      "type": "TEXT",
+      "position": {
+        "x": 67,
+        "y": 49
+      },
+      "size": {
+        "width": 278,
+        "height": 87
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+      "parent": "225:1576",
+      "rotation": 0
+    },
+    {
+      "id": "225:1579",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 8
+      },
+      "size": {
+        "width": 35,
+        "height": 40
+      },
+      "parent": "225:1576",
+      "children": [
+        "225:1580",
+        "225:1581",
+        "225:1582",
+        "225:1583",
+        "225:1584"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1580",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 21
+      },
+      "size": {
+        "width": 28,
+        "height": 27
+      },
+      "parent": "225:1579",
+      "rotation": 0
+    },
+    {
+      "id": "225:1581",
+      "type": "VECTOR",
+      "position": {
+        "x": 12,
+        "y": 8
+      },
+      "size": {
+        "width": 1,
+        "height": 5
+      },
+      "parent": "225:1579",
+      "rotation": 0
+    },
+    {
+      "id": "225:1582",
+      "type": "VECTOR",
+      "position": {
+        "x": 3,
+        "y": 10
+      },
+      "size": {
+        "width": 1,
+        "height": 5
+      },
+      "parent": "225:1579",
+      "rotation": 0
+    },
+    {
+      "id": "225:1583",
+      "type": "VECTOR",
+      "position": {
+        "x": 22,
+        "y": 10
+      },
+      "size": {
+        "width": 1,
+        "height": 5
+      },
+      "parent": "225:1579",
+      "rotation": 0
+    },
+    {
+      "id": "225:1584",
+      "type": "VECTOR",
+      "position": {
+        "x": 28,
+        "y": 26
+      },
+      "size": {
+        "width": 7,
+        "height": 13
+      },
+      "parent": "225:1579",
+      "rotation": 0
+    },
+    {
+      "id": "225:1585",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 2310
+      },
+      "size": {
+        "width": 1600,
+        "height": 1041
+      },
+      "parent": "225:1502",
+      "children": [
+        "225:1586",
+        "225:1587",
+        "225:1590",
+        "225:1594"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1586",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 2310
+      },
+      "size": {
+        "width": 1600,
+        "height": 698
+      },
+      "fillColor": "rgba(244,247,250,1.00)",
+      "parent": "225:1585",
+      "rotation": 0
+    },
+    {
+      "id": "225:1587",
+      "type": "FRAME",
+      "position": {
+        "x": 245,
+        "y": 2451
+      },
+      "size": {
+        "width": 534,
+        "height": 200
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1585",
+      "children": [
+        "225:1588",
+        "225:1589"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1588",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 534,
+        "height": 116
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Work around very \ntalented people.",
+      "parent": "225:1587",
+      "rotation": 0
+    },
+    {
+      "id": "225:1589",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 136
+      },
+      "size": {
+        "width": 407,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page easily without any coding. ",
+      "parent": "225:1587",
+      "rotation": 0
+    },
+    {
+      "id": "225:1590",
+      "type": "GROUP",
+      "position": {
+        "x": 245,
+        "y": 2751
+      },
+      "size": {
+        "width": 520,
+        "height": 600
+      },
+      "parent": "225:1585",
+      "children": [
+        "225:1591",
+        "225:1592",
+        "225:1593"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1591",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 245,
+        "y": 2751
+      },
+      "size": {
+        "width": 520,
+        "height": 600
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "225:1590",
+      "rotation": 0
+    },
+    {
+      "id": "225:1592",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 245,
+        "y": 2751
+      },
+      "size": {
+        "width": 520,
+        "height": 600
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "225:1590",
+      "rotation": 0
+    },
+    {
+      "id": "225:1593",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 217,
+        "y": 2630
+      },
+      "size": {
+        "width": 577,
+        "height": 865
+      },
+      "parent": "225:1590",
+      "rotation": 0
+    },
+    {
+      "id": "225:1594",
+      "type": "GROUP",
+      "position": {
+        "x": 835,
+        "y": 2466
+      },
+      "size": {
+        "width": 520,
+        "height": 670
+      },
+      "parent": "225:1585",
+      "children": [
+        "225:1595",
+        "225:1596",
+        "225:1597"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1595",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 835,
+        "y": 2466
+      },
+      "size": {
+        "width": 520,
+        "height": 670
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "225:1594",
+      "rotation": 0
+    },
+    {
+      "id": "225:1596",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 835,
+        "y": 2466
+      },
+      "size": {
+        "width": 520,
+        "height": 670
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "225:1594",
+      "rotation": 0
+    },
+    {
+      "id": "225:1597",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 333,
+        "y": 2457
+      },
+      "size": {
+        "width": 1084,
+        "height": 723
+      },
+      "parent": "225:1594",
+      "rotation": 0
+    },
+    {
+      "id": "225:1598",
+      "type": "GROUP",
+      "position": {
+        "x": 255,
+        "y": 1385
+      },
+      "size": {
+        "width": 1100,
+        "height": 796
+      },
+      "parent": "225:1502",
+      "children": [
+        "225:1599",
+        "225:1606",
+        "225:1613",
+        "225:1620"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1599",
+      "type": "FRAME",
+      "position": {
+        "x": 255,
+        "y": 1625
+      },
+      "size": {
+        "width": 330,
+        "height": 556
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1598",
+      "children": [
+        "225:1600",
+        "225:1601",
+        "225:1602"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1600",
+      "type": "TEXT",
+      "position": {
+        "x": 112.5,
+        "y": 490
+      },
+      "size": {
+        "width": 105,
+        "height": 34
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Beauview",
+      "parent": "225:1599",
+      "rotation": 0
+    },
+    {
+      "id": "225:1601",
+      "type": "TEXT",
+      "position": {
+        "x": 134.5,
+        "y": 527
+      },
+      "size": {
+        "width": 62,
+        "height": 29
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "37 seats",
+      "parent": "225:1599",
+      "rotation": 0
+    },
+    {
+      "id": "225:1602",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 330,
+        "height": 441
+      },
+      "parent": "225:1599",
+      "children": [
+        "225:1603",
+        "225:1604",
+        "225:1605"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1603",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 330,
+        "height": 441
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "225:1602",
+      "rotation": 0
+    },
+    {
+      "id": "225:1604",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 330,
+        "height": 441
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "225:1602",
+      "rotation": 0
+    },
+    {
+      "id": "225:1605",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -136,
+        "y": -214
+      },
+      "size": {
+        "width": 1218,
+        "height": 810
+      },
+      "parent": "225:1602",
+      "rotation": 0
+    },
+    {
+      "id": "225:1606",
+      "type": "FRAME",
+      "position": {
+        "x": 625,
+        "y": 1611
+      },
+      "size": {
+        "width": 350,
+        "height": 570
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1598",
+      "children": [
+        "225:1607",
+        "225:1608",
+        "225:1609"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1607",
+      "type": "TEXT",
+      "position": {
+        "x": 99,
+        "y": 504
+      },
+      "size": {
+        "width": 152,
+        "height": 34
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Haleyborough",
+      "parent": "225:1606",
+      "rotation": 0
+    },
+    {
+      "id": "225:1608",
+      "type": "TEXT",
+      "position": {
+        "x": 145.5,
+        "y": 541
+      },
+      "size": {
+        "width": 60,
+        "height": 29
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "12 seats",
+      "parent": "225:1606",
+      "rotation": 0
+    },
+    {
+      "id": "225:1609",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 469
+      },
+      "parent": "225:1606",
+      "children": [
+        "225:1610",
+        "225:1611",
+        "225:1612"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1610",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 469
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "225:1609",
+      "rotation": 0
+    },
+    {
+      "id": "225:1611",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 469
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "225:1609",
+      "rotation": 0
+    },
+    {
+      "id": "225:1612",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -263,
+        "y": -122
+      },
+      "size": {
+        "width": 911,
+        "height": 607
+      },
+      "parent": "225:1609",
+      "rotation": 0
+    },
+    {
+      "id": "225:1613",
+      "type": "FRAME",
+      "position": {
+        "x": 1005,
+        "y": 1611
+      },
+      "size": {
+        "width": 350,
+        "height": 570
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1598",
+      "children": [
+        "225:1614",
+        "225:1615",
+        "225:1616"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1614",
+      "type": "TEXT",
+      "position": {
+        "x": 109.5,
+        "y": 504
+      },
+      "size": {
+        "width": 130,
+        "height": 34
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Jeromyshire",
+      "parent": "225:1613",
+      "rotation": 0
+    },
+    {
+      "id": "225:1615",
+      "type": "TEXT",
+      "position": {
+        "x": 144,
+        "y": 541
+      },
+      "size": {
+        "width": 63,
+        "height": 29
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "28 seats",
+      "parent": "225:1613",
+      "rotation": 0
+    },
+    {
+      "id": "225:1616",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 469
+      },
+      "parent": "225:1613",
+      "children": [
+        "225:1617",
+        "225:1618",
+        "225:1619"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1617",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 469
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "225:1616",
+      "rotation": 0
+    },
+    {
+      "id": "225:1618",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 469
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "225:1616",
+      "rotation": 0
+    },
+    {
+      "id": "225:1619",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -377,
+        "y": -127
+      },
+      "size": {
+        "width": 941,
+        "height": 627
+      },
+      "parent": "225:1616",
+      "rotation": 0
+    },
+    {
+      "id": "225:1620",
+      "type": "FRAME",
+      "position": {
+        "x": 485,
+        "y": 1385
+      },
+      "size": {
+        "width": 630,
+        "height": 142
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1598",
+      "children": [
+        "225:1621",
+        "225:1622"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1621",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 630,
+        "height": 58
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Popular locations",
+      "parent": "225:1620",
+      "rotation": 0
+    },
+    {
+      "id": "225:1622",
+      "type": "TEXT",
+      "position": {
+        "x": 81,
+        "y": 78
+      },
+      "size": {
+        "width": 468,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page easily without any coding. ",
+      "parent": "225:1620",
+      "rotation": 0
+    },
+    {
+      "id": "225:1623",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 1073
+      },
+      "size": {
+        "width": 1601,
+        "height": 213.25
+      },
+      "parent": "225:1502",
+      "children": [
+        "225:1624",
+        "225:1627",
+        "225:1630",
+        "225:1633"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1624",
+      "type": "FRAME",
+      "position": {
+        "x": 308,
+        "y": 1073
+      },
+      "size": {
+        "width": 214,
+        "height": 140
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1623",
+      "children": [
+        "225:1625",
+        "225:1626"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1625",
+      "type": "TEXT",
+      "position": {
+        "x": 80,
+        "y": 0
+      },
+      "size": {
+        "width": 55,
+        "height": 58
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "06",
+      "parent": "225:1624",
+      "rotation": 0
+    },
+    {
+      "id": "225:1626",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 76
+      },
+      "size": {
+        "width": 214,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Offices are available on different countries",
+      "parent": "225:1624",
+      "rotation": 0
+    },
+    {
+      "id": "225:1627",
+      "type": "FRAME",
+      "position": {
+        "x": 664,
+        "y": 1073
+      },
+      "size": {
+        "width": 262,
+        "height": 140
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1623",
+      "children": [
+        "225:1628",
+        "225:1629"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1628",
+      "type": "TEXT",
+      "position": {
+        "x": 94,
+        "y": 0
+      },
+      "size": {
+        "width": 75,
+        "height": 58
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "238",
+      "parent": "225:1627",
+      "rotation": 0
+    },
+    {
+      "id": "225:1629",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 76
+      },
+      "size": {
+        "width": 262,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Seats are available right now with dedicated support",
+      "parent": "225:1627",
+      "rotation": 0
+    },
+    {
+      "id": "225:1630",
+      "type": "FRAME",
+      "position": {
+        "x": 1042,
+        "y": 1073
+      },
+      "size": {
+        "width": 266,
+        "height": 140
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1623",
+      "children": [
+        "225:1631",
+        "225:1632"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1631",
+      "type": "TEXT",
+      "position": {
+        "x": 82,
+        "y": 0
+      },
+      "size": {
+        "width": 102,
+        "height": 58
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "1,395",
+      "parent": "225:1630",
+      "rotation": 0
+    },
+    {
+      "id": "225:1632",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 76
+      },
+      "size": {
+        "width": 266,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "People are using our co-work spaces right now",
+      "parent": "225:1630",
+      "rotation": 0
+    },
+    {
+      "id": "225:1633",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 1284.25
+      },
+      "size": {
+        "width": 1601,
+        "height": 2
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "225:1623",
+      "rotation": 0
+    },
+    {
+      "id": "225:1634",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1600,
+        "height": 1001
+      },
+      "parent": "225:1502",
+      "children": [
+        "225:1635",
+        "225:1639",
+        "225:1654",
+        "225:1658"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1635",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1600,
+        "height": 1001
+      },
+      "parent": "225:1634",
+      "children": [
+        "225:1636",
+        "225:1637",
+        "225:1638"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1636",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1600,
+        "height": 1001
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "parent": "225:1635",
+      "rotation": 0
+    },
+    {
+      "id": "225:1637",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1600,
+        "height": 1001
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "parent": "225:1635",
+      "rotation": 0
+    },
+    {
+      "id": "225:1638",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -475,
+        "y": -1160
+      },
+      "size": {
+        "width": 3246,
+        "height": 2434
+      },
+      "parent": "225:1635",
+      "rotation": 0
+    },
+    {
+      "id": "225:1639",
+      "type": "FRAME",
+      "position": {
+        "x": 411,
+        "y": 291
+      },
+      "size": {
+        "width": 770,
+        "height": 387
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1634",
+      "children": [
+        "225:1640",
+        "225:1646",
+        "225:1652",
+        "225:1653"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1640",
+      "type": "FRAME",
+      "position": {
+        "x": 260,
+        "y": 358
+      },
+      "size": {
+        "width": 259,
+        "height": 29
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1639",
+      "children": [
+        "225:1641",
+        "225:1642"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1641",
+      "type": "TEXT",
+      "position": {
+        "x": 29,
+        "y": 0
+      },
+      "size": {
+        "width": 227,
+        "height": 29
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Take virtual tour of our spaces",
+      "parent": "225:1640",
+      "rotation": 0
+    },
+    {
+      "id": "225:1642",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 6
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "parent": "225:1640",
+      "children": [
+        "225:1643",
+        "225:1644"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1643",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 0,
+        "y": 6
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "225:1642",
+      "rotation": 0
+    },
+    {
+      "id": "225:1644",
+      "type": "GROUP",
+      "position": {
+        "x": 7.363636493682861,
+        "y": 11.727272510528564
+      },
+      "size": {
+        "width": 4.909090995788574,
+        "height": 6.545454502105713
+      },
+      "parent": "225:1642",
+      "children": [
+        "225:1645"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1645",
+      "type": "VECTOR",
+      "position": {
+        "x": 7.363636493682861,
+        "y": 11.727272510528564
+      },
+      "size": {
+        "width": 4.909090995788574,
+        "height": 6.545454502105713
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1644",
+      "rotation": 0
+    },
+    {
+      "id": "225:1646",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 224
+      },
+      "size": {
+        "width": 770,
+        "height": 95
+      },
+      "parent": "225:1639",
+      "children": [
+        "225:1647",
+        "225:1648",
+        "225:1649",
+        "225:1650",
+        "225:1651"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1647",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 224
+      },
+      "size": {
+        "width": 770,
+        "height": 95
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1646",
+      "rotation": 0
+    },
+    {
+      "id": "225:1648",
+      "type": "INSTANCE",
+      "position": {
+        "x": 551,
+        "y": 247
+      },
+      "size": {
+        "width": 199,
+        "height": 51
+      },
+      "parent": "225:1646",
+      "children": [
+        "I225:1648;0:4555"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1648;0:4555",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 199,
+        "height": 51
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1648",
+      "children": [
+        "I225:1648;0:4556",
+        "I225:1648;0:4557"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1648;0:4556",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 199,
+        "height": 51
+      },
+      "fillColor": "rgba(71,59,240,1.00)",
+      "parent": "I225:1648;0:4555",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1648;0:4557",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 9
+      },
+      "size": {
+        "width": 199,
+        "height": 32
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Search Place",
+      "parent": "I225:1648;0:4555",
+      "rotation": 0
+    },
+    {
+      "id": "225:1649",
+      "type": "INSTANCE",
+      "position": {
+        "x": 11,
+        "y": 248
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "parent": "225:1646",
+      "children": [
+        "I225:1649;0:4735"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1649;0:4735",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1649",
+      "children": [
+        "I225:1649;0:4736",
+        "I225:1649;0:4737",
+        "I225:1649;0:4738",
+        "I225:1649;0:4739",
+        "I225:1649;0:4740"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1649;0:4736",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I225:1649;0:4735",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1649;0:4737",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "parent": "I225:1649;0:4735",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1649;0:4738",
+      "type": "TEXT",
+      "position": {
+        "x": 46,
+        "y": 12
+      },
+      "size": {
+        "width": 162,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Select Location",
+      "parent": "I225:1649;0:4735",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1649;0:4739",
+      "type": "INSTANCE",
+      "position": {
+        "x": 220,
+        "y": 16
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I225:1649;0:4735",
+      "children": [
+        "I225:1649;0:4739;0:4760"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1649;0:4739;0:4760",
+      "type": "GROUP",
+      "position": {
+        "x": 4,
+        "y": 7
+      },
+      "size": {
+        "width": 10,
+        "height": 5
+      },
+      "parent": "I225:1649;0:4739",
+      "children": [
+        "I225:1649;0:4739;0:4761"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1649;0:4739;0:4761",
+      "type": "VECTOR",
+      "position": {
+        "x": 4,
+        "y": 7
+      },
+      "size": {
+        "width": 10,
+        "height": 5
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "parent": "I225:1649;0:4739;0:4760",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1649;0:4740",
+      "type": "INSTANCE",
+      "position": {
+        "x": 9,
+        "y": 10
+      },
+      "size": {
+        "width": 30,
+        "height": 30
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I225:1649;0:4735",
+      "children": [
+        "I225:1649;0:4740;0:4766"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1649;0:4740;0:4766",
+      "type": "GROUP",
+      "position": {
+        "x": 9,
+        "y": 6
+      },
+      "size": {
+        "width": 13,
+        "height": 17.0625
+      },
+      "parent": "I225:1649;0:4740",
+      "children": [
+        "I225:1649;0:4740;0:4769"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1649;0:4740;0:4769",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 9,
+        "y": 6
+      },
+      "size": {
+        "width": 13,
+        "height": 17.0625
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "parent": "I225:1649;0:4740;0:4766",
+      "children": [
+        "I225:1649;0:4740;0:4767",
+        "I225:1649;0:4740;0:4768"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1649;0:4740;0:4767",
+      "type": "VECTOR",
+      "position": {
+        "x": 9,
+        "y": 6
+      },
+      "size": {
+        "width": 13,
+        "height": 17.0625
+      },
+      "parent": "I225:1649;0:4740;0:4769",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1649;0:4740;0:4768",
+      "type": "VECTOR",
+      "position": {
+        "x": 13.205882549285889,
+        "y": 10.170833110809326
+      },
+      "size": {
+        "width": 4.588235378265381,
+        "height": 4.550000190734863
+      },
+      "parent": "I225:1649;0:4740;0:4769",
+      "rotation": 0
+    },
+    {
+      "id": "225:1650",
+      "type": "INSTANCE",
+      "position": {
+        "x": 286,
+        "y": 248
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "parent": "225:1646",
+      "children": [
+        "I225:1650;0:4735"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1650;0:4735",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1650",
+      "children": [
+        "I225:1650;0:4736",
+        "I225:1650;0:4737",
+        "I225:1650;0:4738",
+        "I225:1650;0:4739",
+        "I225:1650;0:4740"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1650;0:4736",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I225:1650;0:4735",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1650;0:4737",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "parent": "I225:1650;0:4735",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1650;0:4738",
+      "type": "TEXT",
+      "position": {
+        "x": 46,
+        "y": 12
+      },
+      "size": {
+        "width": 162,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Select Date",
+      "parent": "I225:1650;0:4735",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1650;0:4739",
+      "type": "INSTANCE",
+      "position": {
+        "x": 220,
+        "y": 16
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I225:1650;0:4735",
+      "children": [
+        "I225:1650;0:4739;0:4760"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1650;0:4739;0:4760",
+      "type": "GROUP",
+      "position": {
+        "x": 4,
+        "y": 7
+      },
+      "size": {
+        "width": 10,
+        "height": 5
+      },
+      "parent": "I225:1650;0:4739",
+      "children": [
+        "I225:1650;0:4739;0:4761"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1650;0:4739;0:4761",
+      "type": "VECTOR",
+      "position": {
+        "x": 4,
+        "y": 7
+      },
+      "size": {
+        "width": 10,
+        "height": 5
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "parent": "I225:1650;0:4739;0:4760",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1650;0:4740",
+      "type": "INSTANCE",
+      "position": {
+        "x": 9,
+        "y": 10
+      },
+      "size": {
+        "width": 30,
+        "height": 30
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I225:1650;0:4735",
+      "children": [
+        "I225:1650;0:4740;0:4778"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1650;0:4740;0:4778",
+      "type": "GROUP",
+      "position": {
+        "x": 7,
+        "y": 7
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "parent": "I225:1650;0:4740",
+      "children": [
+        "I225:1650;0:4740;0:4779",
+        "I225:1650;0:4740;0:4780",
+        "I225:1650;0:4740;0:4781",
+        "I225:1650;0:4740;0:4782"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I225:1650;0:4740;0:4779",
+      "type": "VECTOR",
+      "position": {
+        "x": 7,
+        "y": 13.461012363433838
+      },
+      "size": {
+        "width": 16,
+        "height": 0.3720930218696594
+      },
+      "parent": "I225:1650;0:4740;0:4778",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1650;0:4740;0:4780",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 7,
+        "y": 8.882352948188782
+      },
+      "size": {
+        "width": 16,
+        "height": 14.117647171020508
+      },
+      "parent": "I225:1650;0:4740;0:4778",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1650;0:4740;0:4781",
+      "type": "VECTOR",
+      "position": {
+        "x": 10.764705896377563,
+        "y": 7
+      },
+      "size": {
+        "width": 0.9411764740943909,
+        "height": 3.7647058963775635
+      },
+      "parent": "I225:1650;0:4740;0:4778",
+      "rotation": 0
+    },
+    {
+      "id": "I225:1650;0:4740;0:4782",
+      "type": "VECTOR",
+      "position": {
+        "x": 18.29411792755127,
+        "y": 7
+      },
+      "size": {
+        "width": 0.9411764740943909,
+        "height": 3.7647058963775635
+      },
+      "parent": "I225:1650;0:4740;0:4778",
+      "rotation": 0
+    },
+    {
+      "id": "225:1651",
+      "type": "VECTOR",
+      "position": {
+        "x": 272,
+        "y": 225
+      },
+      "size": {
+        "width": 1,
+        "height": 94
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1646",
+      "rotation": 0
+    },
+    {
+      "id": "225:1652",
+      "type": "TEXT",
+      "position": {
+        "x": 17,
+        "y": 50
+      },
+      "size": {
+        "width": 745,
+        "height": 130
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Rent desk space in a\nshared office environment",
+      "parent": "225:1639",
+      "rotation": 0
+    },
+    {
+      "id": "225:1653",
+      "type": "TEXT",
+      "position": {
+        "x": 278,
+        "y": 0
+      },
+      "size": {
+        "width": 225,
+        "height": 16
+      },
+      "fillColor": "rgba(104,213,133,1.00)",
+      "text": "Shared space in your town",
+      "parent": "225:1639",
+      "rotation": 0
+    },
+    {
+      "id": "225:1654",
+      "type": "GROUP",
+      "position": {
+        "x": 780,
+        "y": 900
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "parent": "225:1634",
+      "children": [
+        "225:1655",
+        "225:1656"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1655",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 780,
+        "y": 900
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "225:1654",
+      "rotation": 0
+    },
+    {
+      "id": "225:1656",
+      "type": "GROUP",
+      "position": {
+        "x": 794,
+        "y": 917
+      },
+      "size": {
+        "width": 12,
+        "height": 6
+      },
+      "parent": "225:1654",
+      "children": [
+        "225:1657"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1657",
+      "type": "VECTOR",
+      "position": {
+        "x": 794,
+        "y": 917
+      },
+      "size": {
+        "width": 12,
+        "height": 6
+      },
+      "parent": "225:1656",
+      "rotation": 0
+    },
+    {
+      "id": "225:1658",
+      "type": "FRAME",
+      "position": {
+        "x": 245,
+        "y": 25
+      },
+      "size": {
+        "width": 1110,
+        "height": 29
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "225:1634",
+      "children": [
+        "225:1659",
+        "225:1660"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1659",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 154,
+        "height": 28
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Brainwave.io",
+      "parent": "225:1658",
+      "rotation": 0
+    },
+    {
+      "id": "225:1660",
+      "type": "TEXT",
+      "position": {
+        "x": 777,
+        "y": 3
+      },
+      "size": {
+        "width": 333,
+        "height": 26
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Demos            Pages            Support            Contact",
+      "parent": "225:1658",
+      "rotation": 0
+    },
+    {
+      "id": "225:1661",
+      "type": "GROUP",
+      "position": {
+        "x": 674,
+        "y": 5667
+      },
+      "size": {
+        "width": 14,
+        "height": 13
+      },
+      "parent": "225:1502",
+      "children": [
+        "225:1662"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "225:1662",
+      "type": "VECTOR",
+      "position": {
+        "x": 674,
+        "y": 5667
+      },
+      "size": {
+        "width": 14,
+        "height": 13
+      },
+      "fillColor": "rgba(104,213,133,1.00)",
+      "parent": "225:1661",
+      "rotation": 0
+    }
+  ]
+}

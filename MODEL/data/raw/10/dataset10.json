@@ -1,0 +1,437 @@
+{
+  "prompt": "mobile, app, pantalla de inicio de sesión, fondo negro, botón verde centrado con texto “Sign up free” en negro, tres botones rectangulares con bordes redondeados y contorno blanco para iniciar sesión con teléfono, Google y Facebook, cada botón con ícono correspondiente alineado a la izquierda y texto blanco centrado, enlace de texto “Log in” centrado al final, diseño alineado al centro,",
+  "layout": [
+    {
+      "id": "8:9",
+      "type": "FRAME",
+      "position": {
+        "x": -540,
+        "y": -1094
+      },
+      "size": {
+        "width": 1080.945068359375,
+        "height": 2188
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "8:5",
+      "children": [
+        "8:10"
+      ],
+      "rotation": -1.987846675914698e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:10",
+      "type": "GROUP",
+      "position": {
+        "x": -253.2649383544922,
+        "y": -91.38426208496094
+      },
+      "size": {
+        "width": 1420.3721923828125,
+        "height": 2430.82080078125
+      },
+      "parent": "8:9",
+      "children": [
+        "8:11",
+        "8:12",
+        "8:13",
+        "8:14",
+        "8:15",
+        "8:18",
+        "8:21",
+        "8:25",
+        "8:29",
+        "8:30",
+        "8:31"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "8:11",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0.0000152587890625,
+        "y": 0.0000152587890625
+      },
+      "size": {
+        "width": 1080.945068359375,
+        "height": 2339.4365234375
+      },
+      "fillColor": "rgba(18,18,18,1.00)",
+      "parent": "8:10",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "8:12",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -253.2649383544922,
+        "y": -91.38426208496094
+      },
+      "size": {
+        "width": 1420.3721923828125,
+        "height": 1420.3721923828125
+      },
+      "parent": "8:10",
+      "rotation": 1.987846675914698e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:13",
+      "type": "TEXT",
+      "position": {
+        "x": 151.43678283691406,
+        "y": 749.3508453369141
+      },
+      "size": {
+        "width": 765,
+        "height": 282
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "\nMillions of songs.",
+      "parent": "8:10",
+      "rotation": 1.987846675914698e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:14",
+      "type": "TEXT",
+      "position": {
+        "x": 190.60145568847656,
+        "y": 1018.2816314697266
+      },
+      "size": {
+        "width": 686,
+        "height": 136
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Free on Spotify.",
+      "parent": "8:10",
+      "rotation": 1.987846675914698e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:15",
+      "type": "GROUP",
+      "position": {
+        "x": 93.99522399902344,
+        "y": 1295.0453033447266
+      },
+      "size": {
+        "width": 895.2095947265625,
+        "height": 122.35044860839844
+      },
+      "parent": "8:10",
+      "children": [
+        "8:16",
+        "8:17"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "8:16",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 93.99522399902344,
+        "y": 1295.0453033447266
+      },
+      "size": {
+        "width": 895.2095947265625,
+        "height": 122.35044860839844
+      },
+      "fillColor": "rgba(0,211,97,1.00)",
+      "parent": "8:15",
+      "rotation": 1.987846675914698e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:17",
+      "type": "TEXT",
+      "position": {
+        "x": 393.18370056152344,
+        "y": 1297.3110401630402
+      },
+      "size": {
+        "width": 362.2754211425781,
+        "height": 118.02439880371094
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "text": "Sign up free",
+      "parent": "8:15",
+      "rotation": 1.504323208270632e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:18",
+      "type": "GROUP",
+      "position": {
+        "x": 93.99522399902344,
+        "y": 1441.2601470947266
+      },
+      "size": {
+        "width": 895.2095947265625,
+        "height": 122.36209106445312
+      },
+      "parent": "8:10",
+      "children": [
+        "8:19",
+        "8:20"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "8:19",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 93.99522399902344,
+        "y": 1441.2601470947266
+      },
+      "size": {
+        "width": 895.2095947265625,
+        "height": 122.36209106445312
+      },
+      "parent": "8:18",
+      "rotation": 1.987846675914698e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:20",
+      "type": "TEXT",
+      "position": {
+        "x": 177.54654693603516,
+        "y": 1441.2601061652567
+      },
+      "size": {
+        "width": 793.9094848632812,
+        "height": 118.0356216430664
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Continue with phone number",
+      "parent": "8:18",
+      "rotation": 1.5044662195388801e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:21",
+      "type": "GROUP",
+      "position": {
+        "x": 93.99522399902344,
+        "y": 1579.6419830322266
+      },
+      "size": {
+        "width": 895.2095947265625,
+        "height": 122.33897399902344
+      },
+      "parent": "8:10",
+      "children": [
+        "8:22",
+        "8:23",
+        "8:24"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "8:22",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 93.99522399902344,
+        "y": 1579.6419830322266
+      },
+      "size": {
+        "width": 895.2095947265625,
+        "height": 122.33897399902344
+      },
+      "parent": "8:21",
+      "rotation": 1.987846675914698e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:23",
+      "type": "TEXT",
+      "position": {
+        "x": 177.54654693603516,
+        "y": 1582.252865076065
+      },
+      "size": {
+        "width": 793.9094848632812,
+        "height": 118.01334381103516
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Continue with Google",
+      "parent": "8:21",
+      "rotation": 1.504182329730494e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:24",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 146.21480178833008,
+        "y": 1614.1101837158203
+      },
+      "size": {
+        "width": 60.49163818359375,
+        "height": 58.17352294921875
+      },
+      "parent": "8:21",
+      "rotation": 1.911669774805929e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:25",
+      "type": "GROUP",
+      "position": {
+        "x": 93.99522399902344,
+        "y": 1719.0919342041016
+      },
+      "size": {
+        "width": 895.2095947265625,
+        "height": 122.35044860839844
+      },
+      "parent": "8:10",
+      "children": [
+        "8:26",
+        "8:27",
+        "8:28"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "8:26",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 93.99522399902344,
+        "y": 1719.0919342041016
+      },
+      "size": {
+        "width": 895.2095947265625,
+        "height": 122.35044860839844
+      },
+      "parent": "8:25",
+      "rotation": 1.987846675914698e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:27",
+      "type": "TEXT",
+      "position": {
+        "x": 177.54654693603516,
+        "y": 1720.6347819566727
+      },
+      "size": {
+        "width": 793.9094848632812,
+        "height": 118.02439880371094
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Continue with facebook",
+      "parent": "8:25",
+      "rotation": 1.504323208270632e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:28",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 143.60381317138672,
+        "y": 1748.198486328125
+      },
+      "size": {
+        "width": 65.81446075439453,
+        "height": 63.29829406738281
+      },
+      "parent": "8:25",
+      "rotation": 1.9118489239671475e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:29",
+      "type": "TEXT",
+      "position": {
+        "x": 472.58705139160156,
+        "y": 1840.7398834228516
+      },
+      "size": {
+        "width": 132,
+        "height": 136
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Log in",
+      "parent": "8:10",
+      "rotation": 1.987846675914698e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:30",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 456.9212188720703,
+        "y": 694.5202789306641
+      },
+      "size": {
+        "width": 151.3777313232422,
+        "height": 146.21478271484375
+      },
+      "parent": "8:10",
+      "rotation": 1.987846675914698e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:31",
+      "type": "GROUP",
+      "position": {
+        "x": 161.8806915283203,
+        "y": 1475.2027740478516
+      },
+      "size": {
+        "width": 33.942718505859375,
+        "height": 53.348636627197266
+      },
+      "parent": "8:10",
+      "children": [
+        "8:32",
+        "8:33"
+      ],
+      "rotation": 1.987846675914698e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:32",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 161.8806915283203,
+        "y": 1475.2027740478516
+      },
+      "size": {
+        "width": 33.942718505859375,
+        "height": 53.348636627197266
+      },
+      "fillColor": "rgba(217,217,217,0.00)",
+      "parent": "8:31",
+      "rotation": 1.987846675914698e-16,
+      "opacity": 1
+    },
+    {
+      "id": "8:33",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 174.93555545806885,
+        "y": 1511.7565574645996
+      },
+      "size": {
+        "width": 7.832934856414795,
+        "height": 7.832934856414795
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "8:31",
+      "rotation": 1.987846675914698e-16,
+      "opacity": 1
+    }
+  ]
+}

@@ -1,0 +1,5562 @@
+{
+  "prompt": "desktop, web, landing page de sitio de empleos, encabezado con logotipo a la izquierda y menú horizontal con 5 opciones alineadas a la derecha, sección principal con texto destacado a la izquierda y foto de persona a la derecha, barra de búsqueda con dos campos y botón \"buscar\" centrados, sección de logos de empresas en una fila, sección \"trabajos por categoría\" con 6 tarjetas sobre fondo oscuro, sección \"Encuentra trabajos en 3 simples pasos\" con imagen a la izquierda y lista de pasos a la derecha, sección \"Featured job\" con 4 tarjetas de empleo, sección \"News that helps\" con 3 tarjetas de artículos, sección de suscripción con campo de email y botón \"Subscribe\", footer dividido en 5 columnas con enlaces organizados por categorías, fondo general blanco con secciones oscuras intercaladas, tipografía sans-serif, estilo visual minimalista con acentos en azul y verde.",
+  "layout": [
+    {
+      "id": "226:1736",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1600,
+        "height": 5951
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "203:1431",
+      "children": [
+        "226:1737",
+        "226:1738",
+        "226:1751",
+        "226:1780",
+        "226:1838",
+        "226:1876",
+        "226:1916",
+        "226:1945",
+        "226:2008"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1737",
+      "type": "INSTANCE",
+      "position": {
+        "x": 0,
+        "y": 5455
+      },
+      "size": {
+        "width": 1600,
+        "height": 496
+      },
+      "parent": "226:1736",
+      "children": [
+        "I226:1737;0:4665"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4665",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1600,
+        "height": 496
+      },
+      "parent": "226:1737",
+      "children": [
+        "I226:1737;0:4666",
+        "I226:1737;0:4667",
+        "I226:1737;0:4670",
+        "I226:1737;0:4673",
+        "I226:1737;0:4676",
+        "I226:1737;0:4679"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4666",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1600,
+        "height": 496
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "parent": "I226:1737;0:4665",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4667",
+      "type": "FRAME",
+      "position": {
+        "x": 620,
+        "y": 122
+      },
+      "size": {
+        "width": 144,
+        "height": 206
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I226:1737;0:4665",
+      "children": [
+        "I226:1737;0:4668",
+        "I226:1737;0:4669"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4668",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 68,
+        "height": 26
+      },
+      "fillColor": "rgba(255,255,255,0.65)",
+      "text": "Company",
+      "parent": "I226:1737;0:4667",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4669",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 46
+      },
+      "size": {
+        "width": 144,
+        "height": 160
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "About us\nContact us\nCareers\nPress",
+      "parent": "I226:1737;0:4667",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4670",
+      "type": "FRAME",
+      "position": {
+        "x": 811,
+        "y": 122
+      },
+      "size": {
+        "width": 125,
+        "height": 246
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I226:1737;0:4665",
+      "children": [
+        "I226:1737;0:4671",
+        "I226:1737;0:4672"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4671",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 54,
+        "height": 26
+      },
+      "fillColor": "rgba(255,255,255,0.65)",
+      "text": "Product",
+      "parent": "I226:1737;0:4670",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4672",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 46
+      },
+      "size": {
+        "width": 125,
+        "height": 200
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Features\nPricing\nNews\nHelp desk\nSupport",
+      "parent": "I226:1737;0:4670",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4673",
+      "type": "FRAME",
+      "position": {
+        "x": 988,
+        "y": 122
+      },
+      "size": {
+        "width": 156,
+        "height": 206
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I226:1737;0:4665",
+      "children": [
+        "I226:1737;0:4674",
+        "I226:1737;0:4675"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4674",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 56,
+        "height": 26
+      },
+      "fillColor": "rgba(255,255,255,0.65)",
+      "text": "Services",
+      "parent": "I226:1737;0:4673",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4675",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 46
+      },
+      "size": {
+        "width": 156,
+        "height": 160
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Digital Marketing\nContent Writing\nSEO for Business\nUI Design",
+      "parent": "I226:1737;0:4673",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4676",
+      "type": "FRAME",
+      "position": {
+        "x": 1194,
+        "y": 122
+      },
+      "size": {
+        "width": 161,
+        "height": 166
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I226:1737;0:4665",
+      "children": [
+        "I226:1737;0:4677",
+        "I226:1737;0:4678"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4677",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 38,
+        "height": 26
+      },
+      "fillColor": "rgba(255,255,255,0.65)",
+      "text": "Legal",
+      "parent": "I226:1737;0:4676",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4678",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 46
+      },
+      "size": {
+        "width": 161,
+        "height": 120
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Privacy Policy\nTerms & Conditions\nReturn Policy",
+      "parent": "I226:1737;0:4676",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4679",
+      "type": "FRAME",
+      "position": {
+        "x": 245,
+        "y": 122
+      },
+      "size": {
+        "width": 274,
+        "height": 209
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I226:1737;0:4665",
+      "children": [
+        "I226:1737;0:4680",
+        "I226:1737;0:4699",
+        "I226:1737;0:4700"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4680",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 191
+      },
+      "size": {
+        "width": 142,
+        "height": 18
+      },
+      "parent": "I226:1737;0:4679",
+      "children": [
+        "I226:1737;0:4681",
+        "I226:1737;0:4683",
+        "I226:1737;0:4685",
+        "I226:1737;0:4693"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4681",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 193
+      },
+      "size": {
+        "width": 17,
+        "height": 15
+      },
+      "parent": "I226:1737;0:4680",
+      "children": [
+        "I226:1737;0:4682"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4682",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 193
+      },
+      "size": {
+        "width": 17,
+        "height": 15
+      },
+      "fillColor": "rgba(104,213,133,1.00)",
+      "parent": "I226:1737;0:4681",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4683",
+      "type": "GROUP",
+      "position": {
+        "x": 41,
+        "y": 191
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "parent": "I226:1737;0:4680",
+      "children": [
+        "I226:1737;0:4684"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4684",
+      "type": "VECTOR",
+      "position": {
+        "x": 41,
+        "y": 191
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "I226:1737;0:4683",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4685",
+      "type": "GROUP",
+      "position": {
+        "x": 82,
+        "y": 191
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "parent": "I226:1737;0:4680",
+      "children": [
+        "I226:1737;0:4688",
+        "I226:1737;0:4691",
+        "I226:1737;0:4692"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4688",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 82,
+        "y": 191
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "I226:1737;0:4685",
+      "children": [
+        "I226:1737;0:4686",
+        "I226:1737;0:4687"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4686",
+      "type": "VECTOR",
+      "position": {
+        "x": 83.62150001525879,
+        "y": 192.6215000152588
+      },
+      "size": {
+        "width": 14.756999969482422,
+        "height": 14.756999969482422
+      },
+      "parent": "I226:1737;0:4688",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4687",
+      "type": "VECTOR",
+      "position": {
+        "x": 82,
+        "y": 191
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "parent": "I226:1737;0:4688",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4691",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 86.90909099578857,
+        "y": 195.90909099578857
+      },
+      "size": {
+        "width": 9,
+        "height": 9
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "I226:1737;0:4685",
+      "children": [
+        "I226:1737;0:4689",
+        "I226:1737;0:4690"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4689",
+      "type": "VECTOR",
+      "position": {
+        "x": 86.90909099578857,
+        "y": 195.90909099578857
+      },
+      "size": {
+        "width": 9,
+        "height": 9
+      },
+      "parent": "I226:1737;0:4691",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4690",
+      "type": "VECTOR",
+      "position": {
+        "x": 88.48796153068542,
+        "y": 197.48796153068542
+      },
+      "size": {
+        "width": 5.842258930206299,
+        "height": 5.842258930206299
+      },
+      "parent": "I226:1737;0:4691",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4692",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 94.27272701263428,
+        "y": 194.27272725105286
+      },
+      "size": {
+        "width": 2.454545497894287,
+        "height": 2.454545497894287
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "I226:1737;0:4685",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4693",
+      "type": "GROUP",
+      "position": {
+        "x": 124,
+        "y": 191
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "parent": "I226:1737;0:4680",
+      "children": [
+        "I226:1737;0:4696"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4696",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 124,
+        "y": 191
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "I226:1737;0:4693",
+      "children": [
+        "I226:1737;0:4694",
+        "I226:1737;0:4695",
+        "I226:1737;0:4697",
+        "I226:1737;0:4698"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4694",
+      "type": "VECTOR",
+      "position": {
+        "x": 124,
+        "y": 191
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "parent": "I226:1737;0:4696",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4695",
+      "type": "VECTOR",
+      "position": {
+        "x": 126.66249990463257,
+        "y": 197.75
+      },
+      "size": {
+        "width": 2.6624999046325684,
+        "height": 8.587499618530273
+      },
+      "parent": "I226:1737;0:4696",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4697",
+      "type": "VECTOR",
+      "position": {
+        "x": 126.47499990463257,
+        "y": 193.51250004768372
+      },
+      "size": {
+        "width": 3.075000047683716,
+        "height": 3.075000047683716
+      },
+      "parent": "I226:1737;0:4696",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4698",
+      "type": "VECTOR",
+      "position": {
+        "x": 131.01249980926514,
+        "y": 197.52500009536743
+      },
+      "size": {
+        "width": 8.324999809265137,
+        "height": 8.8125
+      },
+      "parent": "I226:1737;0:4696",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4699",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 69
+      },
+      "size": {
+        "width": 274,
+        "height": 78
+      },
+      "fillColor": "rgba(255,255,255,0.65)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+      "parent": "I226:1737;0:4679",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1737;0:4700",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 181,
+        "height": 33
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Brainwave.io",
+      "parent": "I226:1737;0:4679",
+      "rotation": 0
+    },
+    {
+      "id": "226:1738",
+      "type": "GROUP",
+      "position": {
+        "x": 549,
+        "y": 4904
+      },
+      "size": {
+        "width": 502,
+        "height": 431
+      },
+      "parent": "226:1736",
+      "children": [
+        "226:1739",
+        "226:1743",
+        "226:1746"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1739",
+      "type": "GROUP",
+      "position": {
+        "x": 551,
+        "y": 5194
+      },
+      "size": {
+        "width": 499,
+        "height": 141
+      },
+      "parent": "226:1738",
+      "children": [
+        "226:1740",
+        "226:1741",
+        "226:1742"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1740",
+      "type": "TEXT",
+      "position": {
+        "x": 618,
+        "y": 5283
+      },
+      "size": {
+        "width": 365,
+        "height": 52
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "We’ll never share your details with third parties.\nView our Privacy Policy for more info.",
+      "parent": "226:1739",
+      "rotation": 0
+    },
+    {
+      "id": "226:1741",
+      "type": "INSTANCE",
+      "position": {
+        "x": 551,
+        "y": 5194
+      },
+      "size": {
+        "width": 499,
+        "height": 64
+      },
+      "parent": "226:1739",
+      "children": [
+        "I226:1741;0:4594"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1741;0:4594",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 499,
+        "height": 64
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1741",
+      "children": [
+        "I226:1741;0:4595",
+        "I226:1741;0:4596",
+        "I226:1741;0:4597"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1741;0:4595",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 499,
+        "height": 64
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I226:1741;0:4594",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1741;0:4596",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 499,
+        "height": 64
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I226:1741;0:4594",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1741;0:4597",
+      "type": "TEXT",
+      "position": {
+        "x": 19,
+        "y": 22
+      },
+      "size": {
+        "width": 107,
+        "height": 17
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Enter your email",
+      "parent": "I226:1741;0:4594",
+      "rotation": 0
+    },
+    {
+      "id": "226:1742",
+      "type": "INSTANCE",
+      "position": {
+        "x": 878,
+        "y": 5201
+      },
+      "size": {
+        "width": 166,
+        "height": 50
+      },
+      "parent": "226:1739",
+      "children": [
+        "I226:1742;0:4555"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1742;0:4555",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 166,
+        "height": 50
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1742",
+      "children": [
+        "I226:1742;0:4556",
+        "I226:1742;0:4557"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1742;0:4556",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 166,
+        "height": 50
+      },
+      "fillColor": "rgba(71,59,240,1.00)",
+      "parent": "I226:1742;0:4555",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1742;0:4557",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 8
+      },
+      "size": {
+        "width": 166,
+        "height": 32
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Subscribe",
+      "parent": "I226:1742;0:4555",
+      "rotation": 0
+    },
+    {
+      "id": "226:1743",
+      "type": "FRAME",
+      "position": {
+        "x": 549,
+        "y": 5022
+      },
+      "size": {
+        "width": 502,
+        "height": 132
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1738",
+      "children": [
+        "226:1744",
+        "226:1745"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1744",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 68
+      },
+      "size": {
+        "width": 502,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+      "parent": "226:1743",
+      "rotation": 0
+    },
+    {
+      "id": "226:1745",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 487,
+        "height": 48
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Get our latest updates",
+      "parent": "226:1743",
+      "rotation": 0
+    },
+    {
+      "id": "226:1746",
+      "type": "GROUP",
+      "position": {
+        "x": 762,
+        "y": 4904
+      },
+      "size": {
+        "width": 78,
+        "height": 78
+      },
+      "parent": "226:1738",
+      "children": [
+        "226:1747",
+        "226:1748"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1747",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 762,
+        "y": 4904
+      },
+      "size": {
+        "width": 78,
+        "height": 78
+      },
+      "fillColor": "rgba(104,213,133,1.00)",
+      "parent": "226:1746",
+      "rotation": 0
+    },
+    {
+      "id": "226:1748",
+      "type": "GROUP",
+      "position": {
+        "x": 787,
+        "y": 4932
+      },
+      "size": {
+        "width": 28,
+        "height": 23
+      },
+      "parent": "226:1746",
+      "children": [
+        "226:1749",
+        "226:1750"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1749",
+      "type": "VECTOR",
+      "position": {
+        "x": 787,
+        "y": 4932
+      },
+      "size": {
+        "width": 28,
+        "height": 13
+      },
+      "fillColor": "rgba(45,45,45,1.00)",
+      "parent": "226:1748",
+      "rotation": 0
+    },
+    {
+      "id": "226:1750",
+      "type": "VECTOR",
+      "position": {
+        "x": 787,
+        "y": 4939
+      },
+      "size": {
+        "width": 28,
+        "height": 16
+      },
+      "fillColor": "rgba(45,45,45,1.00)",
+      "parent": "226:1748",
+      "rotation": 0
+    },
+    {
+      "id": "226:1751",
+      "type": "GROUP",
+      "position": {
+        "x": 1,
+        "y": 3894
+      },
+      "size": {
+        "width": 1600,
+        "height": 890
+      },
+      "parent": "226:1736",
+      "children": [
+        "226:1752",
+        "226:1753",
+        "226:1761",
+        "226:1769",
+        "226:1777"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1752",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 1,
+        "y": 3894
+      },
+      "size": {
+        "width": 1600,
+        "height": 890
+      },
+      "fillColor": "rgba(244,247,250,1.00)",
+      "parent": "226:1751",
+      "rotation": 0
+    },
+    {
+      "id": "226:1753",
+      "type": "FRAME",
+      "position": {
+        "x": 244,
+        "y": 4194
+      },
+      "size": {
+        "width": 350,
+        "height": 450
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1751",
+      "children": [
+        "226:1754",
+        "226:1755",
+        "226:1759",
+        "226:1760"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1754",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 450
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1753",
+      "rotation": 0
+    },
+    {
+      "id": "226:1755",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 301
+      },
+      "parent": "226:1753",
+      "children": [
+        "226:1756",
+        "226:1757",
+        "226:1758"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1756",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 301
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "226:1755",
+      "rotation": 0
+    },
+    {
+      "id": "226:1757",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 301
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "226:1755",
+      "rotation": 0
+    },
+    {
+      "id": "226:1758",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -10,
+        "y": -111
+      },
+      "size": {
+        "width": 370,
+        "height": 556
+      },
+      "parent": "226:1755",
+      "rotation": 0
+    },
+    {
+      "id": "226:1759",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 359
+      },
+      "size": {
+        "width": 287,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "How to win any job you want. Get started with 5 steps.",
+      "parent": "226:1753",
+      "rotation": 0
+    },
+    {
+      "id": "226:1760",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 323
+      },
+      "size": {
+        "width": 286,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Career",
+      "parent": "226:1753",
+      "rotation": 0
+    },
+    {
+      "id": "226:1761",
+      "type": "FRAME",
+      "position": {
+        "x": 625,
+        "y": 4194
+      },
+      "size": {
+        "width": 350,
+        "height": 450
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1751",
+      "children": [
+        "226:1762",
+        "226:1763",
+        "226:1767",
+        "226:1768"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1762",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 1.7053025658242404e-12,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 450
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1761",
+      "rotation": 0
+    },
+    {
+      "id": "226:1763",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 301
+      },
+      "parent": "226:1761",
+      "children": [
+        "226:1764",
+        "226:1765",
+        "226:1766"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1764",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 301
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "226:1763",
+      "rotation": 0
+    },
+    {
+      "id": "226:1765",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 301
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "226:1763",
+      "rotation": 0
+    },
+    {
+      "id": "226:1766",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -86,
+        "y": -9
+      },
+      "size": {
+        "width": 500,
+        "height": 333
+      },
+      "parent": "226:1763",
+      "rotation": 0
+    },
+    {
+      "id": "226:1767",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 359
+      },
+      "size": {
+        "width": 287,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "10 ways to reduce your office work depression.",
+      "parent": "226:1761",
+      "rotation": 0
+    },
+    {
+      "id": "226:1768",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 323
+      },
+      "size": {
+        "width": 286,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Lifestyle",
+      "parent": "226:1761",
+      "rotation": 0
+    },
+    {
+      "id": "226:1769",
+      "type": "FRAME",
+      "position": {
+        "x": 1005,
+        "y": 4194
+      },
+      "size": {
+        "width": 350,
+        "height": 450
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1751",
+      "children": [
+        "226:1770",
+        "226:1771",
+        "226:1775",
+        "226:1776"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1770",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -4.547473508864641e-13,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 450
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1769",
+      "rotation": 0
+    },
+    {
+      "id": "226:1771",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 301
+      },
+      "parent": "226:1769",
+      "children": [
+        "226:1772",
+        "226:1773",
+        "226:1774"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1772",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 301
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "226:1771",
+      "rotation": 0
+    },
+    {
+      "id": "226:1773",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 301
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "226:1771",
+      "rotation": 0
+    },
+    {
+      "id": "226:1774",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -37,
+        "y": -151
+      },
+      "size": {
+        "width": 442,
+        "height": 662
+      },
+      "parent": "226:1771",
+      "rotation": 0
+    },
+    {
+      "id": "226:1775",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 359
+      },
+      "size": {
+        "width": 287,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Why should you work as a team even on small projects.",
+      "parent": "226:1769",
+      "rotation": 0
+    },
+    {
+      "id": "226:1776",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 323
+      },
+      "size": {
+        "width": 286,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Career",
+      "parent": "226:1769",
+      "rotation": 0
+    },
+    {
+      "id": "226:1777",
+      "type": "FRAME",
+      "position": {
+        "x": 547,
+        "y": 3991
+      },
+      "size": {
+        "width": 505,
+        "height": 129
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1751",
+      "children": [
+        "226:1778",
+        "226:1779"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1778",
+      "type": "TEXT",
+      "position": {
+        "x": 2,
+        "y": 65
+      },
+      "size": {
+        "width": 503,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+      "parent": "226:1777",
+      "rotation": 0
+    },
+    {
+      "id": "226:1779",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 505,
+        "height": 48
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "News that helps",
+      "parent": "226:1777",
+      "rotation": 0
+    },
+    {
+      "id": "226:1780",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 3154
+      },
+      "size": {
+        "width": 1600,
+        "height": 740
+      },
+      "parent": "226:1736",
+      "children": [
+        "226:1781",
+        "226:1785",
+        "226:1794",
+        "226:1808",
+        "226:1817",
+        "226:1827",
+        "226:1835"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1781",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 3154
+      },
+      "size": {
+        "width": 1600,
+        "height": 740
+      },
+      "parent": "226:1780",
+      "children": [
+        "226:1782",
+        "226:1783",
+        "226:1784"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1782",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 3154
+      },
+      "size": {
+        "width": 1600,
+        "height": 740
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1781",
+      "rotation": 0
+    },
+    {
+      "id": "226:1783",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 3154
+      },
+      "size": {
+        "width": 1600,
+        "height": 740
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1781",
+      "rotation": 0
+    },
+    {
+      "id": "226:1784",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -1033.33154296875,
+        "y": 2432.3807983398438
+      },
+      "size": {
+        "width": 5016,
+        "height": 2800
+      },
+      "parent": "226:1781",
+      "rotation": 1.9999999065344156
+    },
+    {
+      "id": "226:1785",
+      "type": "FRAME",
+      "position": {
+        "x": 245,
+        "y": 3474
+      },
+      "size": {
+        "width": 255,
+        "height": 279
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1780",
+      "children": [
+        "226:1786",
+        "226:1787",
+        "226:1790",
+        "226:1791",
+        "226:1792",
+        "226:1793"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1786",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 255,
+        "height": 279
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1785",
+      "rotation": 0
+    },
+    {
+      "id": "226:1787",
+      "type": "FRAME",
+      "position": {
+        "x": 32,
+        "y": 212
+      },
+      "size": {
+        "width": 32,
+        "height": 33
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1785",
+      "children": [
+        "226:1788",
+        "226:1789"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1788",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "size": {
+        "width": 32,
+        "height": 32
+      },
+      "fillColor": "rgba(52,179,242,1.00)",
+      "parent": "226:1787",
+      "rotation": 0
+    },
+    {
+      "id": "226:1789",
+      "type": "TEXT",
+      "position": {
+        "x": 10,
+        "y": 0
+      },
+      "size": {
+        "width": 14,
+        "height": 32
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "D",
+      "parent": "226:1787",
+      "rotation": 0
+    },
+    {
+      "id": "226:1790",
+      "type": "TEXT",
+      "position": {
+        "x": 74,
+        "y": 213
+      },
+      "size": {
+        "width": 57,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Dorfus",
+      "parent": "226:1785",
+      "rotation": 0
+    },
+    {
+      "id": "226:1791",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 61
+      },
+      "size": {
+        "width": 183,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Senior Software Engineer",
+      "parent": "226:1785",
+      "rotation": 0
+    },
+    {
+      "id": "226:1792",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 130
+      },
+      "size": {
+        "width": 183,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "New York, USA",
+      "parent": "226:1785",
+      "rotation": 0
+    },
+    {
+      "id": "226:1793",
+      "type": "TEXT",
+      "position": {
+        "x": 34,
+        "y": 29
+      },
+      "size": {
+        "width": 75,
+        "height": 16
+      },
+      "fillColor": "rgba(104,213,133,1.00)",
+      "text": "Full-time",
+      "parent": "226:1785",
+      "rotation": 0
+    },
+    {
+      "id": "226:1794",
+      "type": "FRAME",
+      "position": {
+        "x": 530,
+        "y": 3474
+      },
+      "size": {
+        "width": 255,
+        "height": 279
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1780",
+      "children": [
+        "226:1795",
+        "226:1796",
+        "226:1804",
+        "226:1805",
+        "226:1806",
+        "226:1807"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1795",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 255,
+        "height": 279
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1794",
+      "rotation": 0
+    },
+    {
+      "id": "226:1796",
+      "type": "GROUP",
+      "position": {
+        "x": 32,
+        "y": 213
+      },
+      "size": {
+        "width": 32,
+        "height": 32
+      },
+      "parent": "226:1794",
+      "children": [
+        "226:1797",
+        "226:1798"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1797",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 32,
+        "y": 213
+      },
+      "size": {
+        "width": 32,
+        "height": 32
+      },
+      "fillColor": "rgba(251,109,69,1.00)",
+      "parent": "226:1796",
+      "rotation": 0
+    },
+    {
+      "id": "226:1798",
+      "type": "GROUP",
+      "position": {
+        "x": 40,
+        "y": 221
+      },
+      "size": {
+        "width": 17,
+        "height": 16
+      },
+      "parent": "226:1796",
+      "children": [
+        "226:1799",
+        "226:1800",
+        "226:1801",
+        "226:1802",
+        "226:1803"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1799",
+      "type": "VECTOR",
+      "position": {
+        "x": 40,
+        "y": 224
+      },
+      "size": {
+        "width": 5,
+        "height": 11
+      },
+      "fillColor": "rgba(45,45,45,1.00)",
+      "parent": "226:1798",
+      "rotation": 0
+    },
+    {
+      "id": "226:1800",
+      "type": "VECTOR",
+      "position": {
+        "x": 46,
+        "y": 221
+      },
+      "size": {
+        "width": 3,
+        "height": 6
+      },
+      "fillColor": "rgba(45,45,45,1.00)",
+      "parent": "226:1798",
+      "rotation": 0
+    },
+    {
+      "id": "226:1801",
+      "type": "VECTOR",
+      "position": {
+        "x": 48,
+        "y": 223
+      },
+      "size": {
+        "width": 1,
+        "height": 2
+      },
+      "fillColor": "rgba(45,45,45,1.00)",
+      "parent": "226:1798",
+      "rotation": 0
+    },
+    {
+      "id": "226:1802",
+      "type": "VECTOR",
+      "position": {
+        "x": 43,
+        "y": 221
+      },
+      "size": {
+        "width": 3,
+        "height": 5
+      },
+      "fillColor": "rgba(45,45,45,1.00)",
+      "parent": "226:1798",
+      "rotation": 0
+    },
+    {
+      "id": "226:1803",
+      "type": "VECTOR",
+      "position": {
+        "x": 46,
+        "y": 223
+      },
+      "size": {
+        "width": 11,
+        "height": 14
+      },
+      "fillColor": "rgba(45,45,45,1.00)",
+      "parent": "226:1798",
+      "rotation": 0
+    },
+    {
+      "id": "226:1804",
+      "type": "TEXT",
+      "position": {
+        "x": 74,
+        "y": 213
+      },
+      "size": {
+        "width": 74,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Coworks",
+      "parent": "226:1794",
+      "rotation": 0
+    },
+    {
+      "id": "226:1805",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 61
+      },
+      "size": {
+        "width": 183,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Product Designer",
+      "parent": "226:1794",
+      "rotation": 0
+    },
+    {
+      "id": "226:1806",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 98
+      },
+      "size": {
+        "width": 183,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Lake Colby, UK",
+      "parent": "226:1794",
+      "rotation": 0
+    },
+    {
+      "id": "226:1807",
+      "type": "TEXT",
+      "position": {
+        "x": 34,
+        "y": 29
+      },
+      "size": {
+        "width": 58,
+        "height": 16
+      },
+      "fillColor": "rgba(71,59,240,1.00)",
+      "text": "Remote",
+      "parent": "226:1794",
+      "rotation": 0
+    },
+    {
+      "id": "226:1808",
+      "type": "FRAME",
+      "position": {
+        "x": 815,
+        "y": 3474
+      },
+      "size": {
+        "width": 255,
+        "height": 279
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1780",
+      "children": [
+        "226:1809",
+        "226:1810",
+        "226:1813",
+        "226:1814",
+        "226:1815",
+        "226:1816"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1809",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 255,
+        "height": 279
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1808",
+      "rotation": 0
+    },
+    {
+      "id": "226:1810",
+      "type": "FRAME",
+      "position": {
+        "x": 32,
+        "y": 209
+      },
+      "size": {
+        "width": 32,
+        "height": 36
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1808",
+      "children": [
+        "226:1811",
+        "226:1812"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1811",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "size": {
+        "width": 32,
+        "height": 32
+      },
+      "fillColor": "rgba(71,59,240,1.00)",
+      "parent": "226:1810",
+      "rotation": 0
+    },
+    {
+      "id": "226:1812",
+      "type": "TEXT",
+      "position": {
+        "x": 13,
+        "y": 0
+      },
+      "size": {
+        "width": 11,
+        "height": 32
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "a",
+      "parent": "226:1810",
+      "rotation": 0
+    },
+    {
+      "id": "226:1813",
+      "type": "TEXT",
+      "position": {
+        "x": 74,
+        "y": 213
+      },
+      "size": {
+        "width": 71,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Askimat",
+      "parent": "226:1808",
+      "rotation": 0
+    },
+    {
+      "id": "226:1814",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 61
+      },
+      "size": {
+        "width": 183,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "UX Designer",
+      "parent": "226:1808",
+      "rotation": 0
+    },
+    {
+      "id": "226:1815",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 98
+      },
+      "size": {
+        "width": 183,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "California, USA",
+      "parent": "226:1808",
+      "rotation": 0
+    },
+    {
+      "id": "226:1816",
+      "type": "TEXT",
+      "position": {
+        "x": 34,
+        "y": 29
+      },
+      "size": {
+        "width": 75,
+        "height": 16
+      },
+      "fillColor": "rgba(104,213,133,1.00)",
+      "text": "Full-time",
+      "parent": "226:1808",
+      "rotation": 0
+    },
+    {
+      "id": "226:1817",
+      "type": "FRAME",
+      "position": {
+        "x": 1100,
+        "y": 3474
+      },
+      "size": {
+        "width": 255,
+        "height": 279
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1780",
+      "children": [
+        "226:1818",
+        "226:1819",
+        "226:1823",
+        "226:1824",
+        "226:1825",
+        "226:1826"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1818",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 255,
+        "height": 279
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1817",
+      "rotation": 0
+    },
+    {
+      "id": "226:1819",
+      "type": "GROUP",
+      "position": {
+        "x": 32,
+        "y": 213
+      },
+      "size": {
+        "width": 32,
+        "height": 32
+      },
+      "parent": "226:1817",
+      "children": [
+        "226:1820",
+        "226:1821"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1820",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 32,
+        "y": 213
+      },
+      "size": {
+        "width": 32,
+        "height": 32
+      },
+      "fillColor": "rgba(86,205,93,1.00)",
+      "parent": "226:1819",
+      "rotation": 0
+    },
+    {
+      "id": "226:1821",
+      "type": "GROUP",
+      "position": {
+        "x": 41,
+        "y": 222
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "parent": "226:1819",
+      "children": [
+        "226:1822"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1822",
+      "type": "VECTOR",
+      "position": {
+        "x": 41,
+        "y": 222
+      },
+      "size": {
+        "width": 14,
+        "height": 14
+      },
+      "fillColor": "rgba(45,45,45,1.00)",
+      "parent": "226:1821",
+      "rotation": 0
+    },
+    {
+      "id": "226:1823",
+      "type": "TEXT",
+      "position": {
+        "x": 74,
+        "y": 213
+      },
+      "size": {
+        "width": 71,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Greener",
+      "parent": "226:1817",
+      "rotation": 0
+    },
+    {
+      "id": "226:1824",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 61
+      },
+      "size": {
+        "width": 183,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Full-stack Web Developer",
+      "parent": "226:1817",
+      "rotation": 0
+    },
+    {
+      "id": "226:1825",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 130
+      },
+      "size": {
+        "width": 183,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Katlynburgh, Sweden",
+      "parent": "226:1817",
+      "rotation": 0
+    },
+    {
+      "id": "226:1826",
+      "type": "TEXT",
+      "position": {
+        "x": 34,
+        "y": 29
+      },
+      "size": {
+        "width": 77,
+        "height": 16
+      },
+      "fillColor": "rgba(246,75,75,1.00)",
+      "text": "Part-time",
+      "parent": "226:1817",
+      "rotation": 0
+    },
+    {
+      "id": "226:1827",
+      "type": "FRAME",
+      "position": {
+        "x": 1276,
+        "y": 3346
+      },
+      "size": {
+        "width": 79,
+        "height": 44
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1780",
+      "children": [
+        "226:1828",
+        "226:1829",
+        "226:1832"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1828",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 79,
+        "height": 44
+      },
+      "fillColor": "rgba(244,247,250,1.00)",
+      "parent": "226:1827",
+      "rotation": 0
+    },
+    {
+      "id": "226:1829",
+      "type": "GROUP",
+      "position": {
+        "x": 50,
+        "y": 15
+      },
+      "size": {
+        "width": 15,
+        "height": 14
+      },
+      "parent": "226:1827",
+      "children": [
+        "226:1830",
+        "226:1831"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1830",
+      "type": "VECTOR",
+      "position": {
+        "x": 50,
+        "y": 20.666666507720947
+      },
+      "size": {
+        "width": 15,
+        "height": 2
+      },
+      "parent": "226:1829",
+      "rotation": 0
+    },
+    {
+      "id": "226:1831",
+      "type": "VECTOR",
+      "position": {
+        "x": 58,
+        "y": 15
+      },
+      "size": {
+        "width": 7,
+        "height": 14
+      },
+      "parent": "226:1829",
+      "rotation": 0
+    },
+    {
+      "id": "226:1832",
+      "type": "GROUP",
+      "position": {
+        "x": 30,
+        "y": 15
+      },
+      "size": {
+        "width": 15,
+        "height": 14
+      },
+      "parent": "226:1827",
+      "children": [
+        "226:1833",
+        "226:1834"
+      ],
+      "rotation": -180
+    },
+    {
+      "id": "226:1833",
+      "type": "VECTOR",
+      "position": {
+        "x": 30,
+        "y": 20.666666507720947
+      },
+      "size": {
+        "width": 15,
+        "height": 2
+      },
+      "parent": "226:1832",
+      "rotation": -180
+    },
+    {
+      "id": "226:1834",
+      "type": "VECTOR",
+      "position": {
+        "x": 22,
+        "y": 15
+      },
+      "size": {
+        "width": 7,
+        "height": 14
+      },
+      "parent": "226:1832",
+      "rotation": -180
+    },
+    {
+      "id": "226:1835",
+      "type": "FRAME",
+      "position": {
+        "x": 245,
+        "y": 3261
+      },
+      "size": {
+        "width": 505,
+        "height": 129
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1780",
+      "children": [
+        "226:1836",
+        "226:1837"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1836",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 65
+      },
+      "size": {
+        "width": 353,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page without coding.",
+      "parent": "226:1835",
+      "rotation": 0
+    },
+    {
+      "id": "226:1837",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 505,
+        "height": 48
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Featured jobs",
+      "parent": "226:1835",
+      "rotation": 0
+    },
+    {
+      "id": "226:1838",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 2197
+      },
+      "size": {
+        "width": 1601,
+        "height": 956.5
+      },
+      "parent": "226:1736",
+      "children": [
+        "226:1839",
+        "226:1840",
+        "226:1859",
+        "226:1873"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1839",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 3152.5
+      },
+      "size": {
+        "width": 1601,
+        "height": 1
+      },
+      "fillColor": "rgba(216,216,216,1.00)",
+      "parent": "226:1838",
+      "rotation": 0
+    },
+    {
+      "id": "226:1840",
+      "type": "GROUP",
+      "position": {
+        "x": 856,
+        "y": 2508
+      },
+      "size": {
+        "width": 404,
+        "height": 400
+      },
+      "parent": "226:1838",
+      "children": [
+        "226:1841",
+        "226:1847",
+        "226:1853"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1841",
+      "type": "FRAME",
+      "position": {
+        "x": 856,
+        "y": 2508
+      },
+      "size": {
+        "width": 404,
+        "height": 100
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1840",
+      "children": [
+        "226:1842",
+        "226:1843",
+        "226:1844"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1842",
+      "type": "TEXT",
+      "position": {
+        "x": 65,
+        "y": 42
+      },
+      "size": {
+        "width": 339,
+        "height": 58
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. ",
+      "parent": "226:1841",
+      "rotation": 0
+    },
+    {
+      "id": "226:1843",
+      "type": "TEXT",
+      "position": {
+        "x": 65,
+        "y": 0
+      },
+      "size": {
+        "width": 148,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Search for a job",
+      "parent": "226:1841",
+      "rotation": 0
+    },
+    {
+      "id": "226:1844",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 6
+      },
+      "size": {
+        "width": 43,
+        "height": 43
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1841",
+      "children": [
+        "226:1845",
+        "226:1846"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1845",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 43,
+        "height": 43
+      },
+      "fillColor": "rgba(71,59,240,1.00)",
+      "parent": "226:1844",
+      "rotation": 0
+    },
+    {
+      "id": "226:1846",
+      "type": "TEXT",
+      "position": {
+        "x": 19,
+        "y": 8
+      },
+      "size": {
+        "width": 7,
+        "height": 29
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "1",
+      "parent": "226:1844",
+      "rotation": 0
+    },
+    {
+      "id": "226:1847",
+      "type": "FRAME",
+      "position": {
+        "x": 856,
+        "y": 2658
+      },
+      "size": {
+        "width": 404,
+        "height": 100
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1840",
+      "children": [
+        "226:1848",
+        "226:1849",
+        "226:1850"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1848",
+      "type": "TEXT",
+      "position": {
+        "x": 65,
+        "y": 42
+      },
+      "size": {
+        "width": 339,
+        "height": 58
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. ",
+      "parent": "226:1847",
+      "rotation": 0
+    },
+    {
+      "id": "226:1849",
+      "type": "TEXT",
+      "position": {
+        "x": 65,
+        "y": 0
+      },
+      "size": {
+        "width": 228,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Apply within our website",
+      "parent": "226:1847",
+      "rotation": 0
+    },
+    {
+      "id": "226:1850",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 6
+      },
+      "size": {
+        "width": 43,
+        "height": 43
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1847",
+      "children": [
+        "226:1851",
+        "226:1852"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1851",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 43,
+        "height": 43
+      },
+      "fillColor": "rgba(71,59,240,1.00)",
+      "parent": "226:1850",
+      "rotation": 0
+    },
+    {
+      "id": "226:1852",
+      "type": "TEXT",
+      "position": {
+        "x": 17,
+        "y": 8
+      },
+      "size": {
+        "width": 10,
+        "height": 29
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "2",
+      "parent": "226:1850",
+      "rotation": 0
+    },
+    {
+      "id": "226:1853",
+      "type": "FRAME",
+      "position": {
+        "x": 856,
+        "y": 2808
+      },
+      "size": {
+        "width": 404,
+        "height": 100
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1840",
+      "children": [
+        "226:1854",
+        "226:1855",
+        "226:1856"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1854",
+      "type": "TEXT",
+      "position": {
+        "x": 65,
+        "y": 42
+      },
+      "size": {
+        "width": 339,
+        "height": 58
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. ",
+      "parent": "226:1853",
+      "rotation": 0
+    },
+    {
+      "id": "226:1855",
+      "type": "TEXT",
+      "position": {
+        "x": 65,
+        "y": 0
+      },
+      "size": {
+        "width": 162,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Get interview call",
+      "parent": "226:1853",
+      "rotation": 0
+    },
+    {
+      "id": "226:1856",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 6
+      },
+      "size": {
+        "width": 43,
+        "height": 43
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1853",
+      "children": [
+        "226:1857",
+        "226:1858"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1857",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 43,
+        "height": 43
+      },
+      "fillColor": "rgba(71,59,240,1.00)",
+      "parent": "226:1856",
+      "rotation": 0
+    },
+    {
+      "id": "226:1858",
+      "type": "TEXT",
+      "position": {
+        "x": 17,
+        "y": 8
+      },
+      "size": {
+        "width": 10,
+        "height": 29
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "3",
+      "parent": "226:1856",
+      "rotation": 0
+    },
+    {
+      "id": "226:1859",
+      "type": "GROUP",
+      "position": {
+        "x": 245,
+        "y": 2422
+      },
+      "size": {
+        "width": 542,
+        "height": 614
+      },
+      "parent": "226:1838",
+      "children": [
+        "226:1860",
+        "226:1861",
+        "226:1865"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1860",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 390,
+        "y": 2489
+      },
+      "size": {
+        "width": 397,
+        "height": 547
+      },
+      "fillColor": "rgba(104,213,133,0.10)",
+      "parent": "226:1859",
+      "rotation": 0
+    },
+    {
+      "id": "226:1861",
+      "type": "GROUP",
+      "position": {
+        "x": 321,
+        "y": 2422
+      },
+      "size": {
+        "width": 425,
+        "height": 571
+      },
+      "parent": "226:1859",
+      "children": [
+        "226:1862",
+        "226:1863",
+        "226:1864"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1862",
+      "type": "VECTOR",
+      "position": {
+        "x": 321,
+        "y": 2422
+      },
+      "size": {
+        "width": 425,
+        "height": 571
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "226:1861",
+      "rotation": 0
+    },
+    {
+      "id": "226:1863",
+      "type": "VECTOR",
+      "position": {
+        "x": 321,
+        "y": 2422
+      },
+      "size": {
+        "width": 425,
+        "height": 571
+      },
+      "fillColor": "rgba(125,129,141,1.00)",
+      "parent": "226:1861",
+      "rotation": 0
+    },
+    {
+      "id": "226:1864",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 788,
+        "y": 2412
+      },
+      "size": {
+        "width": 467,
+        "height": 701
+      },
+      "parent": "226:1861",
+      "rotation": -180
+    },
+    {
+      "id": "226:1865",
+      "type": "FRAME",
+      "position": {
+        "x": 245,
+        "y": 2806
+      },
+      "size": {
+        "width": 351,
+        "height": 91
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1859",
+      "children": [
+        "226:1866",
+        "226:1867",
+        "226:1868",
+        "226:1871",
+        "226:1872"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1866",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 351,
+        "height": 91
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "parent": "226:1865",
+      "rotation": 0
+    },
+    {
+      "id": "226:1867",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 24,
+        "y": 26
+      },
+      "size": {
+        "width": 39,
+        "height": 39
+      },
+      "fillColor": "rgba(104,213,133,1.00)",
+      "parent": "226:1865",
+      "rotation": 0
+    },
+    {
+      "id": "226:1868",
+      "type": "GROUP",
+      "position": {
+        "x": 36,
+        "y": 37
+      },
+      "size": {
+        "width": 15,
+        "height": 17.14285659790039
+      },
+      "parent": "226:1865",
+      "children": [
+        "226:1869",
+        "226:1870"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1869",
+      "type": "VECTOR",
+      "position": {
+        "x": 41.7142858505249,
+        "y": 52
+      },
+      "size": {
+        "width": 4.285714149475098,
+        "height": 2.142857074737549
+      },
+      "fillColor": "rgba(45,45,45,1.00)",
+      "parent": "226:1868",
+      "rotation": 0
+    },
+    {
+      "id": "226:1870",
+      "type": "VECTOR",
+      "position": {
+        "x": 36,
+        "y": 37
+      },
+      "size": {
+        "width": 15,
+        "height": 14.285714149475098
+      },
+      "fillColor": "rgba(45,45,45,1.00)",
+      "parent": "226:1868",
+      "rotation": 0
+    },
+    {
+      "id": "226:1871",
+      "type": "TEXT",
+      "position": {
+        "x": 78,
+        "y": 17
+      },
+      "size": {
+        "width": 100,
+        "height": 26
+      },
+      "fillColor": "rgba(255,255,255,0.70)",
+      "text": "New Invitation!",
+      "parent": "226:1865",
+      "rotation": 0
+    },
+    {
+      "id": "226:1872",
+      "type": "TEXT",
+      "position": {
+        "x": 78,
+        "y": 43
+      },
+      "size": {
+        "width": 247,
+        "height": 29
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Interview invitation at Greener",
+      "parent": "226:1865",
+      "rotation": 0
+    },
+    {
+      "id": "226:1873",
+      "type": "FRAME",
+      "position": {
+        "x": 506,
+        "y": 2197
+      },
+      "size": {
+        "width": 589,
+        "height": 129
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1838",
+      "children": [
+        "226:1874",
+        "226:1875"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1874",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 65
+      },
+      "size": {
+        "width": 589,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. Build your next landing page.",
+      "parent": "226:1873",
+      "rotation": 0
+    },
+    {
+      "id": "226:1875",
+      "type": "TEXT",
+      "position": {
+        "x": 41,
+        "y": 0
+      },
+      "size": {
+        "width": 505,
+        "height": 48
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Find jobs with 3 easy steps",
+      "parent": "226:1873",
+      "rotation": 0
+    },
+    {
+      "id": "226:1876",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 1338
+      },
+      "size": {
+        "width": 1600,
+        "height": 746
+      },
+      "parent": "226:1736",
+      "children": [
+        "226:1877",
+        "226:1884",
+        "226:1887",
+        "226:1895",
+        "226:1899",
+        "226:1903",
+        "226:1907",
+        "226:1911",
+        "226:1915"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1877",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 1338
+      },
+      "size": {
+        "width": 1600,
+        "height": 746
+      },
+      "parent": "226:1876",
+      "children": [
+        "226:1878",
+        "226:1879",
+        "226:1880"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1878",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 1338
+      },
+      "size": {
+        "width": 1600,
+        "height": 746
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "parent": "226:1877",
+      "rotation": 0
+    },
+    {
+      "id": "226:1879",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 1338
+      },
+      "size": {
+        "width": 1600,
+        "height": 746
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "parent": "226:1877",
+      "rotation": 0
+    },
+    {
+      "id": "226:1880",
+      "type": "GROUP",
+      "position": {
+        "x": -2437,
+        "y": -803
+      },
+      "size": {
+        "width": 4384,
+        "height": 2447
+      },
+      "parent": "226:1877",
+      "children": [
+        "226:1881",
+        "226:1882",
+        "226:1883"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1881",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -2437,
+        "y": -803
+      },
+      "size": {
+        "width": 4384,
+        "height": 2447
+      },
+      "parent": "226:1880",
+      "rotation": 0
+    },
+    {
+      "id": "226:1882",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -2437,
+        "y": -803
+      },
+      "size": {
+        "width": 4384,
+        "height": 2447
+      },
+      "parent": "226:1880",
+      "rotation": 0
+    },
+    {
+      "id": "226:1883",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -2437,
+        "y": -803
+      },
+      "size": {
+        "width": 4384,
+        "height": 2447
+      },
+      "fillColor": "rgba(255,255,255,0.05)",
+      "parent": "226:1880",
+      "rotation": 0
+    },
+    {
+      "id": "226:1884",
+      "type": "FRAME",
+      "position": {
+        "x": 251,
+        "y": 1470
+      },
+      "size": {
+        "width": 429,
+        "height": 132
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1876",
+      "children": [
+        "226:1885",
+        "226:1886"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1885",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 429,
+        "height": 48
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Jobs by category",
+      "parent": "226:1884",
+      "rotation": 0
+    },
+    {
+      "id": "226:1886",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 68
+      },
+      "size": {
+        "width": 388,
+        "height": 64
+      },
+      "fillColor": "rgba(255,255,255,0.65)",
+      "text": "With lots of unique blocks, you can easily build a page without coding.",
+      "parent": "226:1884",
+      "rotation": 0
+    },
+    {
+      "id": "226:1887",
+      "type": "FRAME",
+      "position": {
+        "x": 251,
+        "y": 1667
+      },
+      "size": {
+        "width": 350,
+        "height": 117
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1876",
+      "children": [
+        "226:1888",
+        "226:1889",
+        "226:1890",
+        "226:1893",
+        "226:1894"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1888",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 117
+      },
+      "fillColor": "rgba(71,59,240,1.00)",
+      "parent": "226:1887",
+      "rotation": 0
+    },
+    {
+      "id": "226:1889",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 280,
+        "y": 39
+      },
+      "size": {
+        "width": 42,
+        "height": 42
+      },
+      "fillColor": "rgba(255,255,255,0.20)",
+      "parent": "226:1887",
+      "rotation": 0
+    },
+    {
+      "id": "226:1890",
+      "type": "GROUP",
+      "position": {
+        "x": 293,
+        "y": 53
+      },
+      "size": {
+        "width": 15,
+        "height": 14
+      },
+      "parent": "226:1887",
+      "children": [
+        "226:1891",
+        "226:1892"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1891",
+      "type": "VECTOR",
+      "position": {
+        "x": 293,
+        "y": 58.66666650772095
+      },
+      "size": {
+        "width": 15,
+        "height": 2
+      },
+      "parent": "226:1890",
+      "rotation": 0
+    },
+    {
+      "id": "226:1892",
+      "type": "VECTOR",
+      "position": {
+        "x": 301,
+        "y": 53
+      },
+      "size": {
+        "width": 7,
+        "height": 14
+      },
+      "parent": "226:1890",
+      "rotation": 0
+    },
+    {
+      "id": "226:1893",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 26
+      },
+      "size": {
+        "width": 65,
+        "height": 32
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Design",
+      "parent": "226:1887",
+      "rotation": 0
+    },
+    {
+      "id": "226:1894",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 63
+      },
+      "size": {
+        "width": 183,
+        "height": 26
+      },
+      "fillColor": "rgba(255,255,255,0.65)",
+      "text": "47 Jobs",
+      "parent": "226:1887",
+      "rotation": 0
+    },
+    {
+      "id": "226:1895",
+      "type": "FRAME",
+      "position": {
+        "x": 631,
+        "y": 1676
+      },
+      "size": {
+        "width": 350,
+        "height": 117
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1876",
+      "children": [
+        "226:1896",
+        "226:1897",
+        "226:1898"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1896",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 117
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1895",
+      "rotation": 0
+    },
+    {
+      "id": "226:1897",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 26
+      },
+      "size": {
+        "width": 95,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Marketing",
+      "parent": "226:1895",
+      "rotation": 0
+    },
+    {
+      "id": "226:1898",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 63
+      },
+      "size": {
+        "width": 183,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "51 Jobs",
+      "parent": "226:1895",
+      "rotation": 0
+    },
+    {
+      "id": "226:1899",
+      "type": "FRAME",
+      "position": {
+        "x": 1011,
+        "y": 1676
+      },
+      "size": {
+        "width": 350,
+        "height": 117
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1876",
+      "children": [
+        "226:1900",
+        "226:1901",
+        "226:1902"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1900",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 117
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1899",
+      "rotation": 0
+    },
+    {
+      "id": "226:1901",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 26
+      },
+      "size": {
+        "width": 111,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Engineering",
+      "parent": "226:1899",
+      "rotation": 0
+    },
+    {
+      "id": "226:1902",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 63
+      },
+      "size": {
+        "width": 183,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "89 Jobs",
+      "parent": "226:1899",
+      "rotation": 0
+    },
+    {
+      "id": "226:1903",
+      "type": "FRAME",
+      "position": {
+        "x": 251,
+        "y": 1823
+      },
+      "size": {
+        "width": 350,
+        "height": 117
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1876",
+      "children": [
+        "226:1904",
+        "226:1905",
+        "226:1906"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1904",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 117
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1903",
+      "rotation": 0
+    },
+    {
+      "id": "226:1905",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 26
+      },
+      "size": {
+        "width": 115,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Mangement",
+      "parent": "226:1903",
+      "rotation": 0
+    },
+    {
+      "id": "226:1906",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 63
+      },
+      "size": {
+        "width": 183,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "16 Jobs",
+      "parent": "226:1903",
+      "rotation": 0
+    },
+    {
+      "id": "226:1907",
+      "type": "FRAME",
+      "position": {
+        "x": 631,
+        "y": 1823
+      },
+      "size": {
+        "width": 350,
+        "height": 117
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1876",
+      "children": [
+        "226:1908",
+        "226:1909",
+        "226:1910"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1908",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 117
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1907",
+      "rotation": 0
+    },
+    {
+      "id": "226:1909",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 26
+      },
+      "size": {
+        "width": 74,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Finance",
+      "parent": "226:1907",
+      "rotation": 0
+    },
+    {
+      "id": "226:1910",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 63
+      },
+      "size": {
+        "width": 183,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "23 Jobs",
+      "parent": "226:1907",
+      "rotation": 0
+    },
+    {
+      "id": "226:1911",
+      "type": "FRAME",
+      "position": {
+        "x": 1011,
+        "y": 1823
+      },
+      "size": {
+        "width": 350,
+        "height": 117
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1876",
+      "children": [
+        "226:1912",
+        "226:1913",
+        "226:1914"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1912",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 350,
+        "height": 117
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1911",
+      "rotation": 0
+    },
+    {
+      "id": "226:1913",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 26
+      },
+      "size": {
+        "width": 171,
+        "height": 32
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Customer Support",
+      "parent": "226:1911",
+      "rotation": 0
+    },
+    {
+      "id": "226:1914",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 63
+      },
+      "size": {
+        "width": 183,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "34 Jobs",
+      "parent": "226:1911",
+      "rotation": 0
+    },
+    {
+      "id": "226:1915",
+      "type": "INSTANCE",
+      "position": {
+        "x": 1175,
+        "y": 1570
+      },
+      "size": {
+        "width": 186,
+        "height": 32
+      },
+      "parent": "226:1876",
+      "children": [
+        "I226:1915;0:4584"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1915;0:4584",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 184.48780822753906,
+        "height": 32
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1915",
+      "children": [
+        "I226:1915;0:4585",
+        "I226:1915;0:4586"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1915;0:4585",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 158,
+        "height": 32
+      },
+      "fillColor": "rgba(104,213,133,1.00)",
+      "text": "Explore all categories",
+      "parent": "I226:1915;0:4584",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1915;0:4586",
+      "type": "GROUP",
+      "position": {
+        "x": 174,
+        "y": 12
+      },
+      "size": {
+        "width": 10.000040054321289,
+        "height": 8.666666984558105
+      },
+      "parent": "I226:1915;0:4584",
+      "children": [
+        "I226:1915;0:4587",
+        "I226:1915;0:4588"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:1915;0:4587",
+      "type": "VECTOR",
+      "position": {
+        "x": 179.3333282470703,
+        "y": 12
+      },
+      "size": {
+        "width": 4.666666507720947,
+        "height": 8.666666984558105
+      },
+      "parent": "I226:1915;0:4586",
+      "rotation": 0
+    },
+    {
+      "id": "I226:1915;0:4588",
+      "type": "VECTOR",
+      "position": {
+        "x": 174,
+        "y": 15.333333015441895
+      },
+      "size": {
+        "width": 9.333333015441895,
+        "height": 1.3333333730697632
+      },
+      "parent": "I226:1915;0:4586",
+      "rotation": 0
+    },
+    {
+      "id": "226:1916",
+      "type": "GROUP",
+      "position": {
+        "x": 418,
+        "y": 875
+      },
+      "size": {
+        "width": 766,
+        "height": 338
+      },
+      "parent": "226:1736",
+      "children": [
+        "226:1917",
+        "226:1942"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1917",
+      "type": "GROUP",
+      "position": {
+        "x": 418,
+        "y": 1109
+      },
+      "size": {
+        "width": 766,
+        "height": 104
+      },
+      "parent": "226:1916",
+      "children": [
+        "226:1918",
+        "226:1922",
+        "226:1926",
+        "226:1930",
+        "226:1934",
+        "226:1938"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1918",
+      "type": "GROUP",
+      "position": {
+        "x": 418,
+        "y": 1113
+      },
+      "size": {
+        "width": 146,
+        "height": 24
+      },
+      "parent": "226:1917",
+      "children": [
+        "226:1919",
+        "226:1920",
+        "226:1921"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1919",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 418,
+        "y": 1113
+      },
+      "size": {
+        "width": 146,
+        "height": 24
+      },
+      "parent": "226:1918",
+      "rotation": 0
+    },
+    {
+      "id": "226:1920",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 418,
+        "y": 1113
+      },
+      "size": {
+        "width": 146,
+        "height": 24
+      },
+      "parent": "226:1918",
+      "rotation": 0
+    },
+    {
+      "id": "226:1921",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 418,
+        "y": 1113
+      },
+      "size": {
+        "width": 146,
+        "height": 24
+      },
+      "fillColor": "rgba(22,28,45,0.50)",
+      "parent": "226:1918",
+      "rotation": 0
+    },
+    {
+      "id": "226:1922",
+      "type": "GROUP",
+      "position": {
+        "x": 642,
+        "y": 1111
+      },
+      "size": {
+        "width": 155,
+        "height": 31
+      },
+      "parent": "226:1917",
+      "children": [
+        "226:1923",
+        "226:1924",
+        "226:1925"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1923",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 642,
+        "y": 1111
+      },
+      "size": {
+        "width": 155,
+        "height": 31
+      },
+      "parent": "226:1922",
+      "rotation": 0
+    },
+    {
+      "id": "226:1924",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 642,
+        "y": 1111
+      },
+      "size": {
+        "width": 155,
+        "height": 31
+      },
+      "parent": "226:1922",
+      "rotation": 0
+    },
+    {
+      "id": "226:1925",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 642,
+        "y": 1111
+      },
+      "size": {
+        "width": 155,
+        "height": 31
+      },
+      "fillColor": "rgba(22,28,45,0.50)",
+      "parent": "226:1922",
+      "rotation": 0
+    },
+    {
+      "id": "226:1926",
+      "type": "GROUP",
+      "position": {
+        "x": 851,
+        "y": 1112
+      },
+      "size": {
+        "width": 154,
+        "height": 30
+      },
+      "parent": "226:1917",
+      "children": [
+        "226:1927",
+        "226:1928",
+        "226:1929"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1927",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 851,
+        "y": 1112
+      },
+      "size": {
+        "width": 154,
+        "height": 30
+      },
+      "parent": "226:1926",
+      "rotation": 0
+    },
+    {
+      "id": "226:1928",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 851,
+        "y": 1112
+      },
+      "size": {
+        "width": 154,
+        "height": 30
+      },
+      "parent": "226:1926",
+      "rotation": 0
+    },
+    {
+      "id": "226:1929",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 851,
+        "y": 1112
+      },
+      "size": {
+        "width": 154,
+        "height": 30
+      },
+      "fillColor": "rgba(22,28,45,0.50)",
+      "parent": "226:1926",
+      "rotation": 0
+    },
+    {
+      "id": "226:1930",
+      "type": "GROUP",
+      "position": {
+        "x": 1087,
+        "y": 1109
+      },
+      "size": {
+        "width": 97,
+        "height": 35
+      },
+      "parent": "226:1917",
+      "children": [
+        "226:1931",
+        "226:1932",
+        "226:1933"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1931",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 1087,
+        "y": 1109
+      },
+      "size": {
+        "width": 97,
+        "height": 35
+      },
+      "parent": "226:1930",
+      "rotation": 0
+    },
+    {
+      "id": "226:1932",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 1087,
+        "y": 1109
+      },
+      "size": {
+        "width": 97,
+        "height": 35
+      },
+      "parent": "226:1930",
+      "rotation": 0
+    },
+    {
+      "id": "226:1933",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 1087,
+        "y": 1109
+      },
+      "size": {
+        "width": 97,
+        "height": 35
+      },
+      "fillColor": "rgba(22,28,45,0.50)",
+      "parent": "226:1930",
+      "rotation": 0
+    },
+    {
+      "id": "226:1934",
+      "type": "GROUP",
+      "position": {
+        "x": 623,
+        "y": 1185
+      },
+      "size": {
+        "width": 105,
+        "height": 28
+      },
+      "parent": "226:1917",
+      "children": [
+        "226:1935",
+        "226:1936",
+        "226:1937"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1935",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 623,
+        "y": 1185
+      },
+      "size": {
+        "width": 105,
+        "height": 28
+      },
+      "parent": "226:1934",
+      "rotation": 0
+    },
+    {
+      "id": "226:1936",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 623,
+        "y": 1185
+      },
+      "size": {
+        "width": 105,
+        "height": 28
+      },
+      "parent": "226:1934",
+      "rotation": 0
+    },
+    {
+      "id": "226:1937",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 623,
+        "y": 1185
+      },
+      "size": {
+        "width": 105,
+        "height": 28
+      },
+      "fillColor": "rgba(22,28,45,0.50)",
+      "parent": "226:1934",
+      "rotation": 0
+    },
+    {
+      "id": "226:1938",
+      "type": "GROUP",
+      "position": {
+        "x": 812,
+        "y": 1181
+      },
+      "size": {
+        "width": 115,
+        "height": 31
+      },
+      "parent": "226:1917",
+      "children": [
+        "226:1939",
+        "226:1940",
+        "226:1941"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1939",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 812,
+        "y": 1181
+      },
+      "size": {
+        "width": 115,
+        "height": 31
+      },
+      "parent": "226:1938",
+      "rotation": 0
+    },
+    {
+      "id": "226:1940",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 812,
+        "y": 1181
+      },
+      "size": {
+        "width": 115,
+        "height": 31
+      },
+      "parent": "226:1938",
+      "rotation": 0
+    },
+    {
+      "id": "226:1941",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 812,
+        "y": 1181
+      },
+      "size": {
+        "width": 115,
+        "height": 31
+      },
+      "fillColor": "rgba(22,28,45,0.50)",
+      "parent": "226:1938",
+      "rotation": 0
+    },
+    {
+      "id": "226:1942",
+      "type": "FRAME",
+      "position": {
+        "x": 458,
+        "y": 875
+      },
+      "size": {
+        "width": 686,
+        "height": 174
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1916",
+      "children": [
+        "226:1943",
+        "226:1944"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1943",
+      "type": "TEXT",
+      "position": {
+        "x": 159,
+        "y": 0
+      },
+      "size": {
+        "width": 369,
+        "height": 48
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Big companies are here",
+      "parent": "226:1942",
+      "rotation": 0
+    },
+    {
+      "id": "226:1944",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 78
+      },
+      "size": {
+        "width": 686,
+        "height": 96
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes. You have a business to run. Stop worring about cross-browser bugs, designing new pages.",
+      "parent": "226:1942",
+      "rotation": 0
+    },
+    {
+      "id": "226:1945",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1601,
+        "height": 761
+      },
+      "parent": "226:1736",
+      "children": [
+        "226:1946",
+        "226:1998"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1946",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1601,
+        "height": 761
+      },
+      "parent": "226:1945",
+      "children": [
+        "226:1947",
+        "226:1948",
+        "226:1949"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1947",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1601,
+        "height": 761
+      },
+      "fillColor": "rgba(104,213,133,0.10)",
+      "parent": "226:1946",
+      "rotation": 0
+    },
+    {
+      "id": "226:1948",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1601,
+        "height": 761
+      },
+      "fillColor": "rgba(104,213,133,0.10)",
+      "parent": "226:1946",
+      "rotation": 0
+    },
+    {
+      "id": "226:1949",
+      "type": "GROUP",
+      "position": {
+        "x": -868,
+        "y": -586
+      },
+      "size": {
+        "width": 4384,
+        "height": 2447
+      },
+      "parent": "226:1946",
+      "children": [
+        "226:1950",
+        "226:1995",
+        "226:1996",
+        "226:1997"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1950",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 1155,
+        "y": 289
+      },
+      "size": {
+        "width": 107,
+        "height": 109
+      },
+      "fillColor": "rgba(22,28,45,0.80)",
+      "parent": "226:1949",
+      "children": [
+        "226:1951",
+        "226:1952",
+        "226:1953",
+        "226:1954",
+        "226:1955",
+        "226:1956",
+        "226:1957",
+        "226:1958",
+        "226:1959",
+        "226:1960",
+        "226:1961",
+        "226:1962",
+        "226:1963",
+        "226:1964",
+        "226:1965",
+        "226:1966",
+        "226:1967",
+        "226:1968",
+        "226:1969",
+        "226:1970",
+        "226:1971",
+        "226:1972",
+        "226:1973",
+        "226:1974",
+        "226:1975",
+        "226:1976",
+        "226:1977",
+        "226:1978",
+        "226:1979",
+        "226:1980",
+        "226:1981",
+        "226:1982",
+        "226:1983",
+        "226:1984",
+        "226:1985",
+        "226:1986",
+        "226:1987",
+        "226:1988",
+        "226:1989",
+        "226:1990",
+        "226:1991",
+        "226:1992",
+        "226:1993",
+        "226:1994"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1951",
+      "type": "VECTOR",
+      "position": {
+        "x": 1223,
+        "y": 393
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1952",
+      "type": "VECTOR",
+      "position": {
+        "x": 1257,
+        "y": 363
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1953",
+      "type": "VECTOR",
+      "position": {
+        "x": 1172,
+        "y": 319
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1954",
+      "type": "VECTOR",
+      "position": {
+        "x": 1172,
+        "y": 378
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1955",
+      "type": "VECTOR",
+      "position": {
+        "x": 1189,
+        "y": 334
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1956",
+      "type": "VECTOR",
+      "position": {
+        "x": 1172,
+        "y": 304
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1957",
+      "type": "VECTOR",
+      "position": {
+        "x": 1172,
+        "y": 348
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1958",
+      "type": "VECTOR",
+      "position": {
+        "x": 1172,
+        "y": 363
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1959",
+      "type": "VECTOR",
+      "position": {
+        "x": 1189,
+        "y": 304
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1960",
+      "type": "VECTOR",
+      "position": {
+        "x": 1189,
+        "y": 319
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1961",
+      "type": "VECTOR",
+      "position": {
+        "x": 1189,
+        "y": 289
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1962",
+      "type": "VECTOR",
+      "position": {
+        "x": 1172,
+        "y": 334
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1963",
+      "type": "VECTOR",
+      "position": {
+        "x": 1155,
+        "y": 348
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1964",
+      "type": "VECTOR",
+      "position": {
+        "x": 1155,
+        "y": 334
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1965",
+      "type": "VECTOR",
+      "position": {
+        "x": 1155,
+        "y": 363
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1966",
+      "type": "VECTOR",
+      "position": {
+        "x": 1240,
+        "y": 334
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1967",
+      "type": "VECTOR",
+      "position": {
+        "x": 1155,
+        "y": 319
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1968",
+      "type": "VECTOR",
+      "position": {
+        "x": 1240,
+        "y": 348
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1969",
+      "type": "VECTOR",
+      "position": {
+        "x": 1240,
+        "y": 319
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1970",
+      "type": "VECTOR",
+      "position": {
+        "x": 1240,
+        "y": 378
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1971",
+      "type": "VECTOR",
+      "position": {
+        "x": 1240,
+        "y": 363
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1972",
+      "type": "VECTOR",
+      "position": {
+        "x": 1223,
+        "y": 289
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1973",
+      "type": "VECTOR",
+      "position": {
+        "x": 1240,
+        "y": 304
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1974",
+      "type": "VECTOR",
+      "position": {
+        "x": 1223,
+        "y": 319
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1975",
+      "type": "VECTOR",
+      "position": {
+        "x": 1223,
+        "y": 363
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1976",
+      "type": "VECTOR",
+      "position": {
+        "x": 1223,
+        "y": 348
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1977",
+      "type": "VECTOR",
+      "position": {
+        "x": 1223,
+        "y": 334
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1978",
+      "type": "VECTOR",
+      "position": {
+        "x": 1223,
+        "y": 378
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1979",
+      "type": "VECTOR",
+      "position": {
+        "x": 1189,
+        "y": 348
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1980",
+      "type": "VECTOR",
+      "position": {
+        "x": 1189,
+        "y": 393
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1981",
+      "type": "VECTOR",
+      "position": {
+        "x": 1257,
+        "y": 319
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1982",
+      "type": "VECTOR",
+      "position": {
+        "x": 1257,
+        "y": 334
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1983",
+      "type": "VECTOR",
+      "position": {
+        "x": 1257,
+        "y": 348
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1984",
+      "type": "VECTOR",
+      "position": {
+        "x": 1206,
+        "y": 319
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1985",
+      "type": "VECTOR",
+      "position": {
+        "x": 1206,
+        "y": 304
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1986",
+      "type": "VECTOR",
+      "position": {
+        "x": 1206,
+        "y": 289
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1987",
+      "type": "VECTOR",
+      "position": {
+        "x": 1189,
+        "y": 378
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1988",
+      "type": "VECTOR",
+      "position": {
+        "x": 1189,
+        "y": 363
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1989",
+      "type": "VECTOR",
+      "position": {
+        "x": 1206,
+        "y": 334
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1990",
+      "type": "VECTOR",
+      "position": {
+        "x": 1223,
+        "y": 304
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1991",
+      "type": "VECTOR",
+      "position": {
+        "x": 1206,
+        "y": 378
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1992",
+      "type": "VECTOR",
+      "position": {
+        "x": 1206,
+        "y": 393
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1993",
+      "type": "VECTOR",
+      "position": {
+        "x": 1206,
+        "y": 363
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1994",
+      "type": "VECTOR",
+      "position": {
+        "x": 1206,
+        "y": 348
+      },
+      "size": {
+        "width": 5,
+        "height": 5
+      },
+      "parent": "226:1950",
+      "rotation": 0
+    },
+    {
+      "id": "226:1995",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 849,
+        "y": 648
+      },
+      "size": {
+        "width": 170,
+        "height": 170
+      },
+      "fillColor": "rgba(246,75,75,0.25)",
+      "parent": "226:1949",
+      "rotation": 0
+    },
+    {
+      "id": "226:1996",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -868,
+        "y": -586
+      },
+      "size": {
+        "width": 4384,
+        "height": 2447
+      },
+      "parent": "226:1949",
+      "rotation": 0
+    },
+    {
+      "id": "226:1997",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 904,
+        "y": 124
+      },
+      "size": {
+        "width": 481,
+        "height": 685
+      },
+      "parent": "226:1949",
+      "rotation": 0
+    },
+    {
+      "id": "226:1998",
+      "type": "FRAME",
+      "position": {
+        "x": 245,
+        "y": 203
+      },
+      "size": {
+        "width": 731,
+        "height": 402
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1945",
+      "children": [
+        "226:1999",
+        "226:2006",
+        "226:2007"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:1999",
+      "type": "GROUP",
+      "position": {
+        "x": 1,
+        "y": 264
+      },
+      "size": {
+        "width": 730,
+        "height": 138
+      },
+      "parent": "226:1998",
+      "children": [
+        "226:2000",
+        "226:2002",
+        "226:2003",
+        "226:2004",
+        "226:2005"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:2000",
+      "type": "FRAME",
+      "position": {
+        "x": 1,
+        "y": 376
+      },
+      "size": {
+        "width": 302,
+        "height": 26
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1999",
+      "children": [
+        "226:2001"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:2001",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 298,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Try Product Designer, Software Engineer etc.",
+      "parent": "226:2000",
+      "rotation": 0
+    },
+    {
+      "id": "226:2002",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 2,
+        "y": 264
+      },
+      "size": {
+        "width": 729,
+        "height": 95
+      },
+      "fillColor": "rgba(71,59,240,1.00)",
+      "parent": "226:1999",
+      "rotation": 0
+    },
+    {
+      "id": "226:2003",
+      "type": "INSTANCE",
+      "position": {
+        "x": 553,
+        "y": 287
+      },
+      "size": {
+        "width": 157,
+        "height": 51
+      },
+      "parent": "226:1999",
+      "children": [
+        "I226:2003;0:4555"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:2003;0:4555",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 157,
+        "height": 51
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:2003",
+      "children": [
+        "I226:2003;0:4556",
+        "I226:2003;0:4557"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:2003;0:4556",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 157,
+        "height": 51
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "parent": "I226:2003;0:4555",
+      "rotation": 0
+    },
+    {
+      "id": "I226:2003;0:4557",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 9
+      },
+      "size": {
+        "width": 157,
+        "height": 32
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Search",
+      "parent": "I226:2003;0:4555",
+      "rotation": 0
+    },
+    {
+      "id": "226:2004",
+      "type": "INSTANCE",
+      "position": {
+        "x": 23,
+        "y": 288
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "parent": "226:1999",
+      "children": [
+        "I226:2004;0:4594"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:2004;0:4594",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:2004",
+      "children": [
+        "I226:2004;0:4595",
+        "I226:2004;0:4596",
+        "I226:2004;0:4597"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:2004;0:4595",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I226:2004;0:4594",
+      "rotation": 0
+    },
+    {
+      "id": "I226:2004;0:4596",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I226:2004;0:4594",
+      "rotation": 0
+    },
+    {
+      "id": "I226:2004;0:4597",
+      "type": "TEXT",
+      "position": {
+        "x": 19,
+        "y": 15
+      },
+      "size": {
+        "width": 132,
+        "height": 17
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "Job title or keyword",
+      "parent": "I226:2004;0:4594",
+      "rotation": 0
+    },
+    {
+      "id": "226:2005",
+      "type": "INSTANCE",
+      "position": {
+        "x": 288,
+        "y": 288
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "parent": "226:1999",
+      "children": [
+        "I226:2005;0:4729"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:2005;0:4729",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:2005",
+      "children": [
+        "I226:2005;0:4730",
+        "I226:2005;0:4731",
+        "I226:2005;0:4732",
+        "I226:2005;0:4733"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:2005;0:4730",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I226:2005;0:4729",
+      "rotation": 0
+    },
+    {
+      "id": "I226:2005;0:4731",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 250,
+        "height": 50
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I226:2005;0:4729",
+      "rotation": 0
+    },
+    {
+      "id": "I226:2005;0:4732",
+      "type": "TEXT",
+      "position": {
+        "x": 18,
+        "y": 12
+      },
+      "size": {
+        "width": 193,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "City",
+      "parent": "I226:2005;0:4729",
+      "rotation": 0
+    },
+    {
+      "id": "I226:2005;0:4733",
+      "type": "INSTANCE",
+      "position": {
+        "x": 220,
+        "y": 16
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I226:2005;0:4729",
+      "children": [
+        "I226:2005;0:4733;0:4763"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:2005;0:4733;0:4763",
+      "type": "GROUP",
+      "position": {
+        "x": 5,
+        "y": 7
+      },
+      "size": {
+        "width": 8,
+        "height": 4
+      },
+      "parent": "I226:2005;0:4733",
+      "children": [
+        "I226:2005;0:4733;0:4764"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I226:2005;0:4733;0:4764",
+      "type": "VECTOR",
+      "position": {
+        "x": 5,
+        "y": 7
+      },
+      "size": {
+        "width": 8,
+        "height": 4
+      },
+      "parent": "I226:2005;0:4733;0:4763",
+      "rotation": 0
+    },
+    {
+      "id": "226:2006",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 492,
+        "height": 130
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Find a dream job that changes life.",
+      "parent": "226:1998",
+      "rotation": 0
+    },
+    {
+      "id": "226:2007",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 155
+      },
+      "size": {
+        "width": 518,
+        "height": 64
+      },
+      "fillColor": "rgba(22,28,45,0.70)",
+      "text": "With lots of unique blocks, you can easily build a page without coding. Build your next job website.",
+      "parent": "226:1998",
+      "rotation": 0
+    },
+    {
+      "id": "226:2008",
+      "type": "FRAME",
+      "position": {
+        "x": 48,
+        "y": 21
+      },
+      "size": {
+        "width": 1508,
+        "height": 33
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "226:1736",
+      "children": [
+        "226:2009",
+        "226:2010",
+        "226:2011"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "226:2009",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 179,
+        "height": 33
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Brainwave.io",
+      "parent": "226:2008",
+      "rotation": 0
+    },
+    {
+      "id": "226:2010",
+      "type": "TEXT",
+      "position": {
+        "x": 1375,
+        "y": 7
+      },
+      "size": {
+        "width": 133,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Login            Sign up",
+      "parent": "226:2008",
+      "rotation": 0
+    },
+    {
+      "id": "226:2011",
+      "type": "TEXT",
+      "position": {
+        "x": 586,
+        "y": 7
+      },
+      "size": {
+        "width": 333,
+        "height": 26
+      },
+      "fillColor": "rgba(22,28,45,1.00)",
+      "text": "Demos            Pages            Support            Contact",
+      "parent": "226:2008",
+      "rotation": 0
+    }
+  ]
+}

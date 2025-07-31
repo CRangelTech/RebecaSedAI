@@ -1,0 +1,1594 @@
+{
+  "prompt": "desktop, web, pantalla de registro, fondo claro con barra lateral azul a la derecha, logotipo \"Puzzleman\" arriba a la izquierda, botón “Log In” arriba a la derecha, título “Start Your 14-Day Free Trial Today”, subtítulo “No credit card required”, campo “First Name”, campo “Last Name” (horizontal), campo “Last Name” (vertical), campo “Password” con barra de fuerza, botón azul “Next” centrado, texto legal con enlaces a privacidad y términos, barra lateral con 5 pasos, paso 1 marcado, paso 2 activo, tipografía sans-serif, diseño centrado y limpio.",
+  "layout": [
+    {
+      "id": "115:426",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1440,
+        "height": 900
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:88",
+      "children": [
+        "115:427",
+        "115:428",
+        "115:430",
+        "115:433",
+        "115:434",
+        "115:439",
+        "115:443",
+        "115:483",
+        "115:490",
+        "115:493",
+        "115:497",
+        "115:498",
+        "115:499",
+        "115:500",
+        "115:503"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:427",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0.00048828125
+      },
+      "size": {
+        "width": 1440,
+        "height": 900
+      },
+      "parent": "115:426",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:428",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1440,
+        "height": 900
+      },
+      "parent": "115:426",
+      "children": [
+        "115:429"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:429",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1440,
+        "height": 900
+      },
+      "fillColor": "rgba(241,244,254,1.00)",
+      "parent": "115:428",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:430",
+      "type": "GROUP",
+      "position": {
+        "x": 248,
+        "y": 507.7998046875
+      },
+      "size": {
+        "width": 484.0000305175781,
+        "height": 48
+      },
+      "parent": "115:426",
+      "children": [
+        "115:431",
+        "115:432"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:431",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 248,
+        "y": 507.7998046875
+      },
+      "size": {
+        "width": 484.0000305175781,
+        "height": 48
+      },
+      "fillColor": "rgba(64,103,236,1.00)",
+      "parent": "115:430",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:432",
+      "type": "TEXT",
+      "position": {
+        "x": 473.5,
+        "y": 521.29931640625
+      },
+      "size": {
+        "width": 33,
+        "height": 23
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "NEXT",
+      "parent": "115:430",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:433",
+      "type": "TEXT",
+      "position": {
+        "x": 71,
+        "y": 26.20068359375
+      },
+      "size": {
+        "width": 74,
+        "height": 29
+      },
+      "fillColor": "rgba(33,33,33,1.00)",
+      "text": "Puzzleman",
+      "parent": "115:426",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:434",
+      "type": "GROUP",
+      "position": {
+        "x": 812.5,
+        "y": 28
+      },
+      "size": {
+        "width": 205.5,
+        "height": 28.95778465270996
+      },
+      "parent": "115:426",
+      "children": [
+        "115:435",
+        "115:438"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:435",
+      "type": "GROUP",
+      "position": {
+        "x": 930,
+        "y": 28
+      },
+      "size": {
+        "width": 88,
+        "height": 28.95778465270996
+      },
+      "parent": "115:434",
+      "children": [
+        "115:436",
+        "115:437"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:436",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 930,
+        "y": 28
+      },
+      "size": {
+        "width": 88,
+        "height": 28.95778465270996
+      },
+      "fillColor": "rgba(33,33,33,1.00)",
+      "parent": "115:435",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:437",
+      "type": "TEXT",
+      "position": {
+        "x": 954,
+        "y": 31
+      },
+      "size": {
+        "width": 39,
+        "height": 23
+      },
+      "fillColor": "rgba(33,33,33,1.00)",
+      "text": "Log In",
+      "parent": "115:435",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:438",
+      "type": "TEXT",
+      "position": {
+        "x": 812.5,
+        "y": 33
+      },
+      "size": {
+        "width": 109,
+        "height": 19
+      },
+      "fillColor": "rgba(66,66,66,1.00)",
+      "text": "Already a Member?",
+      "parent": "115:434",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:439",
+      "type": "FRAME",
+      "position": {
+        "x": 1050,
+        "y": 0
+      },
+      "size": {
+        "width": 389.9999694824219,
+        "height": 900
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:426",
+      "children": [
+        "115:440",
+        "115:441",
+        "115:442"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:440",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 389.9999694824219,
+        "height": 900
+      },
+      "parent": "115:439",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:441",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 389.9999694824219,
+        "height": 900
+      },
+      "parent": "115:439",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:442",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 389.9999694824219,
+        "height": 900
+      },
+      "parent": "115:439",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:443",
+      "type": "GROUP",
+      "position": {
+        "x": 1130.199951171875,
+        "y": 295.75
+      },
+      "size": {
+        "width": 230.5999755859375,
+        "height": 309.5
+      },
+      "parent": "115:426",
+      "children": [
+        "115:444",
+        "115:451",
+        "115:458",
+        "115:465",
+        "115:472",
+        "115:479",
+        "115:480",
+        "115:481",
+        "115:482"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:444",
+      "type": "GROUP",
+      "position": {
+        "x": 1130.699951171875,
+        "y": 295.75
+      },
+      "size": {
+        "width": 230.0999755859375,
+        "height": 37
+      },
+      "parent": "115:443",
+      "children": [
+        "115:445",
+        "115:448"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:445",
+      "type": "GROUP",
+      "position": {
+        "x": 1130.699951171875,
+        "y": 296.25
+      },
+      "size": {
+        "width": 28,
+        "height": 28
+      },
+      "parent": "115:444",
+      "children": [
+        "115:446",
+        "115:447"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:446",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 1130.699951171875,
+        "y": 296.25
+      },
+      "size": {
+        "width": 28,
+        "height": 28
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:445",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:447",
+      "type": "VECTOR",
+      "position": {
+        "x": 1137.699951171875,
+        "y": 306.25
+      },
+      "size": {
+        "width": 12.571429252624512,
+        "height": 8
+      },
+      "parent": "115:445",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:448",
+      "type": "GROUP",
+      "position": {
+        "x": 1175.199951171875,
+        "y": 295.75
+      },
+      "size": {
+        "width": 185.5999755859375,
+        "height": 37
+      },
+      "parent": "115:444",
+      "children": [
+        "115:449",
+        "115:450"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:449",
+      "type": "TEXT",
+      "position": {
+        "x": 1175.199951171875,
+        "y": 295.75
+      },
+      "size": {
+        "width": 40,
+        "height": 21
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "STEP 1",
+      "parent": "115:448",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:450",
+      "type": "TEXT",
+      "position": {
+        "x": 1175.7999267578125,
+        "y": 315.75
+      },
+      "size": {
+        "width": 185,
+        "height": 17
+      },
+      "fillColor": "rgba(250,250,250,1.00)",
+      "text": "Lorem ipsum dolor sit amet, consectetur.",
+      "parent": "115:448",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:451",
+      "type": "GROUP",
+      "position": {
+        "x": 1130.199951171875,
+        "y": 364.25
+      },
+      "size": {
+        "width": 229.5999755859375,
+        "height": 37
+      },
+      "parent": "115:443",
+      "children": [
+        "115:452",
+        "115:455"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:452",
+      "type": "GROUP",
+      "position": {
+        "x": 1130.199951171875,
+        "y": 364.75
+      },
+      "size": {
+        "width": 28,
+        "height": 28
+      },
+      "parent": "115:451",
+      "children": [
+        "115:453",
+        "115:454"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:453",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 1130.199951171875,
+        "y": 364.75
+      },
+      "size": {
+        "width": 28,
+        "height": 28
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:452",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:454",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 1140.699951171875,
+        "y": 375.25
+      },
+      "size": {
+        "width": 7,
+        "height": 7
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:452",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:455",
+      "type": "GROUP",
+      "position": {
+        "x": 1174.199951171875,
+        "y": 364.25
+      },
+      "size": {
+        "width": 185.5999755859375,
+        "height": 37
+      },
+      "parent": "115:451",
+      "children": [
+        "115:456",
+        "115:457"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:456",
+      "type": "TEXT",
+      "position": {
+        "x": 1174.199951171875,
+        "y": 364.25
+      },
+      "size": {
+        "width": 41,
+        "height": 21
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "STEP 2",
+      "parent": "115:455",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:457",
+      "type": "TEXT",
+      "position": {
+        "x": 1174.7999267578125,
+        "y": 384.25
+      },
+      "size": {
+        "width": 185,
+        "height": 17
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Lorem ipsum dolor sit amet, consectetur.",
+      "parent": "115:455",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:458",
+      "type": "GROUP",
+      "position": {
+        "x": 1130.199951171875,
+        "y": 432.25
+      },
+      "size": {
+        "width": 229.5999755859375,
+        "height": 37
+      },
+      "parent": "115:443",
+      "children": [
+        "115:459",
+        "115:462"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:459",
+      "type": "GROUP",
+      "position": {
+        "x": 1130.199951171875,
+        "y": 432.75
+      },
+      "size": {
+        "width": 28,
+        "height": 28
+      },
+      "parent": "115:458",
+      "children": [
+        "115:460",
+        "115:461"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:460",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 1130.199951171875,
+        "y": 432.75
+      },
+      "size": {
+        "width": 28,
+        "height": 28
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:459",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:461",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 1140.699951171875,
+        "y": 443.25
+      },
+      "size": {
+        "width": 7,
+        "height": 7
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:459",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:462",
+      "type": "GROUP",
+      "position": {
+        "x": 1173.699951171875,
+        "y": 432.25
+      },
+      "size": {
+        "width": 186.0999755859375,
+        "height": 37
+      },
+      "parent": "115:458",
+      "children": [
+        "115:463",
+        "115:464"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:463",
+      "type": "TEXT",
+      "position": {
+        "x": 1173.699951171875,
+        "y": 432.25
+      },
+      "size": {
+        "width": 41,
+        "height": 21
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "STEP 3",
+      "parent": "115:462",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:464",
+      "type": "TEXT",
+      "position": {
+        "x": 1174.7999267578125,
+        "y": 452.25
+      },
+      "size": {
+        "width": 185,
+        "height": 17
+      },
+      "fillColor": "rgba(255,255,255,0.80)",
+      "text": "Lorem ipsum dolor sit amet, consectetur.",
+      "parent": "115:462",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:465",
+      "type": "GROUP",
+      "position": {
+        "x": 1130.699951171875,
+        "y": 500.25
+      },
+      "size": {
+        "width": 229.5999755859375,
+        "height": 37
+      },
+      "parent": "115:443",
+      "children": [
+        "115:466",
+        "115:469"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:466",
+      "type": "GROUP",
+      "position": {
+        "x": 1130.699951171875,
+        "y": 500.75
+      },
+      "size": {
+        "width": 28,
+        "height": 28
+      },
+      "parent": "115:465",
+      "children": [
+        "115:467",
+        "115:468"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:467",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 1130.699951171875,
+        "y": 500.75
+      },
+      "size": {
+        "width": 28,
+        "height": 28
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:466",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:468",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 1141.199951171875,
+        "y": 511.25
+      },
+      "size": {
+        "width": 7,
+        "height": 7
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:466",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:469",
+      "type": "GROUP",
+      "position": {
+        "x": 1174.199951171875,
+        "y": 500.25
+      },
+      "size": {
+        "width": 186.0999755859375,
+        "height": 37
+      },
+      "parent": "115:465",
+      "children": [
+        "115:470",
+        "115:471"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:470",
+      "type": "TEXT",
+      "position": {
+        "x": 1174.199951171875,
+        "y": 500.25
+      },
+      "size": {
+        "width": 41,
+        "height": 21
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "STEP 4",
+      "parent": "115:469",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:471",
+      "type": "TEXT",
+      "position": {
+        "x": 1175.2999267578125,
+        "y": 520.25
+      },
+      "size": {
+        "width": 185,
+        "height": 17
+      },
+      "fillColor": "rgba(255,255,255,0.80)",
+      "text": "Lorem ipsum dolor sit amet, consectetur.",
+      "parent": "115:469",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:472",
+      "type": "GROUP",
+      "position": {
+        "x": 1130.699951171875,
+        "y": 568.25
+      },
+      "size": {
+        "width": 229.5999755859375,
+        "height": 37
+      },
+      "parent": "115:443",
+      "children": [
+        "115:473",
+        "115:476"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:473",
+      "type": "GROUP",
+      "position": {
+        "x": 1130.699951171875,
+        "y": 568.75
+      },
+      "size": {
+        "width": 28,
+        "height": 28
+      },
+      "parent": "115:472",
+      "children": [
+        "115:474",
+        "115:475"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:474",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 1130.699951171875,
+        "y": 568.75
+      },
+      "size": {
+        "width": 28,
+        "height": 28
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:473",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:475",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 1141.199951171875,
+        "y": 579.25
+      },
+      "size": {
+        "width": 7,
+        "height": 7
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:473",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:476",
+      "type": "GROUP",
+      "position": {
+        "x": 1174.199951171875,
+        "y": 568.25
+      },
+      "size": {
+        "width": 186.0999755859375,
+        "height": 37
+      },
+      "parent": "115:472",
+      "children": [
+        "115:477",
+        "115:478"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:477",
+      "type": "TEXT",
+      "position": {
+        "x": 1174.199951171875,
+        "y": 568.25
+      },
+      "size": {
+        "width": 70,
+        "height": 21
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "FINAL STEP",
+      "parent": "115:476",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:478",
+      "type": "TEXT",
+      "position": {
+        "x": 1175.2999267578125,
+        "y": 588.25
+      },
+      "size": {
+        "width": 185,
+        "height": 17
+      },
+      "fillColor": "rgba(255,255,255,0.80)",
+      "text": "Lorem ipsum dolor sit amet, consectetur.",
+      "parent": "115:476",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:479",
+      "type": "VECTOR",
+      "position": {
+        "x": 1143.2999267578125,
+        "y": 323.75
+      },
+      "size": {
+        "width": 2,
+        "height": 41.5
+      },
+      "parent": "115:443",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:480",
+      "type": "VECTOR",
+      "position": {
+        "x": 1143.2999267578125,
+        "y": 392.2919921875
+      },
+      "size": {
+        "width": 2,
+        "height": 40.9580078125
+      },
+      "parent": "115:443",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:481",
+      "type": "VECTOR",
+      "position": {
+        "x": 1143.2999267578125,
+        "y": 460.2919921875
+      },
+      "size": {
+        "width": 2,
+        "height": 40.9580078125
+      },
+      "parent": "115:443",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:482",
+      "type": "VECTOR",
+      "position": {
+        "x": 1143.2999267578125,
+        "y": 528.7919921875
+      },
+      "size": {
+        "width": 2,
+        "height": 40.9580078125
+      },
+      "parent": "115:443",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:483",
+      "type": "GROUP",
+      "position": {
+        "x": 248,
+        "y": 295.7998046875
+      },
+      "size": {
+        "width": 485.00006103515625,
+        "height": 48
+      },
+      "parent": "115:426",
+      "children": [
+        "115:484",
+        "115:487"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:484",
+      "type": "GROUP",
+      "position": {
+        "x": 248,
+        "y": 295.7998046875
+      },
+      "size": {
+        "width": 238.4917449951172,
+        "height": 48
+      },
+      "parent": "115:483",
+      "children": [
+        "115:485",
+        "115:486"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:485",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 248,
+        "y": 295.7998046875
+      },
+      "size": {
+        "width": 238.4917449951172,
+        "height": 48
+      },
+      "fillColor": "rgba(245,245,245,1.00)",
+      "parent": "115:484",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:486",
+      "type": "TEXT",
+      "position": {
+        "x": 264.0330581665039,
+        "y": 307.7998046875
+      },
+      "size": {
+        "width": 62.12810516357422,
+        "height": 23
+      },
+      "fillColor": "rgba(97,97,97,1.00)",
+      "text": "First Name",
+      "parent": "115:484",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:487",
+      "type": "GROUP",
+      "position": {
+        "x": 494.50830078125,
+        "y": 295.7998046875
+      },
+      "size": {
+        "width": 238.4917449951172,
+        "height": 48
+      },
+      "parent": "115:483",
+      "children": [
+        "115:488",
+        "115:489"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:488",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 494.50830078125,
+        "y": 295.7998046875
+      },
+      "size": {
+        "width": 238.4917449951172,
+        "height": 48
+      },
+      "fillColor": "rgba(245,245,245,1.00)",
+      "parent": "115:487",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:489",
+      "type": "TEXT",
+      "position": {
+        "x": 509.6591796875,
+        "y": 307.7998046875
+      },
+      "size": {
+        "width": 58,
+        "height": 23
+      },
+      "fillColor": "rgba(97,97,97,1.00)",
+      "text": "LastName",
+      "parent": "115:487",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:490",
+      "type": "GROUP",
+      "position": {
+        "x": 248,
+        "y": 352.7998046875
+      },
+      "size": {
+        "width": 484,
+        "height": 48
+      },
+      "parent": "115:426",
+      "children": [
+        "115:491",
+        "115:492"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:491",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 248,
+        "y": 352.7998046875
+      },
+      "size": {
+        "width": 484,
+        "height": 48
+      },
+      "fillColor": "rgba(245,245,245,1.00)",
+      "parent": "115:490",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:492",
+      "type": "TEXT",
+      "position": {
+        "x": 264,
+        "y": 364.7998046875
+      },
+      "size": {
+        "width": 115.91596984863281,
+        "height": 23
+      },
+      "fillColor": "rgba(97,97,97,1.00)",
+      "text": "LastName",
+      "parent": "115:490",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:493",
+      "type": "GROUP",
+      "position": {
+        "x": 248,
+        "y": 409.7998046875
+      },
+      "size": {
+        "width": 484,
+        "height": 48
+      },
+      "parent": "115:426",
+      "children": [
+        "115:494",
+        "115:495",
+        "115:496"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:494",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 248,
+        "y": 409.7998046875
+      },
+      "size": {
+        "width": 484,
+        "height": 48
+      },
+      "fillColor": "rgba(245,245,245,1.00)",
+      "parent": "115:493",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:495",
+      "type": "INSTANCE",
+      "position": {
+        "x": 700,
+        "y": 425.7998046875
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "parent": "115:493",
+      "children": [
+        "I115:495;10:3"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:495;10:3",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "parent": "115:495",
+      "children": [
+        "I115:495;10:4",
+        "I115:495;10:5",
+        "I115:495;10:8"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:495;10:4",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I115:495;10:3",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:495;10:5",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 0,
+        "y": 2.5
+      },
+      "size": {
+        "width": 16,
+        "height": 11.000000953674316
+      },
+      "fillColor": "rgba(190,190,190,1.00)",
+      "parent": "I115:495;10:3",
+      "children": [
+        "I115:495;10:6",
+        "I115:495;10:7"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:495;10:6",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 2.5
+      },
+      "size": {
+        "width": 16,
+        "height": 11.000000953674316
+      },
+      "parent": "I115:495;10:5",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:495;10:7",
+      "type": "VECTOR",
+      "position": {
+        "x": 1.1719970703125,
+        "y": 3.5000001192092896
+      },
+      "size": {
+        "width": 13.656005859375,
+        "height": 9.000000953674316
+      },
+      "parent": "I115:495;10:5",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:495;10:8",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "size": {
+        "width": 7,
+        "height": 6.999999046325684
+      },
+      "fillColor": "rgba(190,190,190,1.00)",
+      "parent": "I115:495;10:3",
+      "children": [
+        "I115:495;10:9",
+        "I115:495;10:10"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:495;10:9",
+      "type": "VECTOR",
+      "position": {
+        "x": 5.5,
+        "y": 5.5
+      },
+      "size": {
+        "width": 4.999994277954102,
+        "height": 5
+      },
+      "parent": "I115:495;10:8",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:495;10:10",
+      "type": "VECTOR",
+      "position": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "size": {
+        "width": 7,
+        "height": 6.999999046325684
+      },
+      "parent": "I115:495;10:8",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:496",
+      "type": "TEXT",
+      "position": {
+        "x": 264,
+        "y": 421.7998046875
+      },
+      "size": {
+        "width": 115.91596984863281,
+        "height": 23
+      },
+      "fillColor": "rgba(97,97,97,1.00)",
+      "text": "Password",
+      "parent": "115:493",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:497",
+      "type": "TEXT",
+      "position": {
+        "x": 304,
+        "y": 184
+      },
+      "size": {
+        "width": 373,
+        "height": 44
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "text": "Start Your 14-Day Free Trial Today.",
+      "parent": "115:426",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:498",
+      "type": "TEXT",
+      "position": {
+        "x": 248,
+        "y": 571.7998046875
+      },
+      "size": {
+        "width": 484,
+        "height": 15
+      },
+      "text": "By Creating an Account, it means you agree to our Privacy Policy and Terms of Service",
+      "parent": "115:426",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:499",
+      "type": "TEXT",
+      "position": {
+        "x": 391.9998779296875,
+        "y": 232
+      },
+      "size": {
+        "width": 194,
+        "height": 19
+      },
+      "fillColor": "rgba(97,97,97,1.00)",
+      "text": "NO CREDIT CARD REQUIRED!",
+      "parent": "115:426",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:500",
+      "type": "GROUP",
+      "position": {
+        "x": 45,
+        "y": 28.20068359375
+      },
+      "size": {
+        "width": 24,
+        "height": 24
+      },
+      "parent": "115:426",
+      "children": [
+        "115:501",
+        "115:502"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:501",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 45,
+        "y": 28.20068359375
+      },
+      "size": {
+        "width": 24,
+        "height": 24
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "115:500",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:502",
+      "type": "VECTOR",
+      "position": {
+        "x": 47.880126953125,
+        "y": 28.6806640625
+      },
+      "size": {
+        "width": 19.199871063232422,
+        "height": 22.079999923706055
+      },
+      "fillColor": "rgba(66,66,66,1.00)",
+      "parent": "115:500",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:503",
+      "type": "GROUP",
+      "position": {
+        "x": 248,
+        "y": 467.7998046875
+      },
+      "size": {
+        "width": 484.9898986816406,
+        "height": 22.5
+      },
+      "parent": "115:426",
+      "children": [
+        "115:504",
+        "115:508"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:504",
+      "type": "GROUP",
+      "position": {
+        "x": 248,
+        "y": 467.7998046875
+      },
+      "size": {
+        "width": 484.9898986816406,
+        "height": 2
+      },
+      "parent": "115:503",
+      "children": [
+        "115:505",
+        "115:506",
+        "115:507"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:505",
+      "type": "VECTOR",
+      "position": {
+        "x": 248,
+        "y": 467.7998046875
+      },
+      "size": {
+        "width": 156.32998657226562,
+        "height": 2
+      },
+      "parent": "115:504",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:506",
+      "type": "VECTOR",
+      "position": {
+        "x": 412.3299560546875,
+        "y": 467.7998046875
+      },
+      "size": {
+        "width": 156.32998657226562,
+        "height": 2
+      },
+      "parent": "115:504",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:507",
+      "type": "VECTOR",
+      "position": {
+        "x": 576.659912109375,
+        "y": 467.7998046875
+      },
+      "size": {
+        "width": 156.32998657226562,
+        "height": 2
+      },
+      "parent": "115:504",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:508",
+      "type": "TEXT",
+      "position": {
+        "x": 646,
+        "y": 475.2998046875
+      },
+      "size": {
+        "width": 86,
+        "height": 15
+      },
+      "fillColor": "rgba(97,97,97,1.00)",
+      "text": "Password Strength",
+      "parent": "115:503",
+      "rotation": 0,
+      "opacity": 1
+    }
+  ]
+}

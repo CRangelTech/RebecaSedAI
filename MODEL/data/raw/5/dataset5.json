@@ -1,0 +1,1776 @@
+{
+  "prompt": "desktop, web, pantalla de registro, logotipo con ícono circular blanco y texto \"HighBridge\" alineado a la izquierda, título \"Building the Future...\" centrado a la izquierda, párrafo de texto ficticio debajo del título, carrusel con 3 indicadores circulares al pie del texto, formulario de registro alineado a la derecha sobre fondo blanco con bordes redondeados, título \"Crear cuenta\" centrado en la parte superior del formulario, 3 campos de entrada verticales para nombre, correo y contraseña, botón negro \"Empecemos\" centrado, texto \"Or\" con línea divisoria horizontal, 3 botones blancos para registro con Google, Facebook y Apple con íconos alineados a la izquierda, enlace inferior \"INICIAR SESIÓN AQUÍ\" en negro, tipografía sans-serif, diseño dividido en dos columnas simétricas.",
+  "layout": [
+    {
+      "id": "114:89",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1440,
+        "height": 900
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:88",
+      "children": [
+        "114:90",
+        "114:91",
+        "114:92",
+        "114:151",
+        "114:181"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:90",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0.000152587890625,
+        "y": 0
+      },
+      "size": {
+        "width": 1440,
+        "height": 900
+      },
+      "parent": "114:89",
+      "rotation": 0
+    },
+    {
+      "id": "114:91",
+      "type": "RECTANGLE",
+      "position": {
+        "x": -0.000030517578125,
+        "y": 0
+      },
+      "size": {
+        "width": 1440,
+        "height": 900
+      },
+      "parent": "114:89",
+      "rotation": 0
+    },
+    {
+      "id": "114:92",
+      "type": "FRAME",
+      "position": {
+        "x": 729.5003662109375,
+        "y": 132.00003051757812
+      },
+      "size": {
+        "width": 460,
+        "height": 768
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:89",
+      "children": [
+        "114:93",
+        "114:94",
+        "114:97",
+        "114:121",
+        "114:146",
+        "114:150"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:93",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 460,
+        "height": 768
+      },
+      "fillColor": "rgba(250,250,250,1.00)",
+      "parent": "114:92",
+      "rotation": 0
+    },
+    {
+      "id": "114:94",
+      "type": "FRAME",
+      "position": {
+        "x": 40.0001220703125,
+        "y": 39.5
+      },
+      "size": {
+        "width": 204,
+        "height": 67
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:92",
+      "children": [
+        "114:95",
+        "114:96"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:95",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 146,
+        "height": 23
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "text": "LET'S GET YOU STARTED",
+      "parent": "114:94",
+      "rotation": 0
+    },
+    {
+      "id": "114:96",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 23
+      },
+      "size": {
+        "width": 204,
+        "height": 44
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "text": "Create an Account",
+      "parent": "114:94",
+      "rotation": 0
+    },
+    {
+      "id": "114:97",
+      "type": "FRAME",
+      "position": {
+        "x": 40.4996337890625,
+        "y": 131
+      },
+      "size": {
+        "width": 380,
+        "height": 291
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:92",
+      "children": [
+        "114:98",
+        "114:118"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:98",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 380,
+        "height": 219
+      },
+      "parent": "114:97",
+      "children": [
+        "114:99",
+        "114:105",
+        "114:111"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:99",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 380,
+        "height": 66.99999237060547
+      },
+      "parent": "114:98",
+      "children": [
+        "114:100",
+        "114:101",
+        "114:102"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:100",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 11
+      },
+      "size": {
+        "width": 380,
+        "height": 55.99999237060547
+      },
+      "fillColor": "rgba(66,66,66,1.00)",
+      "parent": "114:99",
+      "rotation": 0
+    },
+    {
+      "id": "114:101",
+      "type": "TEXT",
+      "position": {
+        "x": 16,
+        "y": 25
+      },
+      "size": {
+        "width": 100.81632995605469,
+        "height": 29
+      },
+      "fillColor": "rgba(117,117,117,1.00)",
+      "text": "Johnson Doe",
+      "parent": "114:99",
+      "rotation": 0
+    },
+    {
+      "id": "114:102",
+      "type": "FRAME",
+      "position": {
+        "x": 11.1785888671875,
+        "y": 0
+      },
+      "size": {
+        "width": 79.76676177978516,
+        "height": 22.999998092651367
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:99",
+      "children": [
+        "114:103",
+        "114:104"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:103",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 79.76676177978516,
+        "height": 22.999998092651367
+      },
+      "fillColor": "rgba(250,250,250,1.00)",
+      "parent": "114:102",
+      "rotation": 0
+    },
+    {
+      "id": "114:104",
+      "type": "TEXT",
+      "position": {
+        "x": 5.5394287109375,
+        "y": 0
+      },
+      "size": {
+        "width": 68.68804931640625,
+        "height": 23
+      },
+      "fillColor": "rgba(117,117,117,1.00)",
+      "text": "Your Name",
+      "parent": "114:102",
+      "rotation": 0
+    },
+    {
+      "id": "114:105",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 76
+      },
+      "size": {
+        "width": 380,
+        "height": 66.99999237060547
+      },
+      "parent": "114:98",
+      "children": [
+        "114:106",
+        "114:107",
+        "114:108"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:106",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 87
+      },
+      "size": {
+        "width": 380,
+        "height": 55.99999237060547
+      },
+      "fillColor": "rgba(66,66,66,1.00)",
+      "parent": "114:105",
+      "rotation": 0
+    },
+    {
+      "id": "114:107",
+      "type": "TEXT",
+      "position": {
+        "x": 16,
+        "y": 101.00003051757812
+      },
+      "size": {
+        "width": 174,
+        "height": 29
+      },
+      "fillColor": "rgba(66,66,66,1.00)",
+      "text": "johnsondoe@nomail.com",
+      "parent": "114:105",
+      "rotation": 0
+    },
+    {
+      "id": "114:108",
+      "type": "FRAME",
+      "position": {
+        "x": 11.1727294921875,
+        "y": 76
+      },
+      "size": {
+        "width": 54,
+        "height": 22.999998092651367
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:105",
+      "children": [
+        "114:109",
+        "114:110"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:109",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 54,
+        "height": 22.999998092651367
+      },
+      "fillColor": "rgba(250,250,250,1.00)",
+      "parent": "114:108",
+      "rotation": 0
+    },
+    {
+      "id": "114:110",
+      "type": "TEXT",
+      "position": {
+        "x": 5.5452880859375,
+        "y": 0
+      },
+      "size": {
+        "width": 44,
+        "height": 23
+      },
+      "fillColor": "rgba(66,66,66,1.00)",
+      "text": "Email",
+      "parent": "114:108",
+      "rotation": 0
+    },
+    {
+      "id": "114:111",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 152
+      },
+      "size": {
+        "width": 380,
+        "height": 67
+      },
+      "parent": "114:98",
+      "children": [
+        "114:112",
+        "114:113",
+        "114:114",
+        "114:115"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:112",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 163
+      },
+      "size": {
+        "width": 380,
+        "height": 56
+      },
+      "fillColor": "rgba(66,66,66,1.00)",
+      "parent": "114:111",
+      "rotation": 0
+    },
+    {
+      "id": "114:113",
+      "type": "INSTANCE",
+      "position": {
+        "x": 356,
+        "y": 183
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "parent": "114:111",
+      "children": [
+        "I114:113;10:3"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I114:113;10:3",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "parent": "114:113",
+      "children": [
+        "I114:113;10:4",
+        "I114:113;10:5",
+        "I114:113;10:8"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I114:113;10:4",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I114:113;10:3",
+      "rotation": 0
+    },
+    {
+      "id": "I114:113;10:5",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 0,
+        "y": 2.5
+      },
+      "size": {
+        "width": 16,
+        "height": 11.000000953674316
+      },
+      "fillColor": "rgba(190,190,190,1.00)",
+      "parent": "I114:113;10:3",
+      "children": [
+        "I114:113;10:6",
+        "I114:113;10:7"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I114:113;10:6",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 2.5
+      },
+      "size": {
+        "width": 16,
+        "height": 11.000000953674316
+      },
+      "parent": "I114:113;10:5",
+      "rotation": 0
+    },
+    {
+      "id": "I114:113;10:7",
+      "type": "VECTOR",
+      "position": {
+        "x": 1.1719970703125,
+        "y": 3.5000001192092896
+      },
+      "size": {
+        "width": 13.656005859375,
+        "height": 9.000000953674316
+      },
+      "parent": "I114:113;10:5",
+      "rotation": 0
+    },
+    {
+      "id": "I114:113;10:8",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "size": {
+        "width": 7,
+        "height": 6.999999046325684
+      },
+      "fillColor": "rgba(190,190,190,1.00)",
+      "parent": "I114:113;10:3",
+      "children": [
+        "I114:113;10:9",
+        "I114:113;10:10"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I114:113;10:9",
+      "type": "VECTOR",
+      "position": {
+        "x": 5.5,
+        "y": 5.5
+      },
+      "size": {
+        "width": 4.999994277954102,
+        "height": 5
+      },
+      "parent": "I114:113;10:8",
+      "rotation": 0
+    },
+    {
+      "id": "I114:113;10:10",
+      "type": "VECTOR",
+      "position": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "size": {
+        "width": 7,
+        "height": 6.999999046325684
+      },
+      "parent": "I114:113;10:8",
+      "rotation": 0
+    },
+    {
+      "id": "114:114",
+      "type": "TEXT",
+      "position": {
+        "x": 16,
+        "y": 176.99993896484375
+      },
+      "size": {
+        "width": 174,
+        "height": 29
+      },
+      "fillColor": "rgba(117,117,117,1.00)",
+      "text": "***************",
+      "parent": "114:111",
+      "rotation": 0
+    },
+    {
+      "id": "114:115",
+      "type": "FRAME",
+      "position": {
+        "x": 11.1727294921875,
+        "y": 152
+      },
+      "size": {
+        "width": 67,
+        "height": 23.0000057220459
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:111",
+      "children": [
+        "114:116",
+        "114:117"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:116",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 67,
+        "height": 23.0000057220459
+      },
+      "fillColor": "rgba(250,250,250,1.00)",
+      "parent": "114:115",
+      "rotation": 0
+    },
+    {
+      "id": "114:117",
+      "type": "TEXT",
+      "position": {
+        "x": 5.5452880859375,
+        "y": 0
+      },
+      "size": {
+        "width": 58.000003814697266,
+        "height": 23
+      },
+      "fillColor": "rgba(117,117,117,1.00)",
+      "text": "Password",
+      "parent": "114:115",
+      "rotation": 0
+    },
+    {
+      "id": "114:118",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 235
+      },
+      "size": {
+        "width": 380,
+        "height": 56
+      },
+      "parent": "114:97",
+      "children": [
+        "114:119",
+        "114:120"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:119",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 235
+      },
+      "size": {
+        "width": 380,
+        "height": 56
+      },
+      "fillColor": "rgba(33,33,33,1.00)",
+      "parent": "114:118",
+      "rotation": 0
+    },
+    {
+      "id": "114:120",
+      "type": "TEXT",
+      "position": {
+        "x": 47.5,
+        "y": 242
+      },
+      "size": {
+        "width": 285,
+        "height": 42
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "GET STARTED",
+      "parent": "114:118",
+      "rotation": 0
+    },
+    {
+      "id": "114:121",
+      "type": "FRAME",
+      "position": {
+        "x": 40.4996337890625,
+        "y": 476.9999694824219
+      },
+      "size": {
+        "width": 380,
+        "height": 162
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:92",
+      "children": [
+        "114:122",
+        "114:131",
+        "114:138"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:122",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 380,
+        "height": 48
+      },
+      "parent": "114:121",
+      "children": [
+        "114:123",
+        "114:124",
+        "114:125"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:123",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 380,
+        "height": 48
+      },
+      "fillColor": "rgba(250,250,250,1.00)",
+      "parent": "114:122",
+      "rotation": 0
+    },
+    {
+      "id": "114:124",
+      "type": "TEXT",
+      "position": {
+        "x": 47,
+        "y": 6
+      },
+      "size": {
+        "width": 285,
+        "height": 36
+      },
+      "fillColor": "rgba(97,97,97,1.00)",
+      "text": "Sign up with Google",
+      "parent": "114:122",
+      "rotation": 0
+    },
+    {
+      "id": "114:125",
+      "type": "GROUP",
+      "position": {
+        "x": 40,
+        "y": 15
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "parent": "114:122",
+      "children": [
+        "114:126",
+        "114:127",
+        "114:128",
+        "114:129",
+        "114:130"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:126",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 40,
+        "y": 15
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "114:125",
+      "rotation": 0
+    },
+    {
+      "id": "114:127",
+      "type": "VECTOR",
+      "position": {
+        "x": 41.5,
+        "y": 16.5
+      },
+      "size": {
+        "width": 15,
+        "height": 15
+      },
+      "fillColor": "rgba(255,193,7,1.00)",
+      "parent": "114:125",
+      "rotation": 0
+    },
+    {
+      "id": "114:128",
+      "type": "VECTOR",
+      "position": {
+        "x": 42.36474609375,
+        "y": 16.5
+      },
+      "size": {
+        "width": 11.742000579833984,
+        "height": 5.816249847412109
+      },
+      "fillColor": "rgba(255,61,0,1.00)",
+      "parent": "114:125",
+      "rotation": 0
+    },
+    {
+      "id": "114:129",
+      "type": "VECTOR",
+      "position": {
+        "x": 42.3231201171875,
+        "y": 25.520263671875
+      },
+      "size": {
+        "width": 11.705249786376953,
+        "height": 5.97974967956543
+      },
+      "fillColor": "rgba(76,175,80,1.00)",
+      "parent": "114:125",
+      "rotation": 0
+    },
+    {
+      "id": "114:130",
+      "type": "VECTOR",
+      "position": {
+        "x": 49,
+        "y": 22.5
+      },
+      "size": {
+        "width": 7.5,
+        "height": 7.060589790344238
+      },
+      "fillColor": "rgba(25,118,210,1.00)",
+      "parent": "114:125",
+      "rotation": 0
+    },
+    {
+      "id": "114:131",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 57
+      },
+      "size": {
+        "width": 380,
+        "height": 48
+      },
+      "parent": "114:121",
+      "children": [
+        "114:132",
+        "114:133",
+        "114:137"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:132",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 57
+      },
+      "size": {
+        "width": 380,
+        "height": 48
+      },
+      "fillColor": "rgba(250,250,250,1.00)",
+      "parent": "114:131",
+      "rotation": 0
+    },
+    {
+      "id": "114:133",
+      "type": "GROUP",
+      "position": {
+        "x": 40,
+        "y": 72
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "parent": "114:131",
+      "children": [
+        "114:134",
+        "114:135",
+        "114:136"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:134",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 40,
+        "y": 72
+      },
+      "size": {
+        "width": 18,
+        "height": 18
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "114:133",
+      "rotation": 0
+    },
+    {
+      "id": "114:135",
+      "type": "VECTOR",
+      "position": {
+        "x": 41.875,
+        "y": 73.875
+      },
+      "size": {
+        "width": 14.249982833862305,
+        "height": 14.25
+      },
+      "fillColor": "rgba(3,155,229,1.00)",
+      "parent": "114:133",
+      "rotation": 0
+    },
+    {
+      "id": "114:136",
+      "type": "VECTOR",
+      "position": {
+        "x": 46.17138671875,
+        "y": 76.80035400390625
+      },
+      "size": {
+        "width": 5.944499969482422,
+        "height": 11.324625015258789
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:133",
+      "rotation": 0
+    },
+    {
+      "id": "114:137",
+      "type": "TEXT",
+      "position": {
+        "x": 47,
+        "y": 63
+      },
+      "size": {
+        "width": 285,
+        "height": 36
+      },
+      "fillColor": "rgba(97,97,97,1.00)",
+      "text": "Sign up with Facebook",
+      "parent": "114:131",
+      "rotation": 0
+    },
+    {
+      "id": "114:138",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 114
+      },
+      "size": {
+        "width": 380,
+        "height": 48
+      },
+      "parent": "114:121",
+      "children": [
+        "114:139",
+        "114:140",
+        "114:141"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:139",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 114
+      },
+      "size": {
+        "width": 380,
+        "height": 48
+      },
+      "fillColor": "rgba(250,250,250,1.00)",
+      "parent": "114:138",
+      "rotation": 0
+    },
+    {
+      "id": "114:140",
+      "type": "TEXT",
+      "position": {
+        "x": 47,
+        "y": 120
+      },
+      "size": {
+        "width": 285,
+        "height": 36
+      },
+      "fillColor": "rgba(97,97,97,1.00)",
+      "text": "Sign up with Apple",
+      "parent": "114:138",
+      "rotation": 0
+    },
+    {
+      "id": "114:141",
+      "type": "GROUP",
+      "position": {
+        "x": 40,
+        "y": 129
+      },
+      "size": {
+        "width": 13.5,
+        "height": 18
+      },
+      "parent": "114:138",
+      "children": [
+        "114:142",
+        "114:143"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:142",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 40,
+        "y": 129
+      },
+      "size": {
+        "width": 13.5,
+        "height": 18
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "114:141",
+      "rotation": 0
+    },
+    {
+      "id": "114:143",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 40.140625,
+        "y": 130.125
+      },
+      "size": {
+        "width": 13.23281192779541,
+        "height": 15.747117042541504
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "114:141",
+      "children": [
+        "114:144",
+        "114:145"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:144",
+      "type": "VECTOR",
+      "position": {
+        "x": 40.140625,
+        "y": 133.88909912109375
+      },
+      "size": {
+        "width": 13.23281192779541,
+        "height": 11.983016967773438
+      },
+      "parent": "114:143",
+      "rotation": 0
+    },
+    {
+      "id": "114:145",
+      "type": "VECTOR",
+      "position": {
+        "x": 46.7607421875,
+        "y": 130.125
+      },
+      "size": {
+        "width": 3.3129000663757324,
+        "height": 3.761594295501709
+      },
+      "parent": "114:143",
+      "rotation": 0
+    },
+    {
+      "id": "114:146",
+      "type": "GROUP",
+      "position": {
+        "x": 40.4996337890625,
+        "y": 439.4999694824219
+      },
+      "size": {
+        "width": 380,
+        "height": 20.5
+      },
+      "parent": "114:92",
+      "children": [
+        "114:147",
+        "114:148",
+        "114:149"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:147",
+      "type": "VECTOR",
+      "position": {
+        "x": 40.4996337890625,
+        "y": 448.7499694824219
+      },
+      "size": {
+        "width": 380,
+        "height": 2
+      },
+      "parent": "114:146",
+      "rotation": 0
+    },
+    {
+      "id": "114:148",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 206.4996337890625,
+        "y": 439.4999694824219
+      },
+      "size": {
+        "width": 48,
+        "height": 20.5
+      },
+      "fillColor": "rgba(250,250,250,1.00)",
+      "parent": "114:146",
+      "rotation": 0
+    },
+    {
+      "id": "114:149",
+      "type": "TEXT",
+      "position": {
+        "x": 223.4996337890625,
+        "y": 440.2499694824219
+      },
+      "size": {
+        "width": 15,
+        "height": 19
+      },
+      "fillColor": "rgba(33,33,33,1.00)",
+      "text": "Or",
+      "parent": "114:146",
+      "rotation": 0
+    },
+    {
+      "id": "114:150",
+      "type": "TEXT",
+      "position": {
+        "x": 119.9996337890625,
+        "y": 687.5
+      },
+      "size": {
+        "width": 220,
+        "height": 19
+      },
+      "fillColor": "rgba(33,33,33,1.00)",
+      "text": "Already have an account? LOGIN HERE",
+      "parent": "114:92",
+      "rotation": 0
+    },
+    {
+      "id": "114:151",
+      "type": "GROUP",
+      "position": {
+        "x": 250,
+        "y": 216.00003051757812
+      },
+      "size": {
+        "width": 273.6589050292969,
+        "height": 64
+      },
+      "parent": "114:89",
+      "children": [
+        "114:152",
+        "114:153"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:152",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 250,
+        "y": 216.00003051757812
+      },
+      "size": {
+        "width": 273.6589050292969,
+        "height": 64
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "114:151",
+      "rotation": 0
+    },
+    {
+      "id": "114:153",
+      "type": "GROUP",
+      "position": {
+        "x": 249.97943115234375,
+        "y": 216.00003051757812
+      },
+      "size": {
+        "width": 273.67987060546875,
+        "height": 64.00000762939453
+      },
+      "parent": "114:151",
+      "children": [
+        "114:154",
+        "114:155"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:154",
+      "type": "VECTOR",
+      "position": {
+        "x": 249.97943115234375,
+        "y": 216.00003051757812
+      },
+      "size": {
+        "width": 64.02530670166016,
+        "height": 64.00000762939453
+      },
+      "parent": "114:153",
+      "rotation": 0
+    },
+    {
+      "id": "114:155",
+      "type": "GROUP",
+      "position": {
+        "x": 326.9991455078125,
+        "y": 235.61102294921875
+      },
+      "size": {
+        "width": 196.66017150878906,
+        "height": 37.060935974121094
+      },
+      "parent": "114:153",
+      "children": [
+        "114:156",
+        "114:159",
+        "114:162",
+        "114:165",
+        "114:168",
+        "114:169",
+        "114:173",
+        "114:174",
+        "114:177",
+        "114:180"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:156",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 504.2752685546875,
+        "y": 244.05859375
+      },
+      "size": {
+        "width": 19.384044647216797,
+        "height": 20.242000579833984
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:155",
+      "children": [
+        "114:157",
+        "114:158"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:157",
+      "type": "VECTOR",
+      "position": {
+        "x": 504.2752685546875,
+        "y": 244.05859375
+      },
+      "size": {
+        "width": 19.384033203125,
+        "height": 20.242000579833984
+      },
+      "parent": "114:156",
+      "rotation": 0
+    },
+    {
+      "id": "114:158",
+      "type": "VECTOR",
+      "position": {
+        "x": 509.5484619140625,
+        "y": 248.20669555664062
+      },
+      "size": {
+        "width": 9.187498092651367,
+        "height": 3.529686450958252
+      },
+      "parent": "114:156",
+      "rotation": 0
+    },
+    {
+      "id": "114:159",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 481.30096435546875,
+        "y": 244.0550537109375
+      },
+      "size": {
+        "width": 19.916568756103516,
+        "height": 28.616865158081055
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:155",
+      "children": [
+        "114:160",
+        "114:161"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:160",
+      "type": "VECTOR",
+      "position": {
+        "x": 481.30096435546875,
+        "y": 244.0550537109375
+      },
+      "size": {
+        "width": 19.91656494140625,
+        "height": 28.616867065429688
+      },
+      "parent": "114:159",
+      "rotation": 0
+    },
+    {
+      "id": "114:161",
+      "type": "VECTOR",
+      "position": {
+        "x": 486.406005859375,
+        "y": 248.63394165039062
+      },
+      "size": {
+        "width": 9.96342945098877,
+        "height": 10.4686279296875
+      },
+      "parent": "114:159",
+      "rotation": 0
+    },
+    {
+      "id": "114:162",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 458.2607421875,
+        "y": 235.92315673828125
+      },
+      "size": {
+        "width": 20.00384521484375,
+        "height": 28.377593994140625
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:155",
+      "children": [
+        "114:163",
+        "114:164"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:163",
+      "type": "VECTOR",
+      "position": {
+        "x": 458.2607421875,
+        "y": 235.92315673828125
+      },
+      "size": {
+        "width": 20.00384521484375,
+        "height": 28.377593994140625
+      },
+      "parent": "114:162",
+      "rotation": 0
+    },
+    {
+      "id": "114:164",
+      "type": "VECTOR",
+      "position": {
+        "x": 463.33660888671875,
+        "y": 248.75482177734375
+      },
+      "size": {
+        "width": 10.157661437988281,
+        "height": 10.85167407989502
+      },
+      "parent": "114:162",
+      "rotation": 0
+    },
+    {
+      "id": "114:165",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 448.775390625,
+        "y": 235.61102294921875
+      },
+      "size": {
+        "width": 6.551826477050781,
+        "height": 28.066951751708984
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:155",
+      "children": [
+        "114:166",
+        "114:167"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:166",
+      "type": "VECTOR",
+      "position": {
+        "x": 448.775390625,
+        "y": 235.61102294921875
+      },
+      "size": {
+        "width": 6.551826477050781,
+        "height": 6.512511730194092
+      },
+      "parent": "114:165",
+      "rotation": 0
+    },
+    {
+      "id": "114:167",
+      "type": "VECTOR",
+      "position": {
+        "x": 449.513427734375,
+        "y": 244.68121337890625
+      },
+      "size": {
+        "width": 5.079358100891113,
+        "height": 18.996776580810547
+      },
+      "parent": "114:165",
+      "rotation": 0
+    },
+    {
+      "id": "114:168",
+      "type": "VECTOR",
+      "position": {
+        "x": 433.29095458984375,
+        "y": 244.05618286132812
+      },
+      "size": {
+        "width": 13.45318603515625,
+        "height": 19.614727020263672
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:155",
+      "rotation": 0
+    },
+    {
+      "id": "114:169",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 409.95733642578125,
+        "y": 235.91986083984375
+      },
+      "size": {
+        "width": 20.355798721313477,
+        "height": 27.751293182373047
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:155",
+      "children": [
+        "114:170",
+        "114:171",
+        "114:172"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:170",
+      "type": "VECTOR",
+      "position": {
+        "x": 409.95733642578125,
+        "y": 235.91986083984375
+      },
+      "size": {
+        "width": 20.355804443359375,
+        "height": 27.751293182373047
+      },
+      "parent": "114:169",
+      "rotation": 0
+    },
+    {
+      "id": "114:171",
+      "type": "VECTOR",
+      "position": {
+        "x": 415.19219970703125,
+        "y": 240.60360717773438
+      },
+      "size": {
+        "width": 9.028318405151367,
+        "height": 6.6433424949646
+      },
+      "parent": "114:169",
+      "rotation": 0
+    },
+    {
+      "id": "114:172",
+      "type": "VECTOR",
+      "position": {
+        "x": 415.18707275390625,
+        "y": 251.72332763671875
+      },
+      "size": {
+        "width": 9.888312339782715,
+        "height": 7.155386924743652
+      },
+      "parent": "114:169",
+      "rotation": 0
+    },
+    {
+      "id": "114:173",
+      "type": "VECTOR",
+      "position": {
+        "x": 386.7467041015625,
+        "y": 235.920166015625
+      },
+      "size": {
+        "width": 18.081790924072266,
+        "height": 27.76078987121582
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:155",
+      "rotation": 0
+    },
+    {
+      "id": "114:174",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 362.8328857421875,
+        "y": 244.054931640625
+      },
+      "size": {
+        "width": 19.9126033782959,
+        "height": 28.617027282714844
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:155",
+      "children": [
+        "114:175",
+        "114:176"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:175",
+      "type": "VECTOR",
+      "position": {
+        "x": 362.8328857421875,
+        "y": 244.054931640625
+      },
+      "size": {
+        "width": 19.912609100341797,
+        "height": 28.617027282714844
+      },
+      "parent": "114:174",
+      "rotation": 0
+    },
+    {
+      "id": "114:176",
+      "type": "VECTOR",
+      "position": {
+        "x": 367.93597412109375,
+        "y": 248.63409423828125
+      },
+      "size": {
+        "width": 9.964485168457031,
+        "height": 10.468503952026367
+      },
+      "parent": "114:174",
+      "rotation": 0
+    },
+    {
+      "id": "114:177",
+      "type": "BOOLEAN_OPERATION",
+      "position": {
+        "x": 353.197509765625,
+        "y": 235.611328125
+      },
+      "size": {
+        "width": 6.551229476928711,
+        "height": 28.066661834716797
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:155",
+      "children": [
+        "114:178",
+        "114:179"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:178",
+      "type": "VECTOR",
+      "position": {
+        "x": 353.197509765625,
+        "y": 235.611328125
+      },
+      "size": {
+        "width": 6.551229476928711,
+        "height": 6.512228488922119
+      },
+      "parent": "114:177",
+      "rotation": 0
+    },
+    {
+      "id": "114:179",
+      "type": "VECTOR",
+      "position": {
+        "x": 353.9339599609375,
+        "y": 244.68121337890625
+      },
+      "size": {
+        "width": 5.07936429977417,
+        "height": 18.996776580810547
+      },
+      "parent": "114:177",
+      "rotation": 0
+    },
+    {
+      "id": "114:180",
+      "type": "VECTOR",
+      "position": {
+        "x": 326.9991455078125,
+        "y": 235.920166015625
+      },
+      "size": {
+        "width": 22.134855270385742,
+        "height": 27.756698608398438
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:155",
+      "rotation": 0
+    },
+    {
+      "id": "114:181",
+      "type": "FRAME",
+      "position": {
+        "x": 250,
+        "y": 432
+      },
+      "size": {
+        "width": 380,
+        "height": 219.00006103515625
+      },
+      "parent": "114:89",
+      "children": [
+        "114:182",
+        "114:185"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:182",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 380,
+        "height": 169
+      },
+      "parent": "114:181",
+      "children": [
+        "114:183",
+        "114:184"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:183",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 380,
+        "height": 60
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Building the Future...",
+      "parent": "114:182",
+      "rotation": 0
+    },
+    {
+      "id": "114:184",
+      "type": "TEXT",
+      "position": {
+        "x": 0,
+        "y": 84
+      },
+      "size": {
+        "width": 380,
+        "height": 85
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "parent": "114:182",
+      "rotation": 0
+    },
+    {
+      "id": "114:185",
+      "type": "GROUP",
+      "position": {
+        "x": 0,
+        "y": 217
+      },
+      "size": {
+        "width": 133.5,
+        "height": 2
+      },
+      "parent": "114:181",
+      "children": [
+        "114:186",
+        "114:187",
+        "114:188"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "114:186",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 217
+      },
+      "size": {
+        "width": 48,
+        "height": 2
+      },
+      "parent": "114:185",
+      "rotation": 0
+    },
+    {
+      "id": "114:187",
+      "type": "VECTOR",
+      "position": {
+        "x": 59.5,
+        "y": 217
+      },
+      "size": {
+        "width": 32,
+        "height": 2
+      },
+      "parent": "114:185",
+      "rotation": 0
+    },
+    {
+      "id": "114:188",
+      "type": "VECTOR",
+      "position": {
+        "x": 101.5,
+        "y": 217
+      },
+      "size": {
+        "width": 32,
+        "height": 2
+      },
+      "parent": "114:185",
+      "rotation": 0
+    }
+  ]
+}

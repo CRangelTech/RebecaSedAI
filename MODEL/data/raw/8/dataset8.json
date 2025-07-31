@@ -1,0 +1,1403 @@
+{
+  "prompt": "mobile, app, pantalla de inicio de sesión, encabezado con hora y barra de estado estilo iOS, ilustración superior de persona frente a una puerta, título \"Login Details\" centrado, dos campos de entrada verticales con borde para usuario/email/teléfono y contraseña, enlace \"Forgot Password?\" alineado a la derecha bajo el segundo campo, botón azul \"Login\" centrado, texto \"Or Sign up With\" centrado con línea decorativa a ambos lados, tres iconos circulares para Google, Facebook y Apple alineados horizontalmente, fondo blanco con forma ondulada azul en la parte inferior, estilo visual minimalista, tipografía sans-serif.",
+  "layout": [
+    {
+      "id": "102:95",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "102:94",
+      "children": [
+        "102:96",
+        "102:97",
+        "102:98",
+        "102:99",
+        "102:100",
+        "102:101",
+        "102:102",
+        "102:103",
+        "102:104",
+        "102:105",
+        "102:110",
+        "102:113",
+        "102:115",
+        "102:116",
+        "102:117",
+        "102:118",
+        "102:119",
+        "102:120",
+        "102:121",
+        "102:122"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "102:96",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 632
+      },
+      "size": {
+        "width": 390,
+        "height": 212
+      },
+      "fillColor": "rgba(0,153,255,0.30)",
+      "parent": "102:95",
+      "rotation": 0
+    },
+    {
+      "id": "102:97",
+      "type": "INSTANCE",
+      "position": {
+        "x": -18,
+        "y": 0
+      },
+      "size": {
+        "width": 409,
+        "height": 44
+      },
+      "parent": "102:95",
+      "children": [
+        "I102:97;1:289",
+        "I102:97;1:285",
+        "I102:97;1:290",
+        "I102:97;1:291"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:289",
+      "type": "INSTANCE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 409,
+        "height": 30
+      },
+      "parent": "102:97",
+      "children": [
+        "I102:97;1:289;1:268",
+        "I102:97;1:289;1:269",
+        "I102:97;1:289;1:270"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:289;1:268",
+      "type": "VECTOR",
+      "position": {
+        "x": 77,
+        "y": 0
+      },
+      "size": {
+        "width": 44,
+        "height": 30
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I102:97;1:289",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:289;1:269",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 121,
+        "y": 0
+      },
+      "size": {
+        "width": 167,
+        "height": 30
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I102:97;1:289",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:289;1:270",
+      "type": "VECTOR",
+      "position": {
+        "x": 332,
+        "y": 0
+      },
+      "size": {
+        "width": 44,
+        "height": 30
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I102:97;1:289",
+      "rotation": -180
+    },
+    {
+      "id": "I102:97;1:285",
+      "type": "FRAME",
+      "position": {
+        "x": 326,
+        "y": 16
+      },
+      "size": {
+        "width": 69,
+        "height": 14
+      },
+      "parent": "102:97",
+      "children": [
+        "I102:97;1:286",
+        "I102:97;1:287",
+        "I102:97;1:288"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:286",
+      "type": "INSTANCE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 20,
+        "height": 14
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I102:97;1:285",
+      "children": [
+        "I102:97;1:286;1:33",
+        "I102:97;1:286;1:34",
+        "I102:97;1:286;1:35",
+        "I102:97;1:286;1:36",
+        "I102:97;1:286;1:37",
+        "I102:97;1:286;1:38",
+        "I102:97;1:286;1:39",
+        "I102:97;1:286;1:40"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:286;1:33",
+      "type": "VECTOR",
+      "position": {
+        "x": 11,
+        "y": 4
+      },
+      "size": {
+        "width": 3,
+        "height": 8
+      },
+      "fillColor": "rgba(209,209,214,1.00)",
+      "parent": "I102:97;1:286",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:286;1:34",
+      "type": "VECTOR",
+      "position": {
+        "x": 6.5,
+        "y": 6
+      },
+      "size": {
+        "width": 3,
+        "height": 6
+      },
+      "fillColor": "rgba(209,209,214,1.00)",
+      "parent": "I102:97;1:286",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:286;1:35",
+      "type": "VECTOR",
+      "position": {
+        "x": 2,
+        "y": 7.5
+      },
+      "size": {
+        "width": 3,
+        "height": 4.5
+      },
+      "fillColor": "rgba(209,209,214,1.00)",
+      "parent": "I102:97;1:286",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:286;1:36",
+      "type": "VECTOR",
+      "position": {
+        "x": 15.5,
+        "y": 2
+      },
+      "size": {
+        "width": 3,
+        "height": 10
+      },
+      "fillColor": "rgba(60,60,67,0.18)",
+      "parent": "I102:97;1:286",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:286;1:37",
+      "type": "VECTOR",
+      "position": {
+        "x": 11,
+        "y": 4
+      },
+      "size": {
+        "width": 3,
+        "height": 8
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I102:97;1:286",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:286;1:38",
+      "type": "VECTOR",
+      "position": {
+        "x": 6.5,
+        "y": 6
+      },
+      "size": {
+        "width": 3,
+        "height": 6
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I102:97;1:286",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:286;1:39",
+      "type": "VECTOR",
+      "position": {
+        "x": 2,
+        "y": 7.5
+      },
+      "size": {
+        "width": 3,
+        "height": 4.5
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I102:97;1:286",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:286;1:40",
+      "type": "VECTOR",
+      "position": {
+        "x": 15.5,
+        "y": 2
+      },
+      "size": {
+        "width": 3,
+        "height": 10
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I102:97;1:286",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:287",
+      "type": "INSTANCE",
+      "position": {
+        "x": 24,
+        "y": 0
+      },
+      "size": {
+        "width": 16,
+        "height": 14
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I102:97;1:285",
+      "children": [
+        "I102:97;1:287;1:116",
+        "I102:97;1:287;1:117",
+        "I102:97;1:287;1:118"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:287;1:116",
+      "type": "VECTOR",
+      "position": {
+        "x": 5.938232421875,
+        "y": 8.9395751953125
+      },
+      "size": {
+        "width": 4.371864318847656,
+        "height": 3.060413122177124
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I102:97;1:287",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:287;1:117",
+      "type": "VECTOR",
+      "position": {
+        "x": 3.46484375,
+        "y": 5.4698486328125
+      },
+      "size": {
+        "width": 9.319799423217773,
+        "height": 3.314253330230713
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I102:97;1:287",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:287;1:118",
+      "type": "VECTOR",
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "size": {
+        "width": 14.25,
+        "height": 4.3225884437561035
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I102:97;1:287",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:288",
+      "type": "INSTANCE",
+      "position": {
+        "x": 44,
+        "y": 0
+      },
+      "size": {
+        "width": 25,
+        "height": 14
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I102:97;1:285",
+      "children": [
+        "I102:97;1:288;1:205",
+        "I102:97;1:288;1:206",
+        "I102:97;1:288;1:207",
+        "I102:97;1:288;1:208",
+        "I102:97;1:288;1:212",
+        "I102:97;1:288;1:213"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:288;1:205",
+      "type": "VECTOR",
+      "position": {
+        "x": 8,
+        "y": 1
+      },
+      "size": {
+        "width": 8,
+        "height": 12
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I102:97;1:288",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:288;1:206",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "size": {
+        "width": 23,
+        "height": 12
+      },
+      "fillColor": "rgba(235,235,245,0.30)",
+      "parent": "I102:97;1:288",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:288;1:207",
+      "type": "VECTOR",
+      "position": {
+        "x": 24,
+        "y": 5
+      },
+      "size": {
+        "width": 1,
+        "height": 4
+      },
+      "fillColor": "rgba(60,60,67,0.60)",
+      "parent": "I102:97;1:288",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:288;1:208",
+      "type": "GROUP",
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "size": {
+        "width": 19.000213623046875,
+        "height": 8
+      },
+      "parent": "I102:97;1:288",
+      "children": [
+        "I102:97;1:288;1:209",
+        "I102:97;1:288;1:210",
+        "I102:97;1:288;1:211"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:288;1:209",
+      "type": "VECTOR",
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "size": {
+        "width": 19.000213623046875,
+        "height": 8
+      },
+      "fillColor": "rgba(52,199,89,1.00)",
+      "parent": "I102:97;1:288;1:208",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:288;1:210",
+      "type": "VECTOR",
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "size": {
+        "width": 8.450882911682129,
+        "height": 8
+      },
+      "fillColor": "rgba(52,199,89,1.00)",
+      "parent": "I102:97;1:288;1:208",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:288;1:211",
+      "type": "VECTOR",
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "size": {
+        "width": 3,
+        "height": 8
+      },
+      "fillColor": "rgba(255,214,10,1.00)",
+      "parent": "I102:97;1:288;1:208",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:288;1:212",
+      "type": "VECTOR",
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "size": {
+        "width": 23,
+        "height": 12
+      },
+      "fillColor": "rgba(60,60,67,0.60)",
+      "parent": "I102:97;1:288",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:288;1:213",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "size": {
+        "width": 19,
+        "height": 8
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I102:97;1:288",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:290",
+      "type": "INSTANCE",
+      "position": {
+        "x": 332,
+        "y": 8
+      },
+      "size": {
+        "width": 6,
+        "height": 6
+      },
+      "parent": "102:97",
+      "children": [
+        "I102:97;1:290;1:280"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:290;1:280",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 6,
+        "height": 6
+      },
+      "fillColor": "rgba(52,199,89,1.00)",
+      "parent": "I102:97;1:290",
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:291",
+      "type": "INSTANCE",
+      "position": {
+        "x": 21,
+        "y": 12
+      },
+      "size": {
+        "width": 54,
+        "height": 21
+      },
+      "parent": "102:97",
+      "children": [
+        "I102:97;1:291;1:260"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:291;1:260",
+      "type": "FRAME",
+      "position": {
+        "x": 11,
+        "y": 3
+      },
+      "size": {
+        "width": 33,
+        "height": 15
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "I102:97;1:291",
+      "children": [
+        "I102:97;1:291;1:261"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "I102:97;1:291;1:261",
+      "type": "VECTOR",
+      "position": {
+        "x": 2,
+        "y": 2
+      },
+      "size": {
+        "width": 28.42616844177246,
+        "height": 11.0888671875
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I102:97;1:291;1:260",
+      "rotation": 0
+    },
+    {
+      "id": "102:98",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 29,
+        "y": 336
+      },
+      "size": {
+        "width": 330,
+        "height": 60
+      },
+      "parent": "102:95",
+      "rotation": 0
+    },
+    {
+      "id": "102:99",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 28,
+        "y": 407
+      },
+      "size": {
+        "width": 330,
+        "height": 60
+      },
+      "parent": "102:95",
+      "rotation": 0
+    },
+    {
+      "id": "102:100",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 28,
+        "y": 527
+      },
+      "size": {
+        "width": 330,
+        "height": 60
+      },
+      "fillColor": "rgba(11,110,254,1.00)",
+      "parent": "102:95",
+      "rotation": 0
+    },
+    {
+      "id": "102:101",
+      "type": "TEXT",
+      "position": {
+        "x": 156,
+        "y": 542
+      },
+      "size": {
+        "width": 62,
+        "height": 30
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Login ",
+      "parent": "102:95",
+      "rotation": 0
+    },
+    {
+      "id": "102:102",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 91,
+        "y": 668
+      },
+      "size": {
+        "width": 52,
+        "height": 52
+      },
+      "fillColor": "rgba(236,233,236,1.00)",
+      "parent": "102:95",
+      "rotation": 0
+    },
+    {
+      "id": "102:103",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 159,
+        "y": 668
+      },
+      "size": {
+        "width": 52,
+        "height": 52
+      },
+      "fillColor": "rgba(236,233,236,1.00)",
+      "parent": "102:95",
+      "rotation": 0
+    },
+    {
+      "id": "102:104",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 227,
+        "y": 668
+      },
+      "size": {
+        "width": 52,
+        "height": 52
+      },
+      "fillColor": "rgba(236,233,236,1.00)",
+      "parent": "102:95",
+      "rotation": 0
+    },
+    {
+      "id": "102:105",
+      "type": "FRAME",
+      "position": {
+        "x": 102,
+        "y": 679
+      },
+      "size": {
+        "width": 30,
+        "height": 30
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "102:95",
+      "children": [
+        "102:106",
+        "102:107",
+        "102:108",
+        "102:109"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "102:106",
+      "type": "VECTOR",
+      "position": {
+        "x": 15.298796653747559,
+        "y": 12.224542617797852
+      },
+      "size": {
+        "width": 14.6853609085083,
+        "height": 14.05154800415039
+      },
+      "fillColor": "rgba(66,133,244,1.00)",
+      "parent": "102:105",
+      "rotation": 0
+    },
+    {
+      "id": "102:107",
+      "type": "VECTOR",
+      "position": {
+        "x": 1.6332147121429443,
+        "y": 17.90496063232422
+      },
+      "size": {
+        "width": 23.79573631286621,
+        "height": 11.992012023925781
+      },
+      "fillColor": "rgba(52,168,83,1.00)",
+      "parent": "102:105",
+      "rotation": 0
+    },
+    {
+      "id": "102:108",
+      "type": "VECTOR",
+      "position": {
+        "x": 0.0015469901263713837,
+        "y": 8.165495872497559
+      },
+      "size": {
+        "width": 6.594749927520752,
+        "height": 13.49312686920166
+      },
+      "fillColor": "rgba(251,188,5,1.00)",
+      "parent": "102:105",
+      "rotation": 0
+    },
+    {
+      "id": "102:109",
+      "type": "VECTOR",
+      "position": {
+        "x": 1.6332147121429443,
+        "y": 2.746578502410557e-7
+      },
+      "size": {
+        "width": 23.897706985473633,
+        "height": 11.991979598999023
+      },
+      "fillColor": "rgba(235,67,53,1.00)",
+      "parent": "102:105",
+      "rotation": 0
+    },
+    {
+      "id": "102:110",
+      "type": "GROUP",
+      "position": {
+        "x": 170,
+        "y": 679
+      },
+      "size": {
+        "width": 30,
+        "height": 30
+      },
+      "parent": "102:95",
+      "children": [
+        "102:111",
+        "102:112"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "102:111",
+      "type": "VECTOR",
+      "position": {
+        "x": 170,
+        "y": 679
+      },
+      "size": {
+        "width": 29.999961853027344,
+        "height": 29.999961853027344
+      },
+      "fillColor": "rgba(25,119,243,1.00)",
+      "parent": "102:110",
+      "rotation": 0
+    },
+    {
+      "id": "102:112",
+      "type": "VECTOR",
+      "position": {
+        "x": 178.84688186645508,
+        "y": 684.8578414916992
+      },
+      "size": {
+        "width": 12.833609580993652,
+        "height": 24.14215850830078
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "102:110",
+      "rotation": 0
+    },
+    {
+      "id": "102:113",
+      "type": "GROUP",
+      "position": {
+        "x": 240,
+        "y": 679
+      },
+      "size": {
+        "width": 25.2695255279541,
+        "height": 30
+      },
+      "parent": "102:95",
+      "children": [
+        "102:114"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "102:114",
+      "type": "VECTOR",
+      "position": {
+        "x": 240,
+        "y": 679
+      },
+      "size": {
+        "width": 25.2695255279541,
+        "height": 30
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "102:113",
+      "rotation": 0
+    },
+    {
+      "id": "102:115",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 6,
+        "y": 627
+      },
+      "size": {
+        "width": 132,
+        "height": 3
+      },
+      "parent": "102:95",
+      "rotation": 0
+    },
+    {
+      "id": "102:116",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 375,
+        "y": 630
+      },
+      "size": {
+        "width": 132,
+        "height": 3
+      },
+      "parent": "102:95",
+      "rotation": 180
+    },
+    {
+      "id": "102:117",
+      "type": "TEXT",
+      "position": {
+        "x": 145,
+        "y": 621
+      },
+      "size": {
+        "width": 84,
+        "height": 15
+      },
+      "fillColor": "rgba(85,82,82,1.00)",
+      "text": "Or Sign up With",
+      "parent": "102:95",
+      "rotation": 0
+    },
+    {
+      "id": "102:118",
+      "type": "TEXT",
+      "position": {
+        "x": 48,
+        "y": 355
+      },
+      "size": {
+        "width": 243,
+        "height": 20
+      },
+      "fillColor": "rgba(99,92,92,1.00)",
+      "text": "Username , email & phone number",
+      "parent": "102:95",
+      "rotation": 0
+    },
+    {
+      "id": "102:119",
+      "type": "TEXT",
+      "position": {
+        "x": 227,
+        "y": 473
+      },
+      "size": {
+        "width": 132,
+        "height": 20
+      },
+      "fillColor": "rgba(99,92,92,1.00)",
+      "text": "Forgot Password ?",
+      "parent": "102:95",
+      "rotation": 0
+    },
+    {
+      "id": "102:120",
+      "type": "TEXT",
+      "position": {
+        "x": 49,
+        "y": 427
+      },
+      "size": {
+        "width": 69,
+        "height": 20
+      },
+      "fillColor": "rgba(99,92,92,1.00)",
+      "text": "Password",
+      "parent": "102:95",
+      "rotation": 0
+    },
+    {
+      "id": "102:121",
+      "type": "TEXT",
+      "position": {
+        "x": 29,
+        "y": 288
+      },
+      "size": {
+        "width": 139,
+        "height": 30
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "text": "Login Details",
+      "parent": "102:95",
+      "rotation": 0
+    },
+    {
+      "id": "102:122",
+      "type": "FRAME",
+      "position": {
+        "x": 25,
+        "y": 65
+      },
+      "size": {
+        "width": 310,
+        "height": 187
+      },
+      "parent": "102:95",
+      "children": [
+        "102:123",
+        "102:124",
+        "102:125",
+        "102:126",
+        "102:127",
+        "102:128",
+        "102:129",
+        "102:130",
+        "102:131",
+        "102:132",
+        "102:133",
+        "102:134",
+        "102:135",
+        "102:136",
+        "102:137",
+        "102:138",
+        "102:139",
+        "102:140",
+        "102:141",
+        "102:142",
+        "102:143",
+        "102:144",
+        "102:145",
+        "102:146",
+        "102:147"
+      ],
+      "rotation": 0
+    },
+    {
+      "id": "102:123",
+      "type": "VECTOR",
+      "position": {
+        "x": 231.49571228027344,
+        "y": 125.02122497558594
+      },
+      "size": {
+        "width": 78.50434875488281,
+        "height": 61.96476745605469
+      },
+      "fillColor": "rgba(242,242,242,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:124",
+      "type": "VECTOR",
+      "position": {
+        "x": 254.76010131835938,
+        "y": 127.81897735595703
+      },
+      "size": {
+        "width": 43.0328369140625,
+        "height": 57.855796813964844
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:125",
+      "type": "VECTOR",
+      "position": {
+        "x": 1.8442439397858834e-7,
+        "y": 101.74258422851562
+      },
+      "size": {
+        "width": 107.82569122314453,
+        "height": 85.12786865234375
+      },
+      "fillColor": "rgba(242,242,242,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:126",
+      "type": "VECTOR",
+      "position": {
+        "x": 16.76646614074707,
+        "y": 105.5853042602539
+      },
+      "size": {
+        "width": 59.105567932128906,
+        "height": 79.46492767333984
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:127",
+      "type": "VECTOR",
+      "position": {
+        "x": 92.46551513671875,
+        "y": -0.0000017624886368139414
+      },
+      "size": {
+        "width": 130.0574493408203,
+        "height": 186.59066772460938
+      },
+      "fillColor": "rgba(242,242,242,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:128",
+      "type": "VECTOR",
+      "position": {
+        "x": 92.46533966064453,
+        "y": 0.0014026109129190445
+      },
+      "size": {
+        "width": 102.9773941040039,
+        "height": 186.58926391601562
+      },
+      "fillColor": "rgba(204,204,204,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:129",
+      "type": "VECTOR",
+      "position": {
+        "x": 181.36781311035156,
+        "y": 114.86650848388672
+      },
+      "size": {
+        "width": 11.402297973632812,
+        "height": 11.504631042480469
+      },
+      "fillColor": "rgba(108,99,255,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:130",
+      "type": "VECTOR",
+      "position": {
+        "x": 205.4216766357422,
+        "y": 165.55697631835938
+      },
+      "size": {
+        "width": 6.4476776123046875,
+        "height": 17.000961303710938
+      },
+      "fillColor": "rgba(255,184,184,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:131",
+      "type": "VECTOR",
+      "position": {
+        "x": 199.07516479492188,
+        "y": 181.29847717285156
+      },
+      "size": {
+        "width": 13.729324340820312,
+        "height": 5.35211181640625
+      },
+      "fillColor": "rgba(47,46,65,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:132",
+      "type": "VECTOR",
+      "position": {
+        "x": 227.15731811523438,
+        "y": 165.55697631835938
+      },
+      "size": {
+        "width": 6.4476470947265625,
+        "height": 17.000961303710938
+      },
+      "fillColor": "rgba(255,184,184,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:133",
+      "type": "VECTOR",
+      "position": {
+        "x": 220.81080627441406,
+        "y": 181.29847717285156
+      },
+      "size": {
+        "width": 13.729324340820312,
+        "height": 5.35211181640625
+      },
+      "fillColor": "rgba(47,46,65,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:134",
+      "type": "VECTOR",
+      "position": {
+        "x": 189.293701171875,
+        "y": 74.76566314697266
+      },
+      "size": {
+        "width": 24.42498779296875,
+        "height": 48.71595764160156
+      },
+      "fillColor": "rgba(255,184,184,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:135",
+      "type": "VECTOR",
+      "position": {
+        "x": 225.74154663085938,
+        "y": 80.0030288696289
+      },
+      "size": {
+        "width": 11.415618896484375,
+        "height": 50.04218292236328
+      },
+      "fillColor": "rgba(255,184,184,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:136",
+      "type": "VECTOR",
+      "position": {
+        "x": 209.35507202148438,
+        "y": 49.456058502197266
+      },
+      "size": {
+        "width": 17.50323486328125,
+        "height": 17.660335540771484
+      },
+      "fillColor": "rgba(255,184,184,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:137",
+      "type": "VECTOR",
+      "position": {
+        "x": 204.93234252929688,
+        "y": 70.37393188476562
+      },
+      "size": {
+        "width": 29.142898559570312,
+        "height": 49.209007263183594
+      },
+      "fillColor": "rgba(108,99,255,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:138",
+      "type": "VECTOR",
+      "position": {
+        "x": 198.1212615966797,
+        "y": 73.33902740478516
+      },
+      "size": {
+        "width": 15.381683349609375,
+        "height": 19.507095336914062
+      },
+      "fillColor": "rgba(108,99,255,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:139",
+      "type": "VECTOR",
+      "position": {
+        "x": 224.40142822265625,
+        "y": 74.25775909423828
+      },
+      "size": {
+        "width": 12.61138916015625,
+        "height": 23.103057861328125
+      },
+      "fillColor": "rgba(108,99,255,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:140",
+      "type": "VECTOR",
+      "position": {
+        "x": 203.51101684570312,
+        "y": 117.60554504394531
+      },
+      "size": {
+        "width": 31.0291748046875,
+        "height": 59.68025207519531
+      },
+      "fillColor": "rgba(47,46,65,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:141",
+      "type": "VECTOR",
+      "position": {
+        "x": 207.59945678710938,
+        "y": 45.38654708862305
+      },
+      "size": {
+        "width": 20.454299926757812,
+        "height": 20.628665924072266
+      },
+      "fillColor": "rgba(47,46,65,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:142",
+      "type": "VECTOR",
+      "position": {
+        "x": 35.81047821044922,
+        "y": 185.96585083007812
+      },
+      "size": {
+        "width": 263.9163513183594,
+        "height": 0.85614013671875
+      },
+      "fillColor": "rgba(63,61,86,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:143",
+      "type": "VECTOR",
+      "position": {
+        "x": 118.47701263427734,
+        "y": 38.648311614990234
+      },
+      "size": {
+        "width": 50.95404815673828,
+        "height": 108.93453979492188
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:144",
+      "type": "VECTOR",
+      "position": {
+        "x": 118.47698974609375,
+        "y": 72.40352630615234
+      },
+      "size": {
+        "width": 50.95404052734375,
+        "height": 0.7190322875976562
+      },
+      "fillColor": "rgba(204,204,204,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:145",
+      "type": "VECTOR",
+      "position": {
+        "x": 118.65515899658203,
+        "y": 113.42843627929688
+      },
+      "size": {
+        "width": 50.95403289794922,
+        "height": 0.7190322875976562
+      },
+      "fillColor": "rgba(204,204,204,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:146",
+      "type": "VECTOR",
+      "position": {
+        "x": 134.51148986816406,
+        "y": 38.64835739135742
+      },
+      "size": {
+        "width": 0.7126312255859375,
+        "height": 109.29396057128906
+      },
+      "fillColor": "rgba(204,204,204,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    },
+    {
+      "id": "102:147",
+      "type": "VECTOR",
+      "position": {
+        "x": 152.32757568359375,
+        "y": 38.64835739135742
+      },
+      "size": {
+        "width": 0.712646484375,
+        "height": 109.29396057128906
+      },
+      "fillColor": "rgba(204,204,204,1.00)",
+      "parent": "102:122",
+      "rotation": 0
+    }
+  ]
+}

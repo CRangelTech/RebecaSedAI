@@ -1,0 +1,3437 @@
+{
+  "prompt": "mobile, web, pantalla de inicio de sesión, dos campos de entrada verticales para correo/teléfono y contraseña, icono de ojo dentro del campo de contraseña, interruptor \"Remember me\" a la izquierda, enlace \"Forgot password?\" alineado a la derecha, botón azul \"Sign in\" centrado, botón negro \"Or sign in with Google\" con ícono de Google, texto con enlace \"Sign up now\" debajo",
+  "layout": [
+    {
+      "id": "502:3",
+      "type": "FRAME",
+      "name": "Sign-In-Form-Mobile-Layout-375x812",
+      "position": {
+        "x": 0,
+        "y": 0.380615234375
+      },
+      "size": {
+        "width": 375,
+        "height": 812
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:2",
+      "children": [
+        "502:4",
+        "502:132",
+        "502:154"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:4",
+      "type": "FRAME",
+      "name": "Frame 28988",
+      "position": {
+        "x": 15.5,
+        "y": 120
+      },
+      "size": {
+        "width": 343,
+        "height": 592
+      },
+      "parent": "502:3",
+      "children": [
+        "502:5",
+        "502:101",
+        "502:105"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:5",
+      "type": "FRAME",
+      "name": "Sign-In-Forms",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 343,
+        "height": 388.5
+      },
+      "parent": "502:4",
+      "children": [
+        "502:6",
+        "502:7",
+        "502:80",
+        "502:82",
+        "502:83",
+        "502:98"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:6",
+      "type": "TEXT",
+      "name": "48 000,00 ₽",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 343,
+        "height": 28
+      },
+      "fillColor": "rgba(26,26,26,1.00)",
+      "text": "Nice to see you again",
+      "parent": "502:5",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:7",
+      "type": "FRAME",
+      "name": "Frame 28983",
+      "position": {
+        "x": 0,
+        "y": 52
+      },
+      "size": {
+        "width": 343,
+        "height": 140
+      },
+      "parent": "502:5",
+      "children": [
+        "502:8",
+        "502:39",
+        "502:71"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:8",
+      "type": "FRAME",
+      "name": "Input-Configurator",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 343,
+        "height": 48
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:7",
+      "children": [
+        "502:9"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:9",
+      "type": "FRAME",
+      "name": "Input-Configurator",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 343,
+        "height": 48
+      },
+      "parent": "502:8",
+      "children": [
+        "502:10",
+        "502:12",
+        "502:28",
+        "502:31",
+        "502:33",
+        "502:35",
+        "502:37"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:10",
+      "type": "FRAME",
+      "name": "Satellite-Input",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 336,
+        "height": 12
+      },
+      "parent": "502:9",
+      "children": [
+        "502:11"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:11",
+      "type": "TEXT",
+      "name": "Login",
+      "position": {
+        "x": 16,
+        "y": 0
+      },
+      "size": {
+        "width": 304,
+        "height": 12
+      },
+      "fillColor": "rgba(51,51,51,1.00)",
+      "text": "Login",
+      "parent": "502:10",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:12",
+      "type": "FRAME",
+      "name": "Login-Input",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 343,
+        "height": 48
+      },
+      "parent": "502:9",
+      "children": [
+        "502:13",
+        "502:14"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:13",
+      "type": "FRAME",
+      "name": "Input-BG",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 343,
+        "height": 48
+      },
+      "fillColor": "rgba(242,242,242,1.00)",
+      "parent": "502:12",
+      "children": [],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:14",
+      "type": "FRAME",
+      "name": "Regular-Input-Double-Row",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 343,
+        "height": 48
+      },
+      "parent": "502:12",
+      "children": [
+        "502:15",
+        "502:20"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:15",
+      "type": "FRAME",
+      "name": "Placeholder & Value",
+      "position": {
+        "x": 16,
+        "y": 14
+      },
+      "size": {
+        "width": 155,
+        "height": 20
+      },
+      "parent": "502:14",
+      "children": [
+        "502:16"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:16",
+      "type": "FRAME",
+      "name": "Frame 28880",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 155,
+        "height": 20
+      },
+      "parent": "502:15",
+      "children": [
+        "502:17",
+        "502:18"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:17",
+      "type": "TEXT",
+      "name": "Email or phone number",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 155,
+        "height": 20
+      },
+      "fillColor": "rgba(128,128,128,1.00)",
+      "text": "Email or phone number",
+      "parent": "502:16",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:18",
+      "type": "FRAME",
+      "name": "Print-Line",
+      "position": {
+        "x": 44,
+        "y": 0
+      },
+      "size": {
+        "width": 1,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:16",
+      "children": [
+        "502:19"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:19",
+      "type": "RECTANGLE",
+      "name": "Rectangle",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1,
+        "height": 20
+      },
+      "fillColor": "rgba(26,26,26,1.00)",
+      "parent": "502:18",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:20",
+      "type": "FRAME",
+      "name": "Input-Icons",
+      "position": {
+        "x": 303,
+        "y": 8
+      },
+      "size": {
+        "width": 32,
+        "height": 32
+      },
+      "fillColor": "rgba(255,255,255,0.00)",
+      "parent": "502:14",
+      "children": [
+        "502:21",
+        "502:26"
+      ],
+      "rotation": 0,
+      "opacity": 0
+    },
+    {
+      "id": "502:21",
+      "type": "FRAME",
+      "name": "Login-Icons",
+      "position": {
+        "x": 8,
+        "y": 8
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "parent": "502:20",
+      "children": [
+        "502:22"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:22",
+      "type": "FRAME",
+      "name": "Frame 28875",
+      "position": {
+        "x": 0.000408172607421875,
+        "y": 0.000408172607421875
+      },
+      "size": {
+        "width": 15.999183654785156,
+        "height": 15.999183654785156
+      },
+      "fillColor": "rgba(77,77,77,1.00)",
+      "parent": "502:21",
+      "children": [
+        "502:23"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:23",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Union",
+      "position": {
+        "x": 5,
+        "y": 5
+      },
+      "size": {
+        "width": 5.999183177947998,
+        "height": 5.999183177947998
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:22",
+      "children": [
+        "502:24",
+        "502:25"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:24",
+      "type": "VECTOR",
+      "name": "Path",
+      "position": {
+        "x": 4.999591539701214,
+        "y": 4.999591539701214
+      },
+      "size": {
+        "width": 6,
+        "height": 6
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:23",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:25",
+      "type": "VECTOR",
+      "name": "Path",
+      "position": {
+        "x": 4.999591539701214,
+        "y": 4.999591539701214
+      },
+      "size": {
+        "width": 6,
+        "height": 6
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:23",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:26",
+      "type": "FRAME",
+      "name": "Arow-Icons-16 / Medium",
+      "position": {
+        "x": 40,
+        "y": 8
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "parent": "502:20",
+      "children": [
+        "502:27"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:27",
+      "type": "VECTOR",
+      "name": "Vector",
+      "position": {
+        "x": 4,
+        "y": 6
+      },
+      "size": {
+        "width": 8,
+        "height": 4
+      },
+      "parent": "502:26",
+      "rotation": -1.5308806722812968e-22,
+      "opacity": 1
+    },
+    {
+      "id": "502:28",
+      "type": "FRAME",
+      "name": "Satellite-Input",
+      "position": {
+        "x": 0,
+        "y": 76
+      },
+      "size": {
+        "width": 336,
+        "height": 12
+      },
+      "parent": "502:9",
+      "children": [
+        "502:29",
+        "502:30"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:29",
+      "type": "TEXT",
+      "name": "Link Button Label",
+      "position": {
+        "x": 16,
+        "y": 0
+      },
+      "size": {
+        "width": 152,
+        "height": 12
+      },
+      "fillColor": "rgba(0,122,255,1.00)",
+      "text": "Link Button Label",
+      "parent": "502:28",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:30",
+      "type": "TEXT",
+      "name": "Link Button Label",
+      "position": {
+        "x": 168,
+        "y": 0
+      },
+      "size": {
+        "width": 304,
+        "height": 12
+      },
+      "fillColor": "rgba(0,122,255,1.00)",
+      "text": "Link Button Label",
+      "parent": "502:28",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:31",
+      "type": "FRAME",
+      "name": "Satellite-Input",
+      "position": {
+        "x": 0,
+        "y": 96
+      },
+      "size": {
+        "width": 336,
+        "height": 12
+      },
+      "parent": "502:9",
+      "children": [
+        "502:32"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:32",
+      "type": "TEXT",
+      "name": "Description",
+      "position": {
+        "x": 16,
+        "y": 0
+      },
+      "size": {
+        "width": 304,
+        "height": 12
+      },
+      "fillColor": "rgba(51,51,51,1.00)",
+      "text": "Login (email or phone number)",
+      "parent": "502:31",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:33",
+      "type": "FRAME",
+      "name": "Satellite-Input",
+      "position": {
+        "x": 0,
+        "y": 116
+      },
+      "size": {
+        "width": 336,
+        "height": 12
+      },
+      "parent": "502:9",
+      "children": [
+        "502:34"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:34",
+      "type": "TEXT",
+      "name": "Error",
+      "position": {
+        "x": 16,
+        "y": 0
+      },
+      "size": {
+        "width": 304,
+        "height": 12
+      },
+      "fillColor": "rgba(255,59,48,1.00)",
+      "text": "Error",
+      "parent": "502:33",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:35",
+      "type": "FRAME",
+      "name": "Satellite-Input",
+      "position": {
+        "x": 0,
+        "y": 136
+      },
+      "size": {
+        "width": 336,
+        "height": 12
+      },
+      "parent": "502:9",
+      "children": [
+        "502:36"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:36",
+      "type": "TEXT",
+      "name": "Warning",
+      "position": {
+        "x": 16,
+        "y": 0
+      },
+      "size": {
+        "width": 304,
+        "height": 12
+      },
+      "fillColor": "rgba(255,140,0,1.00)",
+      "text": "Warning",
+      "parent": "502:35",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:37",
+      "type": "FRAME",
+      "name": "Satellite-Input",
+      "position": {
+        "x": 0,
+        "y": 156
+      },
+      "size": {
+        "width": 336,
+        "height": 12
+      },
+      "parent": "502:9",
+      "children": [
+        "502:38"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:38",
+      "type": "TEXT",
+      "name": "Success",
+      "position": {
+        "x": 16,
+        "y": 0
+      },
+      "size": {
+        "width": 304,
+        "height": 12
+      },
+      "fillColor": "rgba(38,162,18,1.00)",
+      "text": "Success",
+      "parent": "502:37",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:39",
+      "type": "FRAME",
+      "name": "Input-Configurator",
+      "position": {
+        "x": 0,
+        "y": 60
+      },
+      "size": {
+        "width": 343,
+        "height": 48
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:7",
+      "children": [
+        "502:40"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:40",
+      "type": "FRAME",
+      "name": "Input-Configurator",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 343,
+        "height": 48
+      },
+      "parent": "502:39",
+      "children": [
+        "502:41",
+        "502:43",
+        "502:60",
+        "502:63",
+        "502:65",
+        "502:67",
+        "502:69"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:41",
+      "type": "FRAME",
+      "name": "Satellite-Input",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 336,
+        "height": 12
+      },
+      "parent": "502:40",
+      "children": [
+        "502:42"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:42",
+      "type": "TEXT",
+      "name": "Password",
+      "position": {
+        "x": 16,
+        "y": 0
+      },
+      "size": {
+        "width": 304,
+        "height": 12
+      },
+      "fillColor": "rgba(51,51,51,1.00)",
+      "text": "Password",
+      "parent": "502:41",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:43",
+      "type": "FRAME",
+      "name": "Password-Input",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 343,
+        "height": 48
+      },
+      "parent": "502:40",
+      "children": [
+        "502:44",
+        "502:45"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:44",
+      "type": "FRAME",
+      "name": "Input-BG",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 343,
+        "height": 48
+      },
+      "fillColor": "rgba(242,242,242,1.00)",
+      "parent": "502:43",
+      "children": [],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:45",
+      "type": "FRAME",
+      "name": "Regular-Input-Double-Row",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 343,
+        "height": 48
+      },
+      "parent": "502:43",
+      "children": [
+        "502:46",
+        "502:51"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:46",
+      "type": "FRAME",
+      "name": "Placeholder & Value",
+      "position": {
+        "x": 16,
+        "y": 14
+      },
+      "size": {
+        "width": 104,
+        "height": 20
+      },
+      "parent": "502:45",
+      "children": [
+        "502:47"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:47",
+      "type": "FRAME",
+      "name": "Frame 28880",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 104,
+        "height": 20
+      },
+      "parent": "502:46",
+      "children": [
+        "502:48",
+        "502:49"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:48",
+      "type": "TEXT",
+      "name": "Enter password",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 104,
+        "height": 20
+      },
+      "fillColor": "rgba(128,128,128,1.00)",
+      "text": "Enter password",
+      "parent": "502:47",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:49",
+      "type": "FRAME",
+      "name": "Print-Line",
+      "position": {
+        "x": 44,
+        "y": 0
+      },
+      "size": {
+        "width": 1,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:47",
+      "children": [
+        "502:50"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:50",
+      "type": "RECTANGLE",
+      "name": "Rectangle",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1,
+        "height": 20
+      },
+      "fillColor": "rgba(26,26,26,1.00)",
+      "parent": "502:49",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:51",
+      "type": "FRAME",
+      "name": "Input-Icons",
+      "position": {
+        "x": 303,
+        "y": 8
+      },
+      "size": {
+        "width": 32,
+        "height": 32
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:45",
+      "children": [
+        "502:52",
+        "502:57"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:52",
+      "type": "FRAME",
+      "name": "Login-Icons",
+      "position": {
+        "x": 8,
+        "y": 8
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "parent": "502:51",
+      "children": [
+        "502:53"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:53",
+      "type": "FRAME",
+      "name": "Frame 28875",
+      "position": {
+        "x": 0.000408172607421875,
+        "y": 0.000408172607421875
+      },
+      "size": {
+        "width": 15.999183654785156,
+        "height": 15.999183654785156
+      },
+      "fillColor": "rgba(77,77,77,1.00)",
+      "parent": "502:52",
+      "children": [
+        "502:54"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:54",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Union",
+      "position": {
+        "x": 5,
+        "y": 5
+      },
+      "size": {
+        "width": 5.999183177947998,
+        "height": 5.999183177947998
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:53",
+      "children": [
+        "502:55",
+        "502:56"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:55",
+      "type": "VECTOR",
+      "name": "Path",
+      "position": {
+        "x": 4.999591539701214,
+        "y": 4.999591539701214
+      },
+      "size": {
+        "width": 6,
+        "height": 6
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:54",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:56",
+      "type": "VECTOR",
+      "name": "Path",
+      "position": {
+        "x": 4.999591539701214,
+        "y": 4.999591539701214
+      },
+      "size": {
+        "width": 6,
+        "height": 6
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:54",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:57",
+      "type": "FRAME",
+      "name": "Login-Icons",
+      "position": {
+        "x": 8,
+        "y": 8
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "parent": "502:51",
+      "children": [
+        "502:58",
+        "502:59"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:58",
+      "type": "RECTANGLE",
+      "name": "Rectangle 473",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:57",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:59",
+      "type": "VECTOR",
+      "name": "Vector",
+      "position": {
+        "x": 0,
+        "y": 2.6666667461395264
+      },
+      "size": {
+        "width": 16,
+        "height": 10.909090042114258
+      },
+      "fillColor": "rgba(77,77,77,1.00)",
+      "parent": "502:57",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:60",
+      "type": "FRAME",
+      "name": "Satellite-Input",
+      "position": {
+        "x": 0,
+        "y": 76
+      },
+      "size": {
+        "width": 336,
+        "height": 12
+      },
+      "parent": "502:40",
+      "children": [
+        "502:61",
+        "502:62"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:61",
+      "type": "TEXT",
+      "name": "Link Button Label",
+      "position": {
+        "x": 16,
+        "y": 0
+      },
+      "size": {
+        "width": 152,
+        "height": 12
+      },
+      "fillColor": "rgba(0,122,255,1.00)",
+      "text": "Link Button Label",
+      "parent": "502:60",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:62",
+      "type": "TEXT",
+      "name": "Link Button Label",
+      "position": {
+        "x": 168,
+        "y": 0
+      },
+      "size": {
+        "width": 304,
+        "height": 12
+      },
+      "fillColor": "rgba(0,122,255,1.00)",
+      "text": "Link Button Label",
+      "parent": "502:60",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:63",
+      "type": "FRAME",
+      "name": "Satellite-Input",
+      "position": {
+        "x": 0,
+        "y": 96
+      },
+      "size": {
+        "width": 336,
+        "height": 12
+      },
+      "parent": "502:40",
+      "children": [
+        "502:64"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:64",
+      "type": "TEXT",
+      "name": "Description",
+      "position": {
+        "x": 16,
+        "y": 0
+      },
+      "size": {
+        "width": 304,
+        "height": 12
+      },
+      "fillColor": "rgba(51,51,51,1.00)",
+      "text": "Password",
+      "parent": "502:63",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:65",
+      "type": "FRAME",
+      "name": "Satellite-Input",
+      "position": {
+        "x": 0,
+        "y": 116
+      },
+      "size": {
+        "width": 336,
+        "height": 12
+      },
+      "parent": "502:40",
+      "children": [
+        "502:66"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:66",
+      "type": "TEXT",
+      "name": "Error",
+      "position": {
+        "x": 16,
+        "y": 0
+      },
+      "size": {
+        "width": 304,
+        "height": 12
+      },
+      "fillColor": "rgba(255,59,48,1.00)",
+      "text": "Error",
+      "parent": "502:65",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:67",
+      "type": "FRAME",
+      "name": "Satellite-Input",
+      "position": {
+        "x": 0,
+        "y": 136
+      },
+      "size": {
+        "width": 336,
+        "height": 12
+      },
+      "parent": "502:40",
+      "children": [
+        "502:68"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:68",
+      "type": "TEXT",
+      "name": "Warning",
+      "position": {
+        "x": 16,
+        "y": 0
+      },
+      "size": {
+        "width": 304,
+        "height": 12
+      },
+      "fillColor": "rgba(255,140,0,1.00)",
+      "text": "Warning",
+      "parent": "502:67",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:69",
+      "type": "FRAME",
+      "name": "Satellite-Input",
+      "position": {
+        "x": 0,
+        "y": 156
+      },
+      "size": {
+        "width": 336,
+        "height": 12
+      },
+      "parent": "502:40",
+      "children": [
+        "502:70"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:70",
+      "type": "TEXT",
+      "name": "Success",
+      "position": {
+        "x": 16,
+        "y": 0
+      },
+      "size": {
+        "width": 304,
+        "height": 12
+      },
+      "fillColor": "rgba(38,162,18,1.00)",
+      "text": "Success",
+      "parent": "502:69",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:71",
+      "type": "FRAME",
+      "name": "Frame 28978",
+      "position": {
+        "x": 0,
+        "y": 120
+      },
+      "size": {
+        "width": 343,
+        "height": 20
+      },
+      "parent": "502:7",
+      "children": [
+        "502:72",
+        "502:79"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:72",
+      "type": "FRAME",
+      "name": "Switcher-Item-Left",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 163.5,
+        "height": 20
+      },
+      "parent": "502:71",
+      "children": [
+        "502:73",
+        "502:78"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:73",
+      "type": "FRAME",
+      "name": "Switcher",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 40,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:72",
+      "children": [
+        "502:74",
+        "502:76"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:74",
+      "type": "FRAME",
+      "name": "BG-Switcher",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 40,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:73",
+      "children": [
+        "502:75"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:75",
+      "type": "RECTANGLE",
+      "name": "Default",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 40,
+        "height": 20
+      },
+      "fillColor": "rgba(242,242,242,1.00)",
+      "parent": "502:74",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:76",
+      "type": "FRAME",
+      "name": "Knob-Icon",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 20,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:73",
+      "children": [
+        "502:77"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:77",
+      "type": "RECTANGLE",
+      "name": "Knob-20",
+      "position": {
+        "x": 2,
+        "y": 2
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:76",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:78",
+      "type": "TEXT",
+      "name": "Description",
+      "position": {
+        "x": 48,
+        "y": 0
+      },
+      "size": {
+        "width": 115.5,
+        "height": 20
+      },
+      "fillColor": "rgba(26,26,26,1.00)",
+      "text": "Remember me",
+      "parent": "502:72",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:79",
+      "type": "TEXT",
+      "name": "Description",
+      "position": {
+        "x": 179.5,
+        "y": 0
+      },
+      "size": {
+        "width": 163.5,
+        "height": 20
+      },
+      "fillColor": "rgba(0,122,255,1.00)",
+      "text": "Forgot password?",
+      "parent": "502:71",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:80",
+      "type": "FRAME",
+      "name": "Primary-button-40px",
+      "position": {
+        "x": 0,
+        "y": 216
+      },
+      "size": {
+        "width": 343,
+        "height": 40
+      },
+      "fillColor": "rgba(0,122,255,1.00)",
+      "parent": "502:5",
+      "children": [
+        "502:81"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:81",
+      "type": "TEXT",
+      "name": "Типографика для (Dis",
+      "position": {
+        "x": 147,
+        "y": 10
+      },
+      "size": {
+        "width": 49,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Sign in",
+      "parent": "502:80",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:82",
+      "type": "RECTANGLE",
+      "name": "Nav",
+      "position": {
+        "x": 0,
+        "y": 280
+      },
+      "size": {
+        "width": 343,
+        "height": 0.5
+      },
+      "fillColor": "rgba(229,229,229,1.00)",
+      "parent": "502:5",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:83",
+      "type": "FRAME",
+      "name": "Frame 28981",
+      "position": {
+        "x": 0,
+        "y": 304.5
+      },
+      "size": {
+        "width": 343,
+        "height": 40
+      },
+      "parent": "502:5",
+      "children": [
+        "502:84",
+        "502:93"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:84",
+      "type": "FRAME",
+      "name": "Google-Big-Button-40px",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 343,
+        "height": 40
+      },
+      "fillColor": "rgba(51,51,51,1.00)",
+      "parent": "502:83",
+      "children": [
+        "502:85"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:85",
+      "type": "FRAME",
+      "name": "Frame 61",
+      "position": {
+        "x": 99.5,
+        "y": 10
+      },
+      "size": {
+        "width": 144,
+        "height": 20
+      },
+      "parent": "502:84",
+      "children": [
+        "502:86",
+        "502:92"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:86",
+      "type": "FRAME",
+      "name": "Other-Pay-Method",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 20,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:85",
+      "children": [
+        "502:87"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:87",
+      "type": "GROUP",
+      "name": "Group 3019",
+      "position": {
+        "x": 0.13100433349609375,
+        "y": 0
+      },
+      "size": {
+        "width": 19.737998962402344,
+        "height": 20
+      },
+      "parent": "502:86",
+      "children": [
+        "502:88",
+        "502:89",
+        "502:90",
+        "502:91"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:88",
+      "type": "VECTOR",
+      "name": "Vector",
+      "position": {
+        "x": 10.199790954589844,
+        "y": 8.194804191589355
+      },
+      "size": {
+        "width": 9.669211387634277,
+        "height": 9.389805793762207
+      },
+      "fillColor": "rgba(66,133,244,1.00)",
+      "parent": "502:87",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:89",
+      "type": "VECTOR",
+      "name": "Vector",
+      "position": {
+        "x": 1.203235387802124,
+        "y": 11.914298057556152
+      },
+      "size": {
+        "width": 15.670166015625,
+        "height": 8.085702896118164
+      },
+      "fillColor": "rgba(52,168,83,1.00)",
+      "parent": "502:87",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:90",
+      "type": "VECTOR",
+      "name": "Vector",
+      "position": {
+        "x": 0.13100433349609375,
+        "y": 5.510117053985596
+      },
+      "size": {
+        "width": 4.415996551513672,
+        "height": 8.980106353759766
+      },
+      "fillColor": "rgba(251,188,4,1.00)",
+      "parent": "502:87",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:91",
+      "type": "VECTOR",
+      "name": "Vector",
+      "position": {
+        "x": 1.203235387802124,
+        "y": 0
+      },
+      "size": {
+        "width": 15.733098983764648,
+        "height": 8.0863618850708
+      },
+      "fillColor": "rgba(234,67,53,1.00)",
+      "parent": "502:87",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:92",
+      "type": "TEXT",
+      "name": "Типографика для (Dis",
+      "position": {
+        "x": 28,
+        "y": 0
+      },
+      "size": {
+        "width": 116,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Or sign in with Google",
+      "parent": "502:85",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:93",
+      "type": "FRAME",
+      "name": "Facebook-Small-Button-40px",
+      "position": {
+        "x": 172,
+        "y": 0
+      },
+      "size": {
+        "width": 164,
+        "height": 40
+      },
+      "fillColor": "rgba(51,51,51,1.00)",
+      "parent": "502:83",
+      "children": [
+        "502:94"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:94",
+      "type": "FRAME",
+      "name": "Other-Pay-Method",
+      "position": {
+        "x": 62,
+        "y": 10
+      },
+      "size": {
+        "width": 20,
+        "height": 20
+      },
+      "parent": "502:93",
+      "children": [
+        "502:95"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:95",
+      "type": "GROUP",
+      "name": "Facebook",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 20,
+        "height": 20
+      },
+      "parent": "502:94",
+      "children": [
+        "502:96",
+        "502:97"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:96",
+      "type": "VECTOR",
+      "name": "Path",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 20,
+        "height": 19.878917694091797
+      },
+      "fillColor": "rgba(24,119,242,1.00)",
+      "parent": "502:95",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:97",
+      "type": "VECTOR",
+      "name": "Path",
+      "position": {
+        "x": 5.898414611816406,
+        "y": 3.90625
+      },
+      "size": {
+        "width": 8.554707527160645,
+        "height": 16.09375
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:95",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:98",
+      "type": "FRAME",
+      "name": "Sign-Up-Offer",
+      "position": {
+        "x": 74,
+        "y": 368.5
+      },
+      "size": {
+        "width": 195,
+        "height": 20
+      },
+      "parent": "502:5",
+      "children": [
+        "502:99",
+        "502:100"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:99",
+      "type": "TEXT",
+      "name": "Description",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 122,
+        "height": 20
+      },
+      "fillColor": "rgba(26,26,26,1.00)",
+      "text": "Dont have an account?",
+      "parent": "502:98",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:100",
+      "type": "TEXT",
+      "name": "Description",
+      "position": {
+        "x": 130,
+        "y": 0
+      },
+      "size": {
+        "width": 65,
+        "height": 20
+      },
+      "fillColor": "rgba(0,122,255,1.00)",
+      "text": "Sign up now",
+      "parent": "502:98",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:101",
+      "type": "FRAME",
+      "name": "UI-Unicorn-Logo",
+      "position": {
+        "x": 109.3467788696289,
+        "y": 458.25
+      },
+      "size": {
+        "width": 124.30644226074219,
+        "height": 40
+      },
+      "parent": "502:4",
+      "children": [
+        "502:102",
+        "502:103"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:102",
+      "type": "RECTANGLE",
+      "name": "Avatar-UI-Unicorn-V2",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "parent": "502:101",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:103",
+      "type": "GROUP",
+      "name": "Group 3",
+      "position": {
+        "x": 48.010955810546875,
+        "y": 14.166666030883789
+      },
+      "size": {
+        "width": 76.29552459716797,
+        "height": 12.042318344116211
+      },
+      "parent": "502:101",
+      "children": [
+        "502:104"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:104",
+      "type": "VECTOR",
+      "name": "UI Unicorn",
+      "position": {
+        "x": 48.010955810546875,
+        "y": 14.166666030883789
+      },
+      "size": {
+        "width": 76.29552459716797,
+        "height": 12.042318344116211
+      },
+      "fillColor": "rgba(26,26,26,1.00)",
+      "parent": "502:103",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:105",
+      "type": "FRAME",
+      "name": "Bottom-Panel",
+      "position": {
+        "x": 0,
+        "y": 568
+      },
+      "size": {
+        "width": 343,
+        "height": 24
+      },
+      "parent": "502:4",
+      "children": [
+        "502:106",
+        "502:131"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:106",
+      "type": "FRAME",
+      "name": "Frame 28987",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 85,
+        "height": 24
+      },
+      "parent": "502:105",
+      "children": [
+        "502:107",
+        "502:130"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:107",
+      "type": "FRAME",
+      "name": "Figma",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 24,
+        "height": 24
+      },
+      "parent": "502:106",
+      "children": [
+        "502:108"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:108",
+      "type": "GROUP",
+      "name": "Figma",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 24,
+        "height": 24
+      },
+      "parent": "502:107",
+      "children": [
+        "502:109",
+        "502:114"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:109",
+      "type": "GROUP",
+      "name": "Color",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 24,
+        "height": 24
+      },
+      "parent": "502:108",
+      "children": [
+        "502:110"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:110",
+      "type": "GROUP",
+      "name": "Taobao",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 24,
+        "height": 24
+      },
+      "parent": "502:109",
+      "children": [
+        "502:111"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:111",
+      "type": "GROUP",
+      "name": "back",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 24,
+        "height": 24
+      },
+      "parent": "502:110",
+      "children": [
+        "502:112"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:112",
+      "type": "GROUP",
+      "name": "path0_fill-link",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 24,
+        "height": 24
+      },
+      "parent": "502:111",
+      "children": [
+        "502:113"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:113",
+      "type": "VECTOR",
+      "name": "path0_fill",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 24,
+        "height": 24
+      },
+      "fillColor": "rgba(51,51,51,1.00)",
+      "parent": "502:112",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:114",
+      "type": "GROUP",
+      "name": "Group",
+      "position": {
+        "x": 7.200007438659668,
+        "y": 4.799999713897705
+      },
+      "size": {
+        "width": 9.599993705749512,
+        "height": 14.400001525878906
+      },
+      "parent": "502:108",
+      "children": [
+        "502:115",
+        "502:118",
+        "502:121",
+        "502:124",
+        "502:127"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:115",
+      "type": "GROUP",
+      "name": "5",
+      "position": {
+        "x": 7.200007438659668,
+        "y": 14.400000095367432
+      },
+      "size": {
+        "width": 4.800000190734863,
+        "height": 4.80000114440918
+      },
+      "parent": "502:114",
+      "children": [
+        "502:116"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:116",
+      "type": "GROUP",
+      "name": "path1_fill-link",
+      "position": {
+        "x": 7.200007438659668,
+        "y": 14.400000095367432
+      },
+      "size": {
+        "width": 4.800000190734863,
+        "height": 4.80000114440918
+      },
+      "parent": "502:115",
+      "children": [
+        "502:117"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:117",
+      "type": "VECTOR",
+      "name": "path1_fill",
+      "position": {
+        "x": 7.200007438659668,
+        "y": 14.400000095367432
+      },
+      "size": {
+        "width": 4.800000190734863,
+        "height": 4.80000114440918
+      },
+      "fillColor": "rgba(10,207,131,1.00)",
+      "parent": "502:116",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:118",
+      "type": "GROUP",
+      "name": "4",
+      "position": {
+        "x": 7.200007438659668,
+        "y": 9.59999942779541
+      },
+      "size": {
+        "width": 4.800000190734863,
+        "height": 4.800000190734863
+      },
+      "parent": "502:114",
+      "children": [
+        "502:119"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:119",
+      "type": "GROUP",
+      "name": "path2_fill-link",
+      "position": {
+        "x": 7.200007438659668,
+        "y": 9.59999942779541
+      },
+      "size": {
+        "width": 4.800000190734863,
+        "height": 4.800000190734863
+      },
+      "parent": "502:118",
+      "children": [
+        "502:120"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:120",
+      "type": "VECTOR",
+      "name": "path2_fill",
+      "position": {
+        "x": 7.200007438659668,
+        "y": 9.59999942779541
+      },
+      "size": {
+        "width": 4.800000190734863,
+        "height": 4.800000190734863
+      },
+      "fillColor": "rgba(162,89,255,1.00)",
+      "parent": "502:119",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:121",
+      "type": "GROUP",
+      "name": "3",
+      "position": {
+        "x": 7.200007438659668,
+        "y": 4.799999713897705
+      },
+      "size": {
+        "width": 4.800000190734863,
+        "height": 4.799999713897705
+      },
+      "parent": "502:114",
+      "children": [
+        "502:122"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:122",
+      "type": "GROUP",
+      "name": "path2_fill-link",
+      "position": {
+        "x": 7.200007438659668,
+        "y": 4.799999713897705
+      },
+      "size": {
+        "width": 4.800000190734863,
+        "height": 4.799999713897705
+      },
+      "parent": "502:121",
+      "children": [
+        "502:123"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:123",
+      "type": "VECTOR",
+      "name": "path2_fill",
+      "position": {
+        "x": 7.200007438659668,
+        "y": 4.799999713897705
+      },
+      "size": {
+        "width": 4.800000190734863,
+        "height": 4.799999713897705
+      },
+      "fillColor": "rgba(242,78,30,1.00)",
+      "parent": "502:122",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:124",
+      "type": "GROUP",
+      "name": "2",
+      "position": {
+        "x": 12,
+        "y": 4.799999713897705
+      },
+      "size": {
+        "width": 4.80000114440918,
+        "height": 4.799999713897705
+      },
+      "parent": "502:114",
+      "children": [
+        "502:125"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:125",
+      "type": "GROUP",
+      "name": "path3_fill-link",
+      "position": {
+        "x": 12,
+        "y": 4.799999713897705
+      },
+      "size": {
+        "width": 4.80000114440918,
+        "height": 4.799999713897705
+      },
+      "parent": "502:124",
+      "children": [
+        "502:126"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:126",
+      "type": "VECTOR",
+      "name": "path3_fill",
+      "position": {
+        "x": 12,
+        "y": 4.799999713897705
+      },
+      "size": {
+        "width": 4.80000114440918,
+        "height": 4.799999713897705
+      },
+      "fillColor": "rgba(255,114,98,1.00)",
+      "parent": "502:125",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:127",
+      "type": "GROUP",
+      "name": "1",
+      "position": {
+        "x": 12,
+        "y": 9.59999942779541
+      },
+      "size": {
+        "width": 4.80000114440918,
+        "height": 4.800000190734863
+      },
+      "parent": "502:114",
+      "children": [
+        "502:128"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:128",
+      "type": "GROUP",
+      "name": "path4_fill-link",
+      "position": {
+        "x": 12,
+        "y": 9.59999942779541
+      },
+      "size": {
+        "width": 4.80000114440918,
+        "height": 4.800000190734863
+      },
+      "parent": "502:127",
+      "children": [
+        "502:129"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:129",
+      "type": "VECTOR",
+      "name": "path4_fill",
+      "position": {
+        "x": 12,
+        "y": 9.59999942779541
+      },
+      "size": {
+        "width": 4.80000114440918,
+        "height": 4.800000190734863
+      },
+      "fillColor": "rgba(26,188,254,1.00)",
+      "parent": "502:128",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:130",
+      "type": "TEXT",
+      "name": "Head",
+      "position": {
+        "x": 28,
+        "y": 4
+      },
+      "size": {
+        "width": 57,
+        "height": 16
+      },
+      "fillColor": "rgba(0,122,255,1.00)",
+      "text": "@uiunicorn",
+      "parent": "502:106",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:131",
+      "type": "TEXT",
+      "name": "Head",
+      "position": {
+        "x": 237,
+        "y": 4
+      },
+      "size": {
+        "width": 106,
+        "height": 16
+      },
+      "fillColor": "rgba(102,102,102,1.00)",
+      "text": "© Perfect Login 2021",
+      "parent": "502:105",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:132",
+      "type": "FRAME",
+      "name": "Mobile-Browser",
+      "position": {
+        "x": 0,
+        "y": 728
+      },
+      "size": {
+        "width": 375,
+        "height": 84
+      },
+      "parent": "502:3",
+      "children": [
+        "502:133",
+        "502:134",
+        "502:135",
+        "502:138",
+        "502:146",
+        "502:147",
+        "502:148"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:133",
+      "type": "VECTOR",
+      "name": "Rectangle 2751",
+      "position": {
+        "x": 0,
+        "y": 45
+      },
+      "size": {
+        "width": 375,
+        "height": 39
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:132",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:134",
+      "type": "RECTANGLE",
+      "name": "Rectangle",
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "size": {
+        "width": 375,
+        "height": 44
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:132",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:135",
+      "type": "GROUP",
+      "name": "Group 3177",
+      "position": {
+        "x": 20,
+        "y": 11
+      },
+      "size": {
+        "width": 80,
+        "height": 24
+      },
+      "parent": "502:132",
+      "children": [
+        "502:136",
+        "502:137"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:136",
+      "type": "VECTOR",
+      "name": "Back",
+      "position": {
+        "x": 100,
+        "y": 11
+      },
+      "size": {
+        "width": 14,
+        "height": 24
+      },
+      "fillColor": "rgba(189,193,197,1.00)",
+      "parent": "502:135",
+      "rotation": -180,
+      "opacity": 1
+    },
+    {
+      "id": "502:137",
+      "type": "VECTOR",
+      "name": "Back",
+      "position": {
+        "x": 20,
+        "y": 11
+      },
+      "size": {
+        "width": 14,
+        "height": 24
+      },
+      "fillColor": "rgba(189,193,197,1.00)",
+      "parent": "502:135",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:138",
+      "type": "GROUP",
+      "name": "Group 3178",
+      "position": {
+        "x": 265,
+        "y": 11
+      },
+      "size": {
+        "width": 90,
+        "height": 24
+      },
+      "parent": "502:132",
+      "children": [
+        "502:139",
+        "502:143"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:139",
+      "type": "GROUP",
+      "name": "Group 9",
+      "position": {
+        "x": 329,
+        "y": 20
+      },
+      "size": {
+        "width": 26,
+        "height": 6
+      },
+      "parent": "502:138",
+      "children": [
+        "502:140",
+        "502:141",
+        "502:142"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:140",
+      "type": "VECTOR",
+      "name": "Oval",
+      "position": {
+        "x": 349,
+        "y": 20
+      },
+      "size": {
+        "width": 6,
+        "height": 6
+      },
+      "fillColor": "rgba(189,193,197,1.00)",
+      "parent": "502:139",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:141",
+      "type": "VECTOR",
+      "name": "Oval",
+      "position": {
+        "x": 339,
+        "y": 20
+      },
+      "size": {
+        "width": 6,
+        "height": 6
+      },
+      "fillColor": "rgba(189,193,197,1.00)",
+      "parent": "502:139",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:142",
+      "type": "VECTOR",
+      "name": "Oval",
+      "position": {
+        "x": 329,
+        "y": 20
+      },
+      "size": {
+        "width": 6,
+        "height": 6
+      },
+      "fillColor": "rgba(189,193,197,1.00)",
+      "parent": "502:139",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:143",
+      "type": "GROUP",
+      "name": "Group 3",
+      "position": {
+        "x": 265,
+        "y": 11
+      },
+      "size": {
+        "width": 24,
+        "height": 24
+      },
+      "parent": "502:138",
+      "children": [
+        "502:144",
+        "502:145"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:144",
+      "type": "RECTANGLE",
+      "name": "Rectangle",
+      "position": {
+        "x": 265,
+        "y": 11
+      },
+      "size": {
+        "width": 24,
+        "height": 24
+      },
+      "parent": "502:143",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:145",
+      "type": "TEXT",
+      "name": "1",
+      "position": {
+        "x": 265.5,
+        "y": 11
+      },
+      "size": {
+        "width": 23,
+        "height": 24
+      },
+      "fillColor": "rgba(189,193,197,1.00)",
+      "text": "1",
+      "parent": "502:143",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:146",
+      "type": "RECTANGLE",
+      "name": "Nav",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 375,
+        "height": 1
+      },
+      "fillColor": "rgba(229,229,229,1.00)",
+      "parent": "502:132",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:147",
+      "type": "RECTANGLE",
+      "name": "Rectangle",
+      "position": {
+        "x": 121,
+        "y": 70
+      },
+      "size": {
+        "width": 134,
+        "height": 5
+      },
+      "fillColor": "rgba(26,26,26,1.00)",
+      "parent": "502:132",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:148",
+      "type": "GROUP",
+      "name": "Group 6979",
+      "position": {
+        "x": 169.5,
+        "y": 5
+      },
+      "size": {
+        "width": 36,
+        "height": 36
+      },
+      "parent": "502:132",
+      "children": [
+        "502:149",
+        "502:151"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:149",
+      "type": "GROUP",
+      "name": "Group 2",
+      "position": {
+        "x": 169.5,
+        "y": 5
+      },
+      "size": {
+        "width": 36,
+        "height": 36
+      },
+      "parent": "502:148",
+      "children": [
+        "502:150"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:150",
+      "type": "RECTANGLE",
+      "name": "Input",
+      "position": {
+        "x": 169.5,
+        "y": 5
+      },
+      "size": {
+        "width": 36,
+        "height": 36
+      },
+      "fillColor": "rgba(242,242,242,1.00)",
+      "parent": "502:149",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:151",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Union",
+      "position": {
+        "x": 175.5,
+        "y": 11.5
+      },
+      "size": {
+        "width": 24,
+        "height": 24
+      },
+      "fillColor": "rgba(189,193,197,1.00)",
+      "parent": "502:148",
+      "children": [
+        "502:152",
+        "502:153"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:152",
+      "type": "RECTANGLE",
+      "name": "Rectangle 2754",
+      "position": {
+        "x": 186,
+        "y": 11.5
+      },
+      "size": {
+        "width": 3,
+        "height": 24
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:151",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:153",
+      "type": "RECTANGLE",
+      "name": "Rectangle 2755",
+      "position": {
+        "x": 175.5,
+        "y": 22
+      },
+      "size": {
+        "width": 24,
+        "height": 3
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:151",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:154",
+      "type": "FRAME",
+      "name": "Mobile-Browser",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 375,
+        "height": 96
+      },
+      "parent": "502:3",
+      "children": [
+        "502:155",
+        "502:156",
+        "502:157",
+        "502:158",
+        "502:173",
+        "502:175",
+        "502:176",
+        "502:181"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:155",
+      "type": "RECTANGLE",
+      "name": "Rectangle 12",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 375,
+        "height": 95
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:154",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:156",
+      "type": "RECTANGLE",
+      "name": "Nav",
+      "position": {
+        "x": 0,
+        "y": 40
+      },
+      "size": {
+        "width": 375,
+        "height": 56
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:154",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:157",
+      "type": "RECTANGLE",
+      "name": "Nav",
+      "position": {
+        "x": 0,
+        "y": 95
+      },
+      "size": {
+        "width": 375,
+        "height": 1
+      },
+      "fillColor": "rgba(229,229,229,1.00)",
+      "parent": "502:154",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:158",
+      "type": "GROUP",
+      "name": "Group 6985",
+      "position": {
+        "x": 294,
+        "y": 17
+      },
+      "size": {
+        "width": 66.32803344726562,
+        "height": 12
+      },
+      "parent": "502:154",
+      "children": [
+        "502:159",
+        "502:164",
+        "502:168"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:159",
+      "type": "GROUP",
+      "name": "Battery",
+      "position": {
+        "x": 336,
+        "y": 17.33349597454071
+      },
+      "size": {
+        "width": 24.32803726196289,
+        "height": 11.333333015441895
+      },
+      "parent": "502:158",
+      "children": [
+        "502:160",
+        "502:161",
+        "502:163"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:160",
+      "type": "RECTANGLE",
+      "name": "Rectangle",
+      "position": {
+        "x": 336,
+        "y": 17.33349597454071
+      },
+      "size": {
+        "width": 22,
+        "height": 11.333333015441895
+      },
+      "parent": "502:159",
+      "rotation": 0,
+      "opacity": 0.3499999940395355
+    },
+    {
+      "id": "502:161",
+      "type": "GROUP",
+      "name": "Combined Shape 2",
+      "position": {
+        "x": 359,
+        "y": 21.0001620054245
+      },
+      "size": {
+        "width": 1.328037977218628,
+        "height": 4
+      },
+      "parent": "502:159",
+      "children": [
+        "502:162"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:162",
+      "type": "VECTOR",
+      "name": "Combined Shape",
+      "position": {
+        "x": 359,
+        "y": 21.0001620054245
+      },
+      "size": {
+        "width": 1.328037977218628,
+        "height": 4
+      },
+      "fillColor": "rgba(26,26,26,0.40)",
+      "parent": "502:161",
+      "rotation": 0,
+      "opacity": 0.4000000059604645
+    },
+    {
+      "id": "502:163",
+      "type": "RECTANGLE",
+      "name": "Rectangle",
+      "position": {
+        "x": 338,
+        "y": 19.33349597454071
+      },
+      "size": {
+        "width": 18,
+        "height": 7.333333492279053
+      },
+      "fillColor": "rgba(26,26,26,1.00)",
+      "parent": "502:159",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:164",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Wifi",
+      "position": {
+        "x": 316,
+        "y": 17
+      },
+      "size": {
+        "width": 15,
+        "height": 11
+      },
+      "fillColor": "rgba(26,26,26,1.00)",
+      "parent": "502:158",
+      "children": [
+        "502:165",
+        "502:166",
+        "502:167"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:165",
+      "type": "VECTOR",
+      "name": "Wifi-path",
+      "position": {
+        "x": 316.00000016254836,
+        "y": 16.99999988079071
+      },
+      "size": {
+        "width": 15,
+        "height": 4.758129596710205
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "502:164",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:166",
+      "type": "VECTOR",
+      "name": "Wifi-path",
+      "position": {
+        "x": 318.61578392982483,
+        "y": 20.805952072143555
+      },
+      "size": {
+        "width": 9.771574974060059,
+        "height": 3.645390510559082
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "502:164",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:167",
+      "type": "VECTOR",
+      "name": "Wifi-path",
+      "position": {
+        "x": 321.2284240722656,
+        "y": 24.61499786376953
+      },
+      "size": {
+        "width": 4.543785572052002,
+        "height": 3.3850016593933105
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "502:164",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:168",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Mobile Signal",
+      "position": {
+        "x": 294,
+        "y": 17.99999988079071
+      },
+      "size": {
+        "width": 17,
+        "height": 11
+      },
+      "fillColor": "rgba(26,26,26,1.00)",
+      "parent": "502:158",
+      "children": [
+        "502:169",
+        "502:170",
+        "502:171",
+        "502:172"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:169",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "position": {
+        "x": 294,
+        "y": 24.87499988079071
+      },
+      "size": {
+        "width": 3,
+        "height": 4.125
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "502:168",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:170",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "position": {
+        "x": 298.6666564941406,
+        "y": 22.81249988079071
+      },
+      "size": {
+        "width": 3,
+        "height": 6.1875
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "502:168",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:171",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "position": {
+        "x": 303.3333435058594,
+        "y": 20.40624988079071
+      },
+      "size": {
+        "width": 3,
+        "height": 8.59375
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "502:168",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:172",
+      "type": "VECTOR",
+      "name": "Cellular_Connection-path",
+      "position": {
+        "x": 308,
+        "y": 17.99999988079071
+      },
+      "size": {
+        "width": 3,
+        "height": 11
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "502:168",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:173",
+      "type": "FRAME",
+      "name": "Time Style",
+      "position": {
+        "x": 21,
+        "y": 14
+      },
+      "size": {
+        "width": 54,
+        "height": 18
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "502:154",
+      "children": [
+        "502:174"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:174",
+      "type": "TEXT",
+      "name": "9:41",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 54,
+        "height": 18
+      },
+      "fillColor": "rgba(26,26,26,1.00)",
+      "text": "9:41",
+      "parent": "502:173",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:175",
+      "type": "RECTANGLE",
+      "name": "Input",
+      "position": {
+        "x": 8,
+        "y": 48
+      },
+      "size": {
+        "width": 359,
+        "height": 40
+      },
+      "fillColor": "rgba(242,242,242,1.00)",
+      "parent": "502:154",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:176",
+      "type": "GROUP",
+      "name": "Group 63",
+      "position": {
+        "x": 334,
+        "y": 60
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "parent": "502:154",
+      "children": [
+        "502:177",
+        "502:178",
+        "502:179",
+        "502:180"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:177",
+      "type": "VECTOR",
+      "name": "Stroke 345",
+      "position": {
+        "x": 342,
+        "y": 60
+      },
+      "size": {
+        "width": 0.800000011920929,
+        "height": 11.199999809265137
+      },
+      "parent": "502:176",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:178",
+      "type": "VECTOR",
+      "name": "Stroke 346",
+      "position": {
+        "x": 342,
+        "y": 60
+      },
+      "size": {
+        "width": 2.4000000953674316,
+        "height": 2.4000000953674316
+      },
+      "parent": "502:176",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:179",
+      "type": "VECTOR",
+      "name": "Stroke 347",
+      "position": {
+        "x": 339.6000061035156,
+        "y": 60
+      },
+      "size": {
+        "width": 2.4000000953674316,
+        "height": 2.4000000953674316
+      },
+      "parent": "502:176",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:180",
+      "type": "VECTOR",
+      "name": "Stroke 348",
+      "position": {
+        "x": 334,
+        "y": 63.20000076293945
+      },
+      "size": {
+        "width": 16,
+        "height": 12.800000190734863
+      },
+      "parent": "502:176",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:181",
+      "type": "FRAME",
+      "name": "Frame 28894",
+      "position": {
+        "x": 146.427734375,
+        "y": 60
+      },
+      "size": {
+        "width": 82.142578125,
+        "height": 15
+      },
+      "parent": "502:154",
+      "children": [
+        "502:182",
+        "502:185"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:182",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Icon/Lock",
+      "position": {
+        "x": 0,
+        "y": 1.5
+      },
+      "size": {
+        "width": 9.142578125,
+        "height": 12
+      },
+      "fillColor": "rgba(26,26,26,1.00)",
+      "parent": "502:181",
+      "children": [
+        "502:183",
+        "502:184"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:183",
+      "type": "VECTOR",
+      "name": "Path",
+      "position": {
+        "x": 0,
+        "y": 1.5
+      },
+      "size": {
+        "width": 9.14288330078125,
+        "height": 12
+      },
+      "fillColor": "rgba(0,130,61,1.00)",
+      "parent": "502:182",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:184",
+      "type": "VECTOR",
+      "name": "Path",
+      "position": {
+        "x": 2.857501745223999,
+        "y": 2.6439257860183716
+      },
+      "size": {
+        "width": 3.428576707839966,
+        "height": 2.857147455215454
+      },
+      "fillColor": "rgba(0,130,61,1.00)",
+      "parent": "502:182",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "502:185",
+      "type": "TEXT",
+      "name": "131.ru",
+      "position": {
+        "x": 13.142578125,
+        "y": 0
+      },
+      "size": {
+        "width": 69,
+        "height": 15
+      },
+      "fillColor": "rgba(26,26,26,1.00)",
+      "text": "uiunicorn.ru",
+      "parent": "502:181",
+      "rotation": 0,
+      "opacity": 1
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "prompt": "mobile, app, inicio de sesión, fondo gris, título centrado “Log In” en negro, dos campos de entrada con bordes redondeados y fondo blanco etiquetados como “Email” y “Password”, botón negro centrado con texto blanco “LOG IN”, botón beige claro centrado con texto negro “Sign Up”, texto “Forgot Password?” centrado debajo de los botones, ilustración parcial en la parte inferior con forma redondeada y cuatro círculos negros, tipografía sans-serif, diseño alineado al centro, sin imágenes decorativas adicionales, estilo minimalista.",
+  "layout": [
+    {
+      "id": "553:3",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 375,
+        "height": 812
+      },
+      "fillColor": "rgba(229,227,221,1.00)",
+      "parent": "553:2",
+      "children": [
+        "553:4",
+        "553:6"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:4",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 667
+      },
+      "size": {
+        "width": 375,
+        "height": 145
+      },
+      "parent": "553:3",
+      "children": [
+        "553:5"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:5",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 0,
+        "y": 6
+      },
+      "size": {
+        "width": 375,
+        "height": 353
+      },
+      "parent": "553:4",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:6",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 375,
+        "height": 667
+      },
+      "parent": "553:3",
+      "children": [
+        "553:7",
+        "553:8",
+        "553:9",
+        "553:10",
+        "553:11",
+        "553:12",
+        "553:15",
+        "553:18"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:7",
+      "type": "TEXT",
+      "position": {
+        "x": 71,
+        "y": 556
+      },
+      "size": {
+        "width": 234,
+        "height": 43
+      },
+      "fillColor": "rgba(36,28,28,1.00)",
+      "text": "Forgot Password?",
+      "parent": "553:6",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:8",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 28,
+        "y": 253
+      },
+      "size": {
+        "width": 319,
+        "height": 63
+      },
+      "fillColor": "rgba(245,244,242,1.00)",
+      "parent": "553:6",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:9",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 28,
+        "y": 338
+      },
+      "size": {
+        "width": 319,
+        "height": 63
+      },
+      "fillColor": "rgba(245,244,242,1.00)",
+      "parent": "553:6",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:10",
+      "type": "TEXT",
+      "position": {
+        "x": 44,
+        "y": 253
+      },
+      "size": {
+        "width": 288,
+        "height": 63
+      },
+      "fillColor": "rgba(36,28,28,1.00)",
+      "text": "Email",
+      "parent": "553:6",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:11",
+      "type": "TEXT",
+      "position": {
+        "x": 44,
+        "y": 338
+      },
+      "size": {
+        "width": 288,
+        "height": 63
+      },
+      "fillColor": "rgba(36,28,28,1.00)",
+      "text": "Password",
+      "parent": "553:6",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:12",
+      "type": "GROUP",
+      "position": {
+        "x": 28,
+        "y": 423
+      },
+      "size": {
+        "width": 319,
+        "height": 63
+      },
+      "parent": "553:6",
+      "children": [
+        "553:13",
+        "553:14"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:13",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 28,
+        "y": 423
+      },
+      "size": {
+        "width": 319,
+        "height": 63
+      },
+      "fillColor": "rgba(36,28,28,1.00)",
+      "parent": "553:12",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:14",
+      "type": "TEXT",
+      "position": {
+        "x": 138,
+        "y": 433
+      },
+      "size": {
+        "width": 100,
+        "height": 43
+      },
+      "fillColor": "rgba(245,244,242,1.00)",
+      "text": "LOG IN",
+      "parent": "553:12",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:15",
+      "type": "GROUP",
+      "position": {
+        "x": 28,
+        "y": 493
+      },
+      "size": {
+        "width": 319,
+        "height": 63
+      },
+      "parent": "553:6",
+      "children": [
+        "553:16",
+        "553:17"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:16",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 28,
+        "y": 493
+      },
+      "size": {
+        "width": 319,
+        "height": 63
+      },
+      "fillColor": "rgba(200,196,183,0.72)",
+      "parent": "553:15",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:17",
+      "type": "TEXT",
+      "position": {
+        "x": 71,
+        "y": 503
+      },
+      "size": {
+        "width": 234,
+        "height": 43
+      },
+      "fillColor": "rgba(36,28,28,1.00)",
+      "text": "Sign Up",
+      "parent": "553:15",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "553:18",
+      "type": "TEXT",
+      "position": {
+        "x": 132,
+        "y": 161
+      },
+      "size": {
+        "width": 106,
+        "height": 64
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "text": "Log In",
+      "parent": "553:6",
+      "rotation": 0,
+      "opacity": 1
+    }
+  ]
+}

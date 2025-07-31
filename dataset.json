@@ -1,0 +1,1742 @@
+[
+  {
+    "prompt": "pantalla de acceso rápido con botón",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla con campos de nombre y correo y botón azul",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Formulario de contacto"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Entrar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "interfaz de chat con campo mensaje y botón enviar",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "button",
+        "text": "Cancelar",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de login con correo y contraseña y un botón de entrar",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de error con texto y botón rojo",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Guardar",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla con imagen grande y botón rojo",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "interfaz para editar perfil con imagen, texto y botón",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "button",
+        "text": "Buscar",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "prompt": "interfaz para editar perfil con imagen, texto y botón",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "button",
+        "text": "Cancelar",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "prompt": "página de inicio con título, subtítulo y botón verde",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "página de ajustes con varias opciones y botón guardar",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "button",
+        "text": "Guardar",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de login simple con usuario y botón",
+    "layout": [
+      {
+        "type": "image",
+        "description": "Encabezado"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario con dirección, teléfono y botón cancelar",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Completa los campos"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "button",
+        "text": "Buscar",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario de suscripción con campo correo y botón",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Completa los campos"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Entrar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario de contacto con nombre, correo, mensaje y botón azul",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Completa los campos"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "button",
+        "text": "Guardar",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario de registro con nombre, correo, contraseña y botón verde",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "button",
+        "text": "Guardar",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla con barra de búsqueda y botón naranja",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "button",
+        "text": "Entrar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario con campo de teléfono y botón enviar",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de confirmación con texto y botón gris",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Bienvenido"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "button",
+        "text": "Cancelar",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de ayuda con texto explicativo y botón",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "button",
+        "text": "Guardar",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla con dos campos y dos botones",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "página de éxito con mensaje y botón azul",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Iniciar sesión"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "button",
+        "text": "Buscar",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de confirmación con texto y botón gris",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Entrar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de acceso rápido con botón",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "button",
+        "text": "Buscar",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario de pago con nombre y botón",
+    "layout": [
+      {
+        "type": "image",
+        "description": "Encabezado"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Cancelar",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla con barra de búsqueda y botón naranja",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Bienvenido"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "interfaz de chat con campo mensaje y botón enviar",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "button",
+        "text": "Entrar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario corto con usuario y contraseña",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "button",
+        "text": "Cancelar",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "prompt": "sección con texto de bienvenida y botón azul",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "página de ajustes con varias opciones y botón guardar",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario de registro con nombre, correo, contraseña y botón verde",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario de suscripción con campo correo y botón",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Iniciar sesión"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "button",
+        "text": "Buscar",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "prompt": "sección con texto de bienvenida y botón azul",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de confirmación con texto y botón gris",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Completa los campos"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de ayuda con texto explicativo y botón",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario con campo de teléfono y botón enviar",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Completa los campos"
+      },
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario de pago con nombre y botón",
+    "layout": [
+      {
+        "type": "image",
+        "description": "Avatar"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla para crear cuenta con cuatro campos y botón",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "button",
+        "text": "Buscar",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla con barra de búsqueda y botón naranja",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Cancelar",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "prompt": "página de inicio con título, subtítulo y botón verde",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Formulario de contacto"
+      },
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "button",
+        "text": "Guardar",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "prompt": "interfaz para editar perfil con imagen, texto y botón",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "button",
+        "text": "Guardar",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de error con texto y botón rojo",
+    "layout": [
+      {
+        "type": "image",
+        "description": "Encabezado"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "button",
+        "text": "Entrar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario con dirección, teléfono y botón cancelar",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Completa los campos"
+      },
+      {
+        "type": "image",
+        "description": "Logo"
+      },
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "button",
+        "text": "Guardar",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "prompt": "interfaz de búsqueda con campo de entrada y botón",
+    "layout": [
+      {
+        "type": "image",
+        "description": "Encabezado"
+      },
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "button",
+        "text": "Guardar",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla con dos campos y dos botones",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "button",
+        "text": "Guardar",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "prompt": "página de ajustes con varias opciones y botón guardar",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de login con correo y contraseña y un botón de entrar",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "button",
+        "text": "Entrar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de perfil con imagen, nombre y botón de editar",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "button",
+        "text": "Entrar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario con campo de teléfono y botón enviar",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Cancelar",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "prompt": "página de ajustes con varias opciones y botón guardar",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla con campos de nombre y correo y botón azul",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Iniciar sesión"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "button",
+        "text": "Buscar",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "prompt": "página de inicio con título, subtítulo y botón verde",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Completa los campos"
+      },
+      {
+        "type": "image",
+        "description": "Logo"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "interfaz de búsqueda con campo de entrada y botón",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario de registro con nombre, correo, contraseña y botón verde",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "interfaz de búsqueda con campo de entrada y botón",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de login simple con usuario y botón",
+    "layout": [
+      {
+        "type": "image",
+        "description": "Encabezado"
+      },
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "button",
+        "text": "Entrar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla con campos de nombre y correo y botón azul",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Iniciar sesión"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla con imagen grande y botón rojo",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de ayuda con texto explicativo y botón",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Iniciar sesión"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "button",
+        "text": "Guardar",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario de contacto con nombre, correo, mensaje y botón azul",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "interfaz de búsqueda con campo de entrada y botón",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "página de éxito con mensaje y botón azul",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla para crear cuenta con cuatro campos y botón",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de ajustes con texto y botón guardar",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario corto con usuario y contraseña",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla con barra de búsqueda y botón naranja",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario con dirección, teléfono y botón cancelar",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Buscar",
+        "color": "orange"
+      }
+    ]
+  },
+  {
+    "prompt": "página de éxito con mensaje y botón azul",
+    "layout": [
+      {
+        "type": "image",
+        "description": "Encabezado"
+      },
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "button",
+        "text": "Cancelar",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "prompt": "página de éxito con mensaje y botón azul",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Correo"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "button",
+        "text": "Guardar",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de login simple con usuario y botón",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Formulario de contacto"
+      },
+      {
+        "type": "image",
+        "description": "Logo"
+      },
+      {
+        "type": "input",
+        "label": "Nombre"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "button",
+        "text": "Guardar",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de acceso rápido con botón",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Formulario de contacto"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "button",
+        "text": "Cancelar",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "prompt": "página de éxito con mensaje y botón azul",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "button",
+        "text": "Entrar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de login con correo y contraseña y un botón de entrar",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "button",
+        "text": "Cancelar",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla de error con texto y botón rojo",
+    "layout": [
+      {
+        "type": "image",
+        "description": "Encabezado"
+      },
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "button",
+        "text": "Cancelar",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario con campo de teléfono y botón enviar",
+    "layout": [
+      {
+        "type": "image",
+        "description": "Logo"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "button",
+        "text": "Guardar",
+        "color": "gray"
+      }
+    ]
+  },
+  {
+    "prompt": "página de éxito con mensaje y botón azul",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Iniciar sesión"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Entrar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "página con texto explicativo y botón verde",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Teléfono"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario corto con usuario y contraseña",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Bienvenido"
+      },
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "button",
+        "text": "Cancelar",
+        "color": "red"
+      }
+    ]
+  },
+  {
+    "prompt": "pantalla con barra de búsqueda y botón naranja",
+    "layout": [
+      {
+        "type": "text",
+        "content": "Bienvenido"
+      },
+      {
+        "type": "input",
+        "label": "Dirección"
+      },
+      {
+        "type": "button",
+        "text": "Enviar",
+        "color": "blue"
+      }
+    ]
+  },
+  {
+    "prompt": "página de éxito con mensaje y botón azul",
+    "layout": [
+      {
+        "type": "image",
+        "description": "Encabezado"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "input",
+        "label": "Mensaje"
+      },
+      {
+        "type": "button",
+        "text": "Registrar",
+        "color": "green"
+      }
+    ]
+  },
+  {
+    "prompt": "formulario de suscripción con campo correo y botón",
+    "layout": [
+      {
+        "type": "input",
+        "label": "Usuario"
+      },
+      {
+        "type": "input",
+        "label": "Contraseña"
+      },
+      {
+        "type": "input",
+        "label": "Buscar"
+      },
+      {
+        "type": "button",
+        "text": "Cancelar",
+        "color": "red"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1302 @@
+{
+  "prompt": "desktop, web, pantalla de registro, formulario de registro",
+  "layout": [
+    {
+      "id": "115:350",
+      "type": "FRAME",
+      "name": "Template 5/Sign Up",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1440,
+        "height": 900
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "114:88",
+      "children": [
+        "115:351",
+        "115:352",
+        "115:355",
+        "115:356",
+        "115:384",
+        "115:385",
+        "115:386",
+        "115:392",
+        "115:416"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:351",
+      "type": "VECTOR",
+      "name": "Rectangle",
+      "position": {
+        "x": -0.000030517578125,
+        "y": 0.00048828125
+      },
+      "size": {
+        "width": 1440,
+        "height": 450.0000305175781
+      },
+      "parent": "115:350",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:352",
+      "type": "GROUP",
+      "name": "btn-pry/template/1 2",
+      "position": {
+        "x": 1243.9998779296875,
+        "y": 34.00048828125
+      },
+      "size": {
+        "width": 136,
+        "height": 48
+      },
+      "parent": "115:350",
+      "children": [
+        "115:353",
+        "115:354"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:353",
+      "type": "RECTANGLE",
+      "name": "Rectangle 2",
+      "position": {
+        "x": 1243.9998779296875,
+        "y": 34.00048828125
+      },
+      "size": {
+        "width": 136,
+        "height": 48
+      },
+      "fillColor": "rgba(33,33,33,1.00)",
+      "parent": "115:352",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:354",
+      "type": "TEXT",
+      "name": "GET STARTED",
+      "position": {
+        "x": 1283.9998779296875,
+        "y": 47.00048828125
+      },
+      "size": {
+        "width": 50,
+        "height": 23
+      },
+      "fillColor": "rgba(33,33,33,1.00)",
+      "text": "SIGN IN",
+      "parent": "115:352",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:355",
+      "type": "RECTANGLE",
+      "name": "Rectangle 2",
+      "position": {
+        "x": 433,
+        "y": 132
+      },
+      "size": {
+        "width": 572,
+        "height": 588
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:350",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:356",
+      "type": "FRAME",
+      "name": "Frame 3",
+      "position": {
+        "x": 528,
+        "y": 257.75
+      },
+      "size": {
+        "width": 380.000244140625,
+        "height": 323.5
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:350",
+      "children": [
+        "115:357",
+        "115:376",
+        "115:381"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:357",
+      "type": "GROUP",
+      "name": "Group",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 380.000244140625,
+        "height": 204.5
+      },
+      "parent": "115:356",
+      "children": [
+        "115:358",
+        "115:364",
+        "115:371"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:358",
+      "type": "GROUP",
+      "name": "input/name Copy 2",
+      "position": {
+        "x": 0.000244140625,
+        "y": 68.5
+      },
+      "size": {
+        "width": 380,
+        "height": 68
+      },
+      "parent": "115:357",
+      "children": [
+        "115:359",
+        "115:360"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:359",
+      "type": "RECTANGLE",
+      "name": "Rectangle",
+      "position": {
+        "x": 0.000244140625,
+        "y": 68.5
+      },
+      "size": {
+        "width": 380,
+        "height": 68
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:358",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:360",
+      "type": "GROUP",
+      "name": "Group",
+      "position": {
+        "x": 16.76226806640625,
+        "y": 80.39599609375
+      },
+      "size": {
+        "width": 330.23809814453125,
+        "height": 49.72917175292969
+      },
+      "parent": "115:358",
+      "children": [
+        "115:361"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:361",
+      "type": "GROUP",
+      "name": "Group",
+      "position": {
+        "x": 16.76226806640625,
+        "y": 80.39599609375
+      },
+      "size": {
+        "width": 330.23809814453125,
+        "height": 49.72917175292969
+      },
+      "parent": "115:360",
+      "children": [
+        "115:362",
+        "115:363"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:362",
+      "type": "TEXT",
+      "name": "johndoe@example.com",
+      "position": {
+        "x": 16.76226806640625,
+        "y": 98.95849609375
+      },
+      "size": {
+        "width": 330.23809814453125,
+        "height": 31.166671752929688
+      },
+      "fillColor": "rgba(117,117,117,1.00)",
+      "text": "johndoe@example.com",
+      "parent": "115:361",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:363",
+      "type": "TEXT",
+      "name": "EMAIL ADRRESS",
+      "position": {
+        "x": 16.762451171875,
+        "y": 80.39599609375
+      },
+      "size": {
+        "width": 78,
+        "height": 19
+      },
+      "fillColor": "rgba(97,97,97,1.00)",
+      "text": "EMAIL ADRRESS",
+      "parent": "115:361",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:364",
+      "type": "GROUP",
+      "name": "input/name Copy 3",
+      "position": {
+        "x": 0.000244140625,
+        "y": 136.5
+      },
+      "size": {
+        "width": 380,
+        "height": 68
+      },
+      "parent": "115:357",
+      "children": [
+        "115:365",
+        "115:366",
+        "115:367"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:365",
+      "type": "RECTANGLE",
+      "name": "Rectangle",
+      "position": {
+        "x": 0.000244140625,
+        "y": 136.5
+      },
+      "size": {
+        "width": 380,
+        "height": 68
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:364",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:366",
+      "type": "INSTANCE",
+      "name": "ex-icon/eye",
+      "position": {
+        "x": 354.00018310546875,
+        "y": 162.5
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "parent": "115:364",
+      "children": [
+        "I115:366;10:3"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:366;10:3",
+      "type": "GROUP",
+      "name": "eye",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "parent": "115:366",
+      "children": [
+        "I115:366;10:4",
+        "I115:366;10:5",
+        "I115:366;10:8"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:366;10:4",
+      "type": "RECTANGLE",
+      "name": "Background",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 16,
+        "height": 16
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "I115:366;10:3",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:366;10:5",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Shape",
+      "position": {
+        "x": 0,
+        "y": 2.5
+      },
+      "size": {
+        "width": 16,
+        "height": 11.000000953674316
+      },
+      "fillColor": "rgba(190,190,190,1.00)",
+      "parent": "I115:366;10:3",
+      "children": [
+        "I115:366;10:6",
+        "I115:366;10:7"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:366;10:6",
+      "type": "VECTOR",
+      "name": "Shape path",
+      "position": {
+        "x": 0,
+        "y": 2.5
+      },
+      "size": {
+        "width": 16,
+        "height": 11.000000953674316
+      },
+      "parent": "I115:366;10:5",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:366;10:7",
+      "type": "VECTOR",
+      "name": "Shape path",
+      "position": {
+        "x": 1.1719970703125,
+        "y": 3.5000001192092896
+      },
+      "size": {
+        "width": 13.656005859375,
+        "height": 9.000000953674316
+      },
+      "parent": "I115:366;10:5",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:366;10:8",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Shape",
+      "position": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "size": {
+        "width": 7,
+        "height": 6.999999046325684
+      },
+      "fillColor": "rgba(190,190,190,1.00)",
+      "parent": "I115:366;10:3",
+      "children": [
+        "I115:366;10:9",
+        "I115:366;10:10"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:366;10:9",
+      "type": "VECTOR",
+      "name": "Shape path",
+      "position": {
+        "x": 5.5,
+        "y": 5.5
+      },
+      "size": {
+        "width": 4.999994277954102,
+        "height": 5
+      },
+      "parent": "I115:366;10:8",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "I115:366;10:10",
+      "type": "VECTOR",
+      "name": "Shape path",
+      "position": {
+        "x": 4.5,
+        "y": 4.5
+      },
+      "size": {
+        "width": 7,
+        "height": 6.999999046325684
+      },
+      "parent": "I115:366;10:8",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:367",
+      "type": "GROUP",
+      "name": "Group",
+      "position": {
+        "x": 16.76202392578125,
+        "y": 148.39599609375
+      },
+      "size": {
+        "width": 330.23809814453125,
+        "height": 46.72249984741211
+      },
+      "parent": "115:364",
+      "children": [
+        "115:368"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:368",
+      "type": "GROUP",
+      "name": "Group",
+      "position": {
+        "x": 16.76202392578125,
+        "y": 148.39599609375
+      },
+      "size": {
+        "width": 330.23809814453125,
+        "height": 46.72249984741211
+      },
+      "parent": "115:367",
+      "children": [
+        "115:369",
+        "115:370"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:369",
+      "type": "TEXT",
+      "name": "*****************",
+      "position": {
+        "x": 16.76202392578125,
+        "y": 166.95849609375
+      },
+      "size": {
+        "width": 330.23809814453125,
+        "height": 28.15999984741211
+      },
+      "fillColor": "rgba(117,117,117,1.00)",
+      "text": "**********",
+      "parent": "115:368",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:370",
+      "type": "TEXT",
+      "name": "PASSWORD",
+      "position": {
+        "x": 16.762451171875,
+        "y": 148.39599609375
+      },
+      "size": {
+        "width": 55,
+        "height": 19
+      },
+      "fillColor": "rgba(97,97,97,1.00)",
+      "text": "PASSWORD",
+      "parent": "115:368",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:371",
+      "type": "GROUP",
+      "name": "input/name",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 380,
+        "height": 68
+      },
+      "parent": "115:357",
+      "children": [
+        "115:372",
+        "115:373"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:372",
+      "type": "RECTANGLE",
+      "name": "Rectangle",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 380,
+        "height": 68
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:371",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:373",
+      "type": "GROUP",
+      "name": "Group",
+      "position": {
+        "x": 15.30029296875,
+        "y": 11.89599609375
+      },
+      "size": {
+        "width": 331.69976806640625,
+        "height": 49.72917175292969
+      },
+      "parent": "115:371",
+      "children": [
+        "115:374",
+        "115:375"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:374",
+      "type": "TEXT",
+      "name": "John",
+      "position": {
+        "x": 16.761962890625,
+        "y": 30.45849609375
+      },
+      "size": {
+        "width": 330.23809814453125,
+        "height": 31.166671752929688
+      },
+      "fillColor": "rgba(97,97,97,1.00)",
+      "text": "John",
+      "parent": "115:373",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:375",
+      "type": "TEXT",
+      "name": "FIRST NAME",
+      "position": {
+        "x": 15.30029296875,
+        "y": 11.89599609375
+      },
+      "size": {
+        "width": 59,
+        "height": 19
+      },
+      "fillColor": "rgba(33,33,33,1.00)",
+      "text": "FIRST NAME",
+      "parent": "115:373",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:376",
+      "type": "FRAME",
+      "name": "checkbox/label",
+      "position": {
+        "x": 0,
+        "y": 220.5
+      },
+      "size": {
+        "width": 255.5243377685547,
+        "height": 23
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:356",
+      "children": [
+        "115:377",
+        "115:380"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:377",
+      "type": "GROUP",
+      "name": "checkbox",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 21.52433967590332,
+        "height": 21.99997329711914
+      },
+      "parent": "115:376",
+      "children": [
+        "115:378",
+        "115:379"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:378",
+      "type": "RECTANGLE",
+      "name": "Rectangle",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 21.52433967590332,
+        "height": 21.99997329711914
+      },
+      "parent": "115:377",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:379",
+      "type": "VECTOR",
+      "name": "New shape",
+      "position": {
+        "x": 4.891845703125,
+        "y": 7.181640625
+      },
+      "size": {
+        "width": 11.740547180175781,
+        "height": 7.636354446411133
+      },
+      "parent": "115:377",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:380",
+      "type": "TEXT",
+      "name": "terms",
+      "position": {
+        "x": 29.52433967590332,
+        "y": 0
+      },
+      "size": {
+        "width": 226,
+        "height": 23
+      },
+      "fillColor": "rgba(97,97,97,1.00)",
+      "text": "I agree to the Terms of Service and Privacy Policy.",
+      "parent": "115:376",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:381",
+      "type": "GROUP",
+      "name": "btn-pry/template-2",
+      "position": {
+        "x": 0,
+        "y": 259.5
+      },
+      "size": {
+        "width": 380,
+        "height": 64
+      },
+      "parent": "115:356",
+      "children": [
+        "115:382",
+        "115:383"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:382",
+      "type": "RECTANGLE",
+      "name": "Rectangle 2",
+      "position": {
+        "x": 0,
+        "y": 259.5
+      },
+      "size": {
+        "width": 380,
+        "height": 64
+      },
+      "fillColor": "rgba(33,33,33,1.00)",
+      "parent": "115:381",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:383",
+      "type": "TEXT",
+      "name": "CREATE AN ACCOUNT",
+      "position": {
+        "x": 109,
+        "y": 277.5
+      },
+      "size": {
+        "width": 163,
+        "height": 29
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "CREATE AN ACCOUNT",
+      "parent": "115:381",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:384",
+      "type": "TEXT",
+      "name": "Start Your 14-Day Free  Trial",
+      "position": {
+        "x": 530.0000610351562,
+        "y": 164.5
+      },
+      "size": {
+        "width": 380,
+        "height": 38
+      },
+      "fillColor": "rgba(33,33,33,1.00)",
+      "text": "Sign up",
+      "parent": "115:350",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:385",
+      "type": "TEXT",
+      "name": "Already a Member? LOG IN Copy",
+      "position": {
+        "x": 586.5000610351562,
+        "y": 206
+      },
+      "size": {
+        "width": 264,
+        "height": 19
+      },
+      "fillColor": "rgba(117,117,117,1.00)",
+      "text": "Quick & Simple way to Automate your payment",
+      "parent": "115:350",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:386",
+      "type": "TEXT",
+      "name": "Sign up to Qpay Copy",
+      "position": {
+        "x": 710.0003051757812,
+        "y": 600
+      },
+      "size": {
+        "width": 18,
+        "height": 23
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "text": "OR",
+      "parent": "115:350",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:392",
+      "type": "GROUP",
+      "name": "btn/icon/group",
+      "position": {
+        "x": 634.0003051757812,
+        "y": 639.5
+      },
+      "size": {
+        "width": 170,
+        "height": 40
+      },
+      "parent": "115:350",
+      "children": [
+        "115:393",
+        "115:401",
+        "115:410"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:393",
+      "type": "GROUP",
+      "name": "btn/icon/google",
+      "position": {
+        "x": 634.0003051757812,
+        "y": 639.5
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "parent": "115:392",
+      "children": [
+        "115:394",
+        "115:395"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:394",
+      "type": "RECTANGLE",
+      "name": "Rectangle 3",
+      "position": {
+        "x": 634.0003051757812,
+        "y": 639.5
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "fillColor": "rgba(250,250,250,1.00)",
+      "parent": "115:393",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:395",
+      "type": "GROUP",
+      "name": "icons8-google",
+      "position": {
+        "x": 640.0003051757812,
+        "y": 645.5
+      },
+      "size": {
+        "width": 28,
+        "height": 28
+      },
+      "parent": "115:393",
+      "children": [
+        "115:396",
+        "115:397",
+        "115:398",
+        "115:399",
+        "115:400"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:396",
+      "type": "RECTANGLE",
+      "name": "Background",
+      "position": {
+        "x": 640.0003051757812,
+        "y": 645.5
+      },
+      "size": {
+        "width": 28,
+        "height": 28
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "115:395",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:397",
+      "type": "VECTOR",
+      "name": "Shape",
+      "position": {
+        "x": 642.3336181640625,
+        "y": 647.8330078125
+      },
+      "size": {
+        "width": 23.33333396911621,
+        "height": 23.33333396911621
+      },
+      "fillColor": "rgba(255,193,7,1.00)",
+      "parent": "115:395",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:398",
+      "type": "VECTOR",
+      "name": "Shape",
+      "position": {
+        "x": 643.6787719726562,
+        "y": 647.8330078125
+      },
+      "size": {
+        "width": 18.265335083007812,
+        "height": 9.047500610351562
+      },
+      "fillColor": "rgba(255,61,0,1.00)",
+      "parent": "115:395",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:399",
+      "type": "VECTOR",
+      "name": "Shape",
+      "position": {
+        "x": 643.6140747070312,
+        "y": 661.86474609375
+      },
+      "size": {
+        "width": 18.208168029785156,
+        "height": 9.301834106445312
+      },
+      "fillColor": "rgba(76,175,80,1.00)",
+      "parent": "115:395",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:400",
+      "type": "VECTOR",
+      "name": "Shape",
+      "position": {
+        "x": 654.0003662109375,
+        "y": 657.1669921875
+      },
+      "size": {
+        "width": 11.666667938232422,
+        "height": 10.983139038085938
+      },
+      "fillColor": "rgba(25,118,210,1.00)",
+      "parent": "115:395",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:401",
+      "type": "GROUP",
+      "name": "btn/icon/apple",
+      "position": {
+        "x": 699.0003051757812,
+        "y": 639.5
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "parent": "115:392",
+      "children": [
+        "115:402",
+        "115:403"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:402",
+      "type": "RECTANGLE",
+      "name": "Rectangle 3",
+      "position": {
+        "x": 699.0003051757812,
+        "y": 639.5
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "fillColor": "rgba(250,250,250,1.00)",
+      "parent": "115:401",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:403",
+      "type": "GROUP",
+      "name": "Apple",
+      "position": {
+        "x": 703.0003051757812,
+        "y": 643.5
+      },
+      "size": {
+        "width": 32,
+        "height": 32
+      },
+      "parent": "115:401",
+      "children": [
+        "115:404",
+        "115:405"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:404",
+      "type": "RECTANGLE",
+      "name": "Background",
+      "position": {
+        "x": 703.0003051757812,
+        "y": 643.5
+      },
+      "size": {
+        "width": 32,
+        "height": 32
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "115:403",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:405",
+      "type": "GROUP",
+      "name": "apple",
+      "position": {
+        "x": 708.0003051757812,
+        "y": 645.5
+      },
+      "size": {
+        "width": 21,
+        "height": 28
+      },
+      "parent": "115:403",
+      "children": [
+        "115:406",
+        "115:407"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:406",
+      "type": "RECTANGLE",
+      "name": "Background",
+      "position": {
+        "x": 708.0003051757812,
+        "y": 645.5
+      },
+      "size": {
+        "width": 21,
+        "height": 28
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "115:405",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:407",
+      "type": "BOOLEAN_OPERATION",
+      "name": "Shape",
+      "position": {
+        "x": 708.2190551757812,
+        "y": 647.25
+      },
+      "size": {
+        "width": 20.584375381469727,
+        "height": 24.495716094970703
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "115:405",
+      "children": [
+        "115:408",
+        "115:409"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:408",
+      "type": "VECTOR",
+      "name": "Shape path",
+      "position": {
+        "x": 708.2190551757812,
+        "y": 653.10546875
+      },
+      "size": {
+        "width": 20.584375381469727,
+        "height": 18.640247344970703
+      },
+      "parent": "115:407",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:409",
+      "type": "VECTOR",
+      "name": "Shape path",
+      "position": {
+        "x": 718.5170288085938,
+        "y": 647.25
+      },
+      "size": {
+        "width": 5.153399467468262,
+        "height": 5.8513689041137695
+      },
+      "parent": "115:407",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:410",
+      "type": "GROUP",
+      "name": "btn/icon/apple Copy",
+      "position": {
+        "x": 764.0003051757812,
+        "y": 639.5
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "parent": "115:392",
+      "children": [
+        "115:411",
+        "115:412"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:411",
+      "type": "RECTANGLE",
+      "name": "Rectangle 3",
+      "position": {
+        "x": 764.0003051757812,
+        "y": 639.5
+      },
+      "size": {
+        "width": 40,
+        "height": 40
+      },
+      "fillColor": "rgba(250,250,250,1.00)",
+      "parent": "115:410",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:412",
+      "type": "GROUP",
+      "name": "icons8-facebook",
+      "position": {
+        "x": 768.0003051757812,
+        "y": 643.5
+      },
+      "size": {
+        "width": 32,
+        "height": 32
+      },
+      "parent": "115:410",
+      "children": [
+        "115:413",
+        "115:414",
+        "115:415"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:413",
+      "type": "RECTANGLE",
+      "name": "Background",
+      "position": {
+        "x": 768.0003051757812,
+        "y": 643.5
+      },
+      "size": {
+        "width": 32,
+        "height": 32
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "115:412",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:414",
+      "type": "VECTOR",
+      "name": "Shape",
+      "position": {
+        "x": 771.3336791992188,
+        "y": 646.83349609375
+      },
+      "size": {
+        "width": 25.333303451538086,
+        "height": 25.33333396911621
+      },
+      "fillColor": "rgba(3,155,229,1.00)",
+      "parent": "115:412",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:415",
+      "type": "VECTOR",
+      "name": "Shape",
+      "position": {
+        "x": 778.9716186523438,
+        "y": 652.03369140625
+      },
+      "size": {
+        "width": 10.567999839782715,
+        "height": 20.132667541503906
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "115:412",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "115:416",
+      "type": "TEXT",
+      "name": "Text",
+      "position": {
+        "x": 615.0000610351562,
+        "y": 840
+      },
+      "size": {
+        "width": 207,
+        "height": 15
+      },
+      "fillColor": "rgba(97,97,97,1.00)",
+      "text": "© 2021. - 2025 All Rights Reserved. Qpay",
+      "parent": "115:350",
+      "rotation": 0,
+      "opacity": 1
+    }
+  ]
+}

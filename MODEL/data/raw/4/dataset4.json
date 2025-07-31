@@ -1,0 +1,3737 @@
+{
+  "prompt": "desktop, web, landing page, encabezado superior con fondo negro, logotipo alineado a la izquierda, menú de navegación horizontal con 5 opciones centradas arriba, fila de 4 íconos de redes sociales alineados a la derecha, texto principal con dos líneas centradas \"A Fast Blockchain.\" en gradiente rosa a celeste y \"Scalable AI.\" en blanco, párrafo descriptivo centrado debajo del texto principal, dos botones centrados \"Get started\" en azul degradado y \"Ecosystems\" en gris-violeta degradado, fondo animado con líneas onduladas en gradiente rosa y azul en la parte inferior, tipografía sans-serif, alineación centrada de todos los elementos, esquema de color general oscuro con acentos en neón.",
+  "layout": [
+    {
+      "id": "1205:2",
+      "type": "FRAME",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 1728,
+        "height": 1117
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "1202:2",
+      "children": [
+        "1205:3",
+        "1205:7",
+        "1205:19",
+        "1205:90",
+        "1205:91",
+        "1205:92",
+        "1205:93",
+        "1205:94",
+        "1205:100",
+        "1205:101",
+        "1205:106"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:3",
+      "type": "GROUP",
+      "position": {
+        "x": 35,
+        "y": 626
+      },
+      "size": {
+        "width": 1612,
+        "height": 651
+      },
+      "parent": "1205:2",
+      "children": [
+        "1205:4",
+        "1205:5",
+        "1205:6"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:4",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 1153,
+        "y": 783
+      },
+      "size": {
+        "width": 494,
+        "height": 494
+      },
+      "fillColor": "rgba(252,79,246,0.20)",
+      "parent": "1205:3",
+      "rotation": 0,
+      "opacity": 0.20000000298023224
+    },
+    {
+      "id": "1205:5",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 35,
+        "y": 772
+      },
+      "size": {
+        "width": 494,
+        "height": 494
+      },
+      "fillColor": "rgba(137,154,255,0.20)",
+      "parent": "1205:3",
+      "rotation": 0,
+      "opacity": 0.20000000298023224
+    },
+    {
+      "id": "1205:6",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 661,
+        "y": 626
+      },
+      "size": {
+        "width": 426,
+        "height": 426
+      },
+      "fillColor": "rgba(72,93,255,0.20)",
+      "parent": "1205:3",
+      "rotation": 0,
+      "opacity": 0.20000000298023224
+    },
+    {
+      "id": "1205:7",
+      "type": "GROUP",
+      "position": {
+        "x": 26.00006103515625,
+        "y": 1
+      },
+      "size": {
+        "width": 1700,
+        "height": 1116
+      },
+      "parent": "1205:2",
+      "children": [
+        "1205:8",
+        "1205:9",
+        "1205:10",
+        "1205:11",
+        "1205:12",
+        "1205:13",
+        "1205:14",
+        "1205:15",
+        "1205:16",
+        "1205:17",
+        "1205:18"
+      ],
+      "rotation": 0,
+      "opacity": 0.05000000074505806
+    },
+    {
+      "id": "1205:8",
+      "type": "LINE",
+      "position": {
+        "x": 196.00001525878906,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1205:7",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1205:9",
+      "type": "LINE",
+      "position": {
+        "x": 26.000109817068733,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1205:7",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1205:10",
+      "type": "LINE",
+      "position": {
+        "x": 366.00042724609375,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1205:7",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1205:11",
+      "type": "LINE",
+      "position": {
+        "x": 536.000732421875,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1205:7",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1205:12",
+      "type": "LINE",
+      "position": {
+        "x": 706.0007934570312,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1205:7",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1205:13",
+      "type": "LINE",
+      "position": {
+        "x": 876.0008544921875,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1205:7",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1205:14",
+      "type": "LINE",
+      "position": {
+        "x": 1046.0008544921875,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1205:7",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1205:15",
+      "type": "LINE",
+      "position": {
+        "x": 1216.0003051757812,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1205:7",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1205:16",
+      "type": "LINE",
+      "position": {
+        "x": 1386.0001831054688,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1205:7",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1205:17",
+      "type": "LINE",
+      "position": {
+        "x": 1556.0000610351562,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1205:7",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1205:18",
+      "type": "LINE",
+      "position": {
+        "x": 1726.0000610351562,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1205:7",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1205:19",
+      "type": "GROUP",
+      "position": {
+        "x": 92.3453369140625,
+        "y": -41
+      },
+      "size": {
+        "width": 2259.7275390625,
+        "height": 1396.1312255859375
+      },
+      "parent": "1205:2",
+      "children": [
+        "1205:20",
+        "1205:21",
+        "1205:22",
+        "1205:23",
+        "1205:24",
+        "1205:25",
+        "1205:26",
+        "1205:27",
+        "1205:28",
+        "1205:29",
+        "1205:30",
+        "1205:31",
+        "1205:32",
+        "1205:33",
+        "1205:34",
+        "1205:35",
+        "1205:36",
+        "1205:37",
+        "1205:38",
+        "1205:39",
+        "1205:40",
+        "1205:41",
+        "1205:42",
+        "1205:43",
+        "1205:44",
+        "1205:45",
+        "1205:46",
+        "1205:47",
+        "1205:48",
+        "1205:49",
+        "1205:50",
+        "1205:51",
+        "1205:52",
+        "1205:53",
+        "1205:54",
+        "1205:55",
+        "1205:56",
+        "1205:57",
+        "1205:58",
+        "1205:59",
+        "1205:60",
+        "1205:61",
+        "1205:62",
+        "1205:63",
+        "1205:64",
+        "1205:65",
+        "1205:66",
+        "1205:67",
+        "1205:68",
+        "1205:69",
+        "1205:70",
+        "1205:71",
+        "1205:72",
+        "1205:73",
+        "1205:74",
+        "1205:75",
+        "1205:76",
+        "1205:77",
+        "1205:78",
+        "1205:79",
+        "1205:80",
+        "1205:81",
+        "1205:82",
+        "1205:83",
+        "1205:84",
+        "1205:85",
+        "1205:86",
+        "1205:87",
+        "1205:88",
+        "1205:89"
+      ],
+      "rotation": -15.000000120055855,
+      "opacity": 1
+    },
+    {
+      "id": "1205:20",
+      "type": "POLYGON",
+      "position": {
+        "x": 1298.418235259065,
+        "y": 1679.1467156501676
+      },
+      "size": {
+        "width": 729,
+        "height": 1143
+      },
+      "parent": "1205:19",
+      "rotation": 11.999999210386234,
+      "opacity": 0
+    },
+    {
+      "id": "1205:21",
+      "type": "POLYGON",
+      "position": {
+        "x": 1244.8772530377319,
+        "y": 1660.9448323937686
+      },
+      "size": {
+        "width": 725,
+        "height": 1133
+      },
+      "parent": "1205:19",
+      "rotation": 9.000000481063498,
+      "opacity": 0.014492753893136978
+    },
+    {
+      "id": "1205:22",
+      "type": "POLYGON",
+      "position": {
+        "x": 1192.6243499179036,
+        "y": 1641.1787929563943
+      },
+      "size": {
+        "width": 721,
+        "height": 1123
+      },
+      "parent": "1205:19",
+      "rotation": 6.000000833428215,
+      "opacity": 0.028985507786273956
+    },
+    {
+      "id": "1205:23",
+      "type": "POLYGON",
+      "position": {
+        "x": 1141.7356677200223,
+        "y": 1619.9323140966153
+      },
+      "size": {
+        "width": 717,
+        "height": 1113
+      },
+      "parent": "1205:19",
+      "rotation": 2.9999999072670263,
+      "opacity": 0.043478261679410934
+    },
+    {
+      "id": "1205:24",
+      "type": "POLYGON",
+      "position": {
+        "x": 1092.2820123419879,
+        "y": 1597.2929906292338
+      },
+      "size": {
+        "width": 713,
+        "height": 1103
+      },
+      "parent": "1205:19",
+      "rotation": 7.654724625214942e-7,
+      "opacity": 0.05797101557254791
+    },
+    {
+      "id": "1205:25",
+      "type": "POLYGON",
+      "position": {
+        "x": 1044.3288706903986,
+        "y": 1573.3512889501144
+      },
+      "size": {
+        "width": 709,
+        "height": 1093
+      },
+      "parent": "1205:19",
+      "rotation": -3.0000007400554387,
+      "opacity": 0.07246376574039459
+    },
+    {
+      "id": "1205:26",
+      "type": "POLYGON",
+      "position": {
+        "x": 997.9362843040653,
+        "y": 1548.201018679647
+      },
+      "size": {
+        "width": 705,
+        "height": 1083
+      },
+      "parent": "1205:19",
+      "rotation": -6.000000519062665,
+      "opacity": 0.08695652335882187
+    },
+    {
+      "id": "1205:27",
+      "type": "POLYGON",
+      "position": {
+        "x": 953.1581503544367,
+        "y": 1521.9386398604329
+      },
+      "size": {
+        "width": 701,
+        "height": 1073
+      },
+      "parent": "1205:19",
+      "rotation": -9.000000179888325,
+      "opacity": 0.10144927352666855
+    },
+    {
+      "id": "1205:28",
+      "type": "POLYGON",
+      "position": {
+        "x": 910.0431502696447,
+        "y": 1494.6626271459536
+      },
+      "size": {
+        "width": 697,
+        "height": 1063
+      },
+      "parent": "1205:19",
+      "rotation": -12.000000106560341,
+      "opacity": 0.11594203114509583
+    },
+    {
+      "id": "1205:29",
+      "type": "POLYGON",
+      "position": {
+        "x": 868.6337663878367,
+        "y": 1466.4738381960487
+      },
+      "size": {
+        "width": 693,
+        "height": 1053
+      },
+      "parent": "1205:19",
+      "rotation": -15.000000120055862,
+      "opacity": 0.1304347813129425
+    },
+    {
+      "id": "1205:30",
+      "type": "POLYGON",
+      "position": {
+        "x": 828.9666210268915,
+        "y": 1437.4747198949772
+      },
+      "size": {
+        "width": 689,
+        "height": 1043
+      },
+      "parent": "1205:19",
+      "rotation": -18.000000133551367,
+      "opacity": 0.14492753148078918
+    },
+    {
+      "id": "1205:31",
+      "type": "POLYGON",
+      "position": {
+        "x": 791.0723354450529,
+        "y": 1407.7688914305763
+      },
+      "size": {
+        "width": 685,
+        "height": 1033
+      },
+      "parent": "1205:19",
+      "rotation": -21.000000060223385,
+      "opacity": 0.15942029654979706
+    },
+    {
+      "id": "1205:32",
+      "type": "POLYGON",
+      "position": {
+        "x": 754.9753340789393,
+        "y": 1377.4604599575687
+      },
+      "size": {
+        "width": 681,
+        "height": 1023
+      },
+      "parent": "1205:19",
+      "rotation": -23.999999721049043,
+      "opacity": 0.17391304671764374
+    },
+    {
+      "id": "1205:33",
+      "type": "POLYGON",
+      "position": {
+        "x": 720.6937960181822,
+        "y": 1346.655144983597
+      },
+      "size": {
+        "width": 677,
+        "height": 1013
+      },
+      "parent": "1205:19",
+      "rotation": -26.99999950005627,
+      "opacity": 0.18840579688549042
+    },
+    {
+      "id": "1205:34",
+      "type": "POLYGON",
+      "position": {
+        "x": 688.2409627589295,
+        "y": 1315.4582276275032
+      },
+      "size": {
+        "width": 673,
+        "height": 1003
+      },
+      "parent": "1205:19",
+      "rotation": -30.00000100558417,
+      "opacity": 0.2028985470533371
+    },
+    {
+      "id": "1205:35",
+      "type": "POLYGON",
+      "position": {
+        "x": 657.6224640453147,
+        "y": 1283.9750978455559
+      },
+      "size": {
+        "width": 669,
+        "height": 993
+      },
+      "parent": "1205:19",
+      "rotation": -33.000000147378735,
+      "opacity": 0.21739129722118378
+    },
+    {
+      "id": "1205:36",
+      "type": "POLYGON",
+      "position": {
+        "x": 628.8390552162309,
+        "y": 1252.310471383491
+      },
+      "size": {
+        "width": 665,
+        "height": 983
+      },
+      "parent": "1205:19",
+      "rotation": -36.00000107353993,
+      "opacity": 0.23188406229019165
+    },
+    {
+      "id": "1205:37",
+      "type": "POLYGON",
+      "position": {
+        "x": 601.8852801260655,
+        "y": 1220.5686633896257
+      },
+      "size": {
+        "width": 661,
+        "height": 973
+      },
+      "parent": "1205:19",
+      "rotation": -39.000000721175205,
+      "opacity": 0.24637681245803833
+    },
+    {
+      "id": "1205:38",
+      "type": "POLYGON",
+      "position": {
+        "x": 576.749660709429,
+        "y": 1188.8528809496638
+      },
+      "size": {
+        "width": 657,
+        "height": 963
+      },
+      "parent": "1205:19",
+      "rotation": -41.999999450497945,
+      "opacity": 0.260869562625885
+    },
+    {
+      "id": "1205:39",
+      "type": "POLYGON",
+      "position": {
+        "x": 553.4149497341277,
+        "y": 1157.2642797997687
+      },
+      "size": {
+        "width": 653,
+        "height": 953
+      },
+      "parent": "1205:19",
+      "rotation": -45.000000565347904,
+      "opacity": 0.2753623127937317
+    },
+    {
+      "id": "1205:40",
+      "type": "POLYGON",
+      "position": {
+        "x": 531.8585697163253,
+        "y": 1125.9031561336524
+      },
+      "size": {
+        "width": 649,
+        "height": 943
+      },
+      "parent": "1205:19",
+      "rotation": -48.000001390821815,
+      "opacity": 0.28985506296157837
+    },
+    {
+      "id": "1205:41",
+      "type": "POLYGON",
+      "position": {
+        "x": 512.0527562282696,
+        "y": 1094.8674684839425
+      },
+      "size": {
+        "width": 645,
+        "height": 933
+      },
+      "parent": "1205:19",
+      "rotation": -50.99999945870571,
+      "opacity": 0.30434781312942505
+    },
+    {
+      "id": "1205:42",
+      "type": "POLYGON",
+      "position": {
+        "x": 493.9631745620245,
+        "y": 1064.2523406818582
+      },
+      "size": {
+        "width": 641,
+        "height": 923
+      },
+      "parent": "1205:19",
+      "rotation": -53.99999903171375,
+      "opacity": 0.3188405930995941
+    },
+    {
+      "id": "1205:43",
+      "type": "POLYGON",
+      "position": {
+        "x": 477.55173379318876,
+        "y": 1034.1508790715598
+      },
+      "size": {
+        "width": 637,
+        "height": 913
+      },
+      "parent": "1205:19",
+      "rotation": -57.00000142884308,
+      "opacity": 0.3333333432674408
+    },
+    {
+      "id": "1205:44",
+      "type": "POLYGON",
+      "position": {
+        "x": 462.77460655885807,
+        "y": 1004.653073217065
+      },
+      "size": {
+        "width": 633,
+        "height": 903
+      },
+      "parent": "1205:19",
+      "rotation": -60.00000012005586,
+      "opacity": 0.3478260934352875
+    },
+    {
+      "id": "1205:45",
+      "type": "POLYGON",
+      "position": {
+        "x": 449.5832829239771,
+        "y": 975.8456359671909
+      },
+      "size": {
+        "width": 629,
+        "height": 893
+      },
+      "parent": "1205:19",
+      "rotation": -62.99999881126864,
+      "opacity": 0.36231884360313416
+    },
+    {
+      "id": "1205:46",
+      "type": "POLYGON",
+      "position": {
+        "x": 437.92457038133944,
+        "y": 947.8120034555541
+      },
+      "size": {
+        "width": 625,
+        "height": 883
+      },
+      "parent": "1205:19",
+      "rotation": -66.00000120839796,
+      "opacity": 0.37681159377098083
+    },
+    {
+      "id": "1205:47",
+      "type": "POLYGON",
+      "position": {
+        "x": 427.7416951091218,
+        "y": 920.6319982992136
+      },
+      "size": {
+        "width": 621,
+        "height": 873
+      },
+      "parent": "1205:19",
+      "rotation": -69.00000078140602,
+      "opacity": 0.3913043439388275
+    },
+    {
+      "id": "1205:48",
+      "type": "POLYGON",
+      "position": {
+        "x": 418.972902837555,
+        "y": 894.3813915137798
+      },
+      "size": {
+        "width": 617,
+        "height": 863
+      },
+      "parent": "1205:19",
+      "rotation": -71.9999988492899,
+      "opacity": 0.4057970941066742
+    },
+    {
+      "id": "1205:49",
+      "type": "POLYGON",
+      "position": {
+        "x": 411.5527327399468,
+        "y": 869.1318647220323
+      },
+      "size": {
+        "width": 613,
+        "height": 853
+      },
+      "parent": "1205:19",
+      "rotation": -74.99999967476381,
+      "opacity": 0.4202898442745209
+    },
+    {
+      "id": "1205:50",
+      "type": "POLYGON",
+      "position": {
+        "x": 405.41252067026653,
+        "y": 844.9510186195403
+      },
+      "size": {
+        "width": 609,
+        "height": 843
+      },
+      "parent": "1205:19",
+      "rotation": -78.00000078961376,
+      "opacity": 0.43478259444236755
+    },
+    {
+      "id": "1205:51",
+      "type": "POLYGON",
+      "position": {
+        "x": 400.4798022773757,
+        "y": 821.9017707219027
+      },
+      "size": {
+        "width": 605,
+        "height": 833
+      },
+      "parent": "1205:19",
+      "rotation": -80.9999995189365,
+      "opacity": 0.4492753744125366
+    },
+    {
+      "id": "1205:52",
+      "type": "POLYGON",
+      "position": {
+        "x": 396.6795237078077,
+        "y": 800.0425533950984
+      },
+      "size": {
+        "width": 601,
+        "height": 823
+      },
+      "parent": "1205:19",
+      "rotation": -83.9999991665718,
+      "opacity": 0.4637681245803833
+    },
+    {
+      "id": "1205:53",
+      "type": "POLYGON",
+      "position": {
+        "x": 393.93353103674235,
+        "y": 779.4268611077132
+      },
+      "size": {
+        "width": 597,
+        "height": 813
+      },
+      "parent": "1205:19",
+      "rotation": -87.00000009273298,
+      "opacity": 0.47826087474823
+    },
+    {
+      "id": "1205:54",
+      "type": "POLYGON",
+      "position": {
+        "x": 392.16134825288464,
+        "y": 760.10364845609
+      },
+      "size": {
+        "width": 593,
+        "height": 803
+      },
+      "parent": "1205:19",
+      "rotation": -89.99999923452755,
+      "opacity": 0.49275362491607666
+    },
+    {
+      "id": "1205:55",
+      "type": "POLYGON",
+      "position": {
+        "x": 391.28032789763165,
+        "y": 742.1162963278475
+      },
+      "size": {
+        "width": 589,
+        "height": 793
+      },
+      "parent": "1205:19",
+      "rotation": -93.00000074005546,
+      "opacity": 0.5072463750839233
+    },
+    {
+      "id": "1205:56",
+      "type": "POLYGON",
+      "position": {
+        "x": 391.2059720693687,
+        "y": 725.5037721148474
+      },
+      "size": {
+        "width": 585,
+        "height": 783
+      },
+      "parent": "1205:19",
+      "rotation": -96.00000051906268,
+      "opacity": 0.52173912525177
+    },
+    {
+      "id": "1205:57",
+      "type": "POLYGON",
+      "position": {
+        "x": 391.8519104291481,
+        "y": 710.2992968667386
+      },
+      "size": {
+        "width": 581,
+        "height": 773
+      },
+      "parent": "1205:19",
+      "rotation": -99.00000017988833,
+      "opacity": 0.5362318754196167
+    },
+    {
+      "id": "1205:58",
+      "type": "POLYGON",
+      "position": {
+        "x": 393.13120455165335,
+        "y": 696.5311371084463
+      },
+      "size": {
+        "width": 577,
+        "height": 763
+      },
+      "parent": "1205:19",
+      "rotation": -102.00000010656035,
+      "opacity": 0.5507246255874634
+    },
+    {
+      "id": "1205:59",
+      "type": "POLYGON",
+      "position": {
+        "x": 394.9551846136019,
+        "y": 684.2222299435234
+      },
+      "size": {
+        "width": 573,
+        "height": 753
+      },
+      "parent": "1205:19",
+      "rotation": -105.00000012005587,
+      "opacity": 0.5652173757553101
+    },
+    {
+      "id": "1205:60",
+      "type": "POLYGON",
+      "position": {
+        "x": 397.2351791311703,
+        "y": 673.3903305946878
+      },
+      "size": {
+        "width": 569,
+        "height": 743
+      },
+      "parent": "1205:19",
+      "rotation": -108.00000013355138,
+      "opacity": 0.5797101259231567
+    },
+    {
+      "id": "1205:61",
+      "type": "POLYGON",
+      "position": {
+        "x": 399.8815874701286,
+        "y": 664.047700695417
+      },
+      "size": {
+        "width": 565,
+        "height": 733
+      },
+      "parent": "1205:19",
+      "rotation": -111.0000000602234,
+      "opacity": 0.5942028760910034
+    },
+    {
+      "id": "1205:62",
+      "type": "POLYGON",
+      "position": {
+        "x": 402.80549900383994,
+        "y": 656.2016685185154
+      },
+      "size": {
+        "width": 561,
+        "height": 723
+      },
+      "parent": "1205:19",
+      "rotation": -113.99999972104905,
+      "opacity": 0.6086956262588501
+    },
+    {
+      "id": "1205:63",
+      "type": "POLYGON",
+      "position": {
+        "x": 405.9176245840281,
+        "y": 649.8539003468686
+      },
+      "size": {
+        "width": 557,
+        "height": 713
+      },
+      "parent": "1205:19",
+      "rotation": -116.99999950005629,
+      "opacity": 0.6231883764266968
+    },
+    {
+      "id": "1205:64",
+      "type": "POLYGON",
+      "position": {
+        "x": 409.12986830759473,
+        "y": 645.0011375683098
+      },
+      "size": {
+        "width": 553,
+        "height": 703
+      },
+      "parent": "1205:19",
+      "rotation": -120.00000100558418,
+      "opacity": 0.6376811861991882
+    },
+    {
+      "id": "1205:65",
+      "type": "POLYGON",
+      "position": {
+        "x": 412.35448634349814,
+        "y": 641.6350344722014
+      },
+      "size": {
+        "width": 549,
+        "height": 693
+      },
+      "parent": "1205:19",
+      "rotation": -123.00000014737874,
+      "opacity": 0.6521739363670349
+    },
+    {
+      "id": "1205:66",
+      "type": "POLYGON",
+      "position": {
+        "x": 415.50524291291003,
+        "y": 639.7420888639317
+      },
+      "size": {
+        "width": 545,
+        "height": 683
+      },
+      "parent": "1205:19",
+      "rotation": -126.00000107353992,
+      "opacity": 0.6666666865348816
+    },
+    {
+      "id": "1205:67",
+      "type": "POLYGON",
+      "position": {
+        "x": 418.497315506851,
+        "y": 639.3039957975125
+      },
+      "size": {
+        "width": 541,
+        "height": 673
+      },
+      "parent": "1205:19",
+      "rotation": -129.0000007211752,
+      "opacity": 0.6811594367027283
+    },
+    {
+      "id": "1205:68",
+      "type": "POLYGON",
+      "position": {
+        "x": 421.2473580744336,
+        "y": 640.297411753847
+      },
+      "size": {
+        "width": 537,
+        "height": 663
+      },
+      "parent": "1205:19",
+      "rotation": -131.99999945049794,
+      "opacity": 0.695652186870575
+    },
+    {
+      "id": "1205:69",
+      "type": "POLYGON",
+      "position": {
+        "x": 423.6747032600215,
+        "y": 642.6946559086646
+      },
+      "size": {
+        "width": 533,
+        "height": 653
+      },
+      "parent": "1205:19",
+      "rotation": -135.00000056534793,
+      "opacity": 0.7101449370384216
+    },
+    {
+      "id": "1205:70",
+      "type": "POLYGON",
+      "position": {
+        "x": 425.6999948640223,
+        "y": 646.4631541367635
+      },
+      "size": {
+        "width": 529,
+        "height": 643
+      },
+      "parent": "1205:19",
+      "rotation": -138.0000013908218,
+      "opacity": 0.7246376872062683
+    },
+    {
+      "id": "1205:71",
+      "type": "POLYGON",
+      "position": {
+        "x": 427.24721545610737,
+        "y": 651.5663614387959
+      },
+      "size": {
+        "width": 525,
+        "height": 633
+      },
+      "parent": "1205:19",
+      "rotation": -140.9999994587057,
+      "opacity": 0.739130437374115
+    },
+    {
+      "id": "1205:72",
+      "type": "POLYGON",
+      "position": {
+        "x": 428.2428220735892,
+        "y": 657.963214411131
+      },
+      "size": {
+        "width": 521,
+        "height": 623
+      },
+      "parent": "1205:19",
+      "rotation": -143.99999903171377,
+      "opacity": 0.7536231875419617
+    },
+    {
+      "id": "1205:73",
+      "type": "POLYGON",
+      "position": {
+        "x": 428.6161072854593,
+        "y": 665.608670310372
+      },
+      "size": {
+        "width": 517,
+        "height": 613
+      },
+      "parent": "1205:19",
+      "rotation": -147.0000014288431,
+      "opacity": 0.7681159377098083
+    },
+    {
+      "id": "1205:74",
+      "type": "POLYGON",
+      "position": {
+        "x": 428.29974135553493,
+        "y": 674.4540418902616
+      },
+      "size": {
+        "width": 513,
+        "height": 603
+      },
+      "parent": "1205:19",
+      "rotation": -150.00000012005586,
+      "opacity": 0.782608687877655
+    },
+    {
+      "id": "1205:75",
+      "type": "POLYGON",
+      "position": {
+        "x": 427.22989015332496,
+        "y": 684.4470289958044
+      },
+      "size": {
+        "width": 509,
+        "height": 593
+      },
+      "parent": "1205:19",
+      "rotation": -152.99999881126865,
+      "opacity": 0.7971014380455017
+    },
+    {
+      "id": "1205:76",
+      "type": "POLYGON",
+      "position": {
+        "x": 425.3460340549209,
+        "y": 695.5319227908767
+      },
+      "size": {
+        "width": 505,
+        "height": 583
+      },
+      "parent": "1205:19",
+      "rotation": -156.00000120839795,
+      "opacity": 0.8115941882133484
+    },
+    {
+      "id": "1205:77",
+      "type": "POLYGON",
+      "position": {
+        "x": 422.5916754081918,
+        "y": 707.6497953229555
+      },
+      "size": {
+        "width": 501,
+        "height": 573
+      },
+      "parent": "1205:19",
+      "rotation": -159.00000078140602,
+      "opacity": 0.8260869383811951
+    },
+    {
+      "id": "1205:78",
+      "type": "POLYGON",
+      "position": {
+        "x": 418.9140784483716,
+        "y": 720.7389985278933
+      },
+      "size": {
+        "width": 497,
+        "height": 563
+      },
+      "parent": "1205:19",
+      "rotation": -161.9999988492899,
+      "opacity": 0.8405796885490417
+    },
+    {
+      "id": "1205:79",
+      "type": "POLYGON",
+      "position": {
+        "x": 414.2647293772716,
+        "y": 734.7350979430448
+      },
+      "size": {
+        "width": 493,
+        "height": 553
+      },
+      "parent": "1205:19",
+      "rotation": -164.9999996747638,
+      "opacity": 0.8550724387168884
+    },
+    {
+      "id": "1205:80",
+      "type": "POLYGON",
+      "position": {
+        "x": 408.59920998679445,
+        "y": 749.5713443507302
+      },
+      "size": {
+        "width": 489,
+        "height": 543
+      },
+      "parent": "1205:19",
+      "rotation": -168.00000078961378,
+      "opacity": 0.8695651888847351
+    },
+    {
+      "id": "1205:81",
+      "type": "POLYGON",
+      "position": {
+        "x": 401.8774450449164,
+        "y": 765.1789296298375
+      },
+      "size": {
+        "width": 485,
+        "height": 533
+      },
+      "parent": "1205:19",
+      "rotation": -170.9999995189365,
+      "opacity": 0.8840579986572266
+    },
+    {
+      "id": "1205:82",
+      "type": "POLYGON",
+      "position": {
+        "x": 394.06376125112,
+        "y": 781.4870025528835
+      },
+      "size": {
+        "width": 481,
+        "height": 523
+      },
+      "parent": "1205:19",
+      "rotation": -173.9999991665718,
+      "opacity": 0.8985507488250732
+    },
+    {
+      "id": "1205:83",
+      "type": "POLYGON",
+      "position": {
+        "x": 385.127039840012,
+        "y": 798.4232783702137
+      },
+      "size": {
+        "width": 477,
+        "height": 513
+      },
+      "parent": "1205:19",
+      "rotation": -177.00000009273296,
+      "opacity": 0.9130434989929199
+    },
+    {
+      "id": "1205:84",
+      "type": "POLYGON",
+      "position": {
+        "x": 375.04072814557367,
+        "y": 815.9142314733617
+      },
+      "size": {
+        "width": 473,
+        "height": 503
+      },
+      "parent": "1205:19",
+      "rotation": -179.99999923452754,
+      "opacity": 0.9275362491607666
+    },
+    {
+      "id": "1205:85",
+      "type": "POLYGON",
+      "position": {
+        "x": 363.7828080070394,
+        "y": 833.8852133059154
+      },
+      "size": {
+        "width": 469,
+        "height": 493
+      },
+      "parent": "1205:19",
+      "rotation": 176.9999992599446,
+      "opacity": 0.9420289993286133
+    },
+    {
+      "id": "1205:86",
+      "type": "POLYGON",
+      "position": {
+        "x": 351.33595260532456,
+        "y": 852.260810328924
+      },
+      "size": {
+        "width": 465,
+        "height": 483
+      },
+      "parent": "1205:19",
+      "rotation": 173.99999948093733,
+      "opacity": 0.95652174949646
+    },
+    {
+      "id": "1205:87",
+      "type": "POLYGON",
+      "position": {
+        "x": 337.68744747772143,
+        "y": 870.965138798063
+      },
+      "size": {
+        "width": 461,
+        "height": 473
+      },
+      "parent": "1205:19",
+      "rotation": 170.9999998201117,
+      "opacity": 0.9710144996643066
+    },
+    {
+      "id": "1205:88",
+      "type": "POLYGON",
+      "position": {
+        "x": 322.82956737899804,
+        "y": 889.9223248727176
+      },
+      "size": {
+        "width": 457,
+        "height": 463
+      },
+      "parent": "1205:19",
+      "rotation": 167.99999989343968,
+      "opacity": 0.9855072498321533
+    },
+    {
+      "id": "1205:89",
+      "type": "POLYGON",
+      "position": {
+        "x": 306.75860140035,
+        "y": 909.0563697738762
+      },
+      "size": {
+        "width": 453,
+        "height": 453
+      },
+      "parent": "1205:19",
+      "rotation": 164.99999987994414,
+      "opacity": 1
+    },
+    {
+      "id": "1205:90",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 64,
+        "y": 612
+      },
+      "size": {
+        "width": 1605,
+        "height": 619
+      },
+      "parent": "1205:2",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:91",
+      "type": "TEXT",
+      "position": {
+        "x": 196,
+        "y": 48
+      },
+      "size": {
+        "width": 117,
+        "height": 34
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Serendale",
+      "parent": "1205:2",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:92",
+      "type": "TEXT",
+      "position": {
+        "x": 529,
+        "y": 263
+      },
+      "size": {
+        "width": 669,
+        "height": 98
+      },
+      "text": "A Fast Blockchain.",
+      "parent": "1205:2",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:93",
+      "type": "TEXT",
+      "position": {
+        "x": 655,
+        "y": 357
+      },
+      "size": {
+        "width": 417,
+        "height": 98
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Scalable AI.",
+      "parent": "1205:2",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:94",
+      "type": "GROUP",
+      "position": {
+        "x": 567,
+        "y": 54
+      },
+      "size": {
+        "width": 594,
+        "height": 22
+      },
+      "parent": "1205:2",
+      "children": [
+        "1205:95",
+        "1205:96",
+        "1205:97",
+        "1205:98",
+        "1205:99"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:95",
+      "type": "TEXT",
+      "position": {
+        "x": 737,
+        "y": 54
+      },
+      "size": {
+        "width": 67,
+        "height": 22
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Services",
+      "parent": "1205:94",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:96",
+      "type": "TEXT",
+      "position": {
+        "x": 567,
+        "y": 54
+      },
+      "size": {
+        "width": 130,
+        "height": 22
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Smart Contracts",
+      "parent": "1205:94",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:97",
+      "type": "TEXT",
+      "position": {
+        "x": 844,
+        "y": 54
+      },
+      "size": {
+        "width": 71,
+        "height": 22
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Solutions",
+      "parent": "1205:94",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:98",
+      "type": "TEXT",
+      "position": {
+        "x": 955,
+        "y": 54
+      },
+      "size": {
+        "width": 74,
+        "height": 22
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Roadmap",
+      "parent": "1205:94",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:99",
+      "type": "TEXT",
+      "position": {
+        "x": 1069,
+        "y": 54
+      },
+      "size": {
+        "width": 92,
+        "height": 22
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Whitepaper",
+      "parent": "1205:94",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:100",
+      "type": "TEXT",
+      "position": {
+        "x": 502,
+        "y": 473
+      },
+      "size": {
+        "width": 723,
+        "height": 99
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Our technology performing fast blockchain (120K TPS) and it has guaranteed AI-based data security. Proof of Stake, its consensus algorithm enables unlimited speeds.",
+      "parent": "1205:2",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:101",
+      "type": "GROUP",
+      "position": {
+        "x": 679,
+        "y": 604
+      },
+      "size": {
+        "width": 370,
+        "height": 70
+      },
+      "parent": "1205:2",
+      "children": [
+        "1205:102",
+        "1205:104"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:102",
+      "type": "FRAME",
+      "position": {
+        "x": 679,
+        "y": 604
+      },
+      "size": {
+        "width": 176,
+        "height": 70
+      },
+      "parent": "1205:101",
+      "children": [
+        "1205:103"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:103",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 22
+      },
+      "size": {
+        "width": 112,
+        "height": 26
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Get started",
+      "parent": "1205:102",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:104",
+      "type": "FRAME",
+      "position": {
+        "x": 867,
+        "y": 604
+      },
+      "size": {
+        "width": 182,
+        "height": 70
+      },
+      "parent": "1205:101",
+      "children": [
+        "1205:105"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:105",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 22
+      },
+      "size": {
+        "width": 118,
+        "height": 26
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "text": "Ecosystems",
+      "parent": "1205:104",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:106",
+      "type": "GROUP",
+      "position": {
+        "x": 1404,
+        "y": 55
+      },
+      "size": {
+        "width": 128,
+        "height": 21
+      },
+      "parent": "1205:2",
+      "children": [
+        "1205:107",
+        "1205:109",
+        "1205:111",
+        "1205:113"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:107",
+      "type": "FRAME",
+      "position": {
+        "x": 1440,
+        "y": 55
+      },
+      "size": {
+        "width": 20,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1205:106",
+      "children": [
+        "1205:108"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:108",
+      "type": "VECTOR",
+      "position": {
+        "x": 1.6666666269302368,
+        "y": 0.8333333134651184
+      },
+      "size": {
+        "width": 16.66666603088379,
+        "height": 19.16666603088379
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1205:107",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:109",
+      "type": "FRAME",
+      "position": {
+        "x": 1404,
+        "y": 55
+      },
+      "size": {
+        "width": 20,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1205:106",
+      "children": [
+        "1205:110"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:110",
+      "type": "VECTOR",
+      "position": {
+        "x": 1.6666666269302368,
+        "y": 1.6666666269302368
+      },
+      "size": {
+        "width": 16.66666603088379,
+        "height": 16.262908935546875
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1205:109",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:111",
+      "type": "FRAME",
+      "position": {
+        "x": 1512,
+        "y": 55
+      },
+      "size": {
+        "width": 20,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1205:106",
+      "children": [
+        "1205:112"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:112",
+      "type": "VECTOR",
+      "position": {
+        "x": 1.2833333015441895,
+        "y": 3.3333332538604736
+      },
+      "size": {
+        "width": 17.433332443237305,
+        "height": 14.166666984558105
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1205:111",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:113",
+      "type": "FRAME",
+      "position": {
+        "x": 1476,
+        "y": 56
+      },
+      "size": {
+        "width": 20,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1205:106",
+      "children": [
+        "1205:114"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1205:114",
+      "type": "VECTOR",
+      "position": {
+        "x": 1.6666666269302368,
+        "y": 1.6666666269302368
+      },
+      "size": {
+        "width": 16.66666603088379,
+        "height": 16.66666603088379
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1205:113",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:116",
+      "type": "FRAME",
+      "position": {
+        "x": 1714,
+        "y": 35
+      },
+      "size": {
+        "width": 1728,
+        "height": 1117
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "parent": "1202:2",
+      "children": [
+        "1216:117",
+        "1216:121",
+        "1216:133",
+        "1216:204",
+        "1216:205",
+        "1216:206",
+        "1216:207",
+        "1216:208",
+        "1216:214",
+        "1216:215",
+        "1216:220"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:117",
+      "type": "GROUP",
+      "position": {
+        "x": 35,
+        "y": 626
+      },
+      "size": {
+        "width": 1612,
+        "height": 651
+      },
+      "parent": "1216:116",
+      "children": [
+        "1216:118",
+        "1216:119",
+        "1216:120"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:118",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 1153,
+        "y": 783
+      },
+      "size": {
+        "width": 494,
+        "height": 494
+      },
+      "fillColor": "rgba(252,79,246,0.20)",
+      "parent": "1216:117",
+      "rotation": 0,
+      "opacity": 0.20000000298023224
+    },
+    {
+      "id": "1216:119",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 35,
+        "y": 772
+      },
+      "size": {
+        "width": 494,
+        "height": 494
+      },
+      "fillColor": "rgba(137,154,255,0.20)",
+      "parent": "1216:117",
+      "rotation": 0,
+      "opacity": 0.20000000298023224
+    },
+    {
+      "id": "1216:120",
+      "type": "ELLIPSE",
+      "position": {
+        "x": 661,
+        "y": 626
+      },
+      "size": {
+        "width": 426,
+        "height": 426
+      },
+      "fillColor": "rgba(72,93,255,0.20)",
+      "parent": "1216:117",
+      "rotation": 0,
+      "opacity": 0.20000000298023224
+    },
+    {
+      "id": "1216:121",
+      "type": "GROUP",
+      "position": {
+        "x": 26.00006103515625,
+        "y": 1
+      },
+      "size": {
+        "width": 1700,
+        "height": 1116
+      },
+      "parent": "1216:116",
+      "children": [
+        "1216:122",
+        "1216:123",
+        "1216:124",
+        "1216:125",
+        "1216:126",
+        "1216:127",
+        "1216:128",
+        "1216:129",
+        "1216:130",
+        "1216:131",
+        "1216:132"
+      ],
+      "rotation": 0,
+      "opacity": 0.05000000074505806
+    },
+    {
+      "id": "1216:122",
+      "type": "LINE",
+      "position": {
+        "x": 196.00001525878906,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1216:121",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1216:123",
+      "type": "LINE",
+      "position": {
+        "x": 26.000109817068733,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1216:121",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1216:124",
+      "type": "LINE",
+      "position": {
+        "x": 366.00042724609375,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1216:121",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1216:125",
+      "type": "LINE",
+      "position": {
+        "x": 536.000732421875,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1216:121",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1216:126",
+      "type": "LINE",
+      "position": {
+        "x": 706.0007934570312,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1216:121",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1216:127",
+      "type": "LINE",
+      "position": {
+        "x": 876.0008544921875,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1216:121",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1216:128",
+      "type": "LINE",
+      "position": {
+        "x": 1046.0008544921875,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1216:121",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1216:129",
+      "type": "LINE",
+      "position": {
+        "x": 1216.0003051757812,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1216:121",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1216:130",
+      "type": "LINE",
+      "position": {
+        "x": 1386.0001831054688,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1216:121",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1216:131",
+      "type": "LINE",
+      "position": {
+        "x": 1556.0000610351562,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1216:121",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1216:132",
+      "type": "LINE",
+      "position": {
+        "x": 1726.0000610351562,
+        "y": 1
+      },
+      "size": {
+        "width": 1116,
+        "height": 0
+      },
+      "parent": "1216:121",
+      "rotation": -90.00000250447827,
+      "opacity": 1
+    },
+    {
+      "id": "1216:133",
+      "type": "GROUP",
+      "position": {
+        "x": 92.3453369140625,
+        "y": -41
+      },
+      "size": {
+        "width": 2259.7275390625,
+        "height": 1396.1312255859375
+      },
+      "parent": "1216:116",
+      "children": [
+        "1216:134",
+        "1216:135",
+        "1216:136",
+        "1216:137",
+        "1216:138",
+        "1216:139",
+        "1216:140",
+        "1216:141",
+        "1216:142",
+        "1216:143",
+        "1216:144",
+        "1216:145",
+        "1216:146",
+        "1216:147",
+        "1216:148",
+        "1216:149",
+        "1216:150",
+        "1216:151",
+        "1216:152",
+        "1216:153",
+        "1216:154",
+        "1216:155",
+        "1216:156",
+        "1216:157",
+        "1216:158",
+        "1216:159",
+        "1216:160",
+        "1216:161",
+        "1216:162",
+        "1216:163",
+        "1216:164",
+        "1216:165",
+        "1216:166",
+        "1216:167",
+        "1216:168",
+        "1216:169",
+        "1216:170",
+        "1216:171",
+        "1216:172",
+        "1216:173",
+        "1216:174",
+        "1216:175",
+        "1216:176",
+        "1216:177",
+        "1216:178",
+        "1216:179",
+        "1216:180",
+        "1216:181",
+        "1216:182",
+        "1216:183",
+        "1216:184",
+        "1216:185",
+        "1216:186",
+        "1216:187",
+        "1216:188",
+        "1216:189",
+        "1216:190",
+        "1216:191",
+        "1216:192",
+        "1216:193",
+        "1216:194",
+        "1216:195",
+        "1216:196",
+        "1216:197",
+        "1216:198",
+        "1216:199",
+        "1216:200",
+        "1216:201",
+        "1216:202",
+        "1216:203"
+      ],
+      "rotation": -15.000000120055855,
+      "opacity": 1
+    },
+    {
+      "id": "1216:134",
+      "type": "POLYGON",
+      "position": {
+        "x": 1298.418235259065,
+        "y": 1679.1467156501676
+      },
+      "size": {
+        "width": 729,
+        "height": 1143
+      },
+      "parent": "1216:133",
+      "rotation": 11.999999210386234,
+      "opacity": 0
+    },
+    {
+      "id": "1216:135",
+      "type": "POLYGON",
+      "position": {
+        "x": 1244.8772530377319,
+        "y": 1660.9448323937686
+      },
+      "size": {
+        "width": 725,
+        "height": 1133
+      },
+      "parent": "1216:133",
+      "rotation": 9.000000481063498,
+      "opacity": 0.014492753893136978
+    },
+    {
+      "id": "1216:136",
+      "type": "POLYGON",
+      "position": {
+        "x": 1192.6243499179036,
+        "y": 1641.1787929563943
+      },
+      "size": {
+        "width": 721,
+        "height": 1123
+      },
+      "parent": "1216:133",
+      "rotation": 6.000000833428215,
+      "opacity": 0.028985507786273956
+    },
+    {
+      "id": "1216:137",
+      "type": "POLYGON",
+      "position": {
+        "x": 1141.7356677200223,
+        "y": 1619.9323140966153
+      },
+      "size": {
+        "width": 717,
+        "height": 1113
+      },
+      "parent": "1216:133",
+      "rotation": 2.9999999072670263,
+      "opacity": 0.043478261679410934
+    },
+    {
+      "id": "1216:138",
+      "type": "POLYGON",
+      "position": {
+        "x": 1092.2820123419879,
+        "y": 1597.2929906292338
+      },
+      "size": {
+        "width": 713,
+        "height": 1103
+      },
+      "parent": "1216:133",
+      "rotation": 7.654724625214942e-7,
+      "opacity": 0.05797101557254791
+    },
+    {
+      "id": "1216:139",
+      "type": "POLYGON",
+      "position": {
+        "x": 1044.3288706903986,
+        "y": 1573.3512889501144
+      },
+      "size": {
+        "width": 709,
+        "height": 1093
+      },
+      "parent": "1216:133",
+      "rotation": -3.0000007400554387,
+      "opacity": 0.07246376574039459
+    },
+    {
+      "id": "1216:140",
+      "type": "POLYGON",
+      "position": {
+        "x": 997.9362843040653,
+        "y": 1548.201018679647
+      },
+      "size": {
+        "width": 705,
+        "height": 1083
+      },
+      "parent": "1216:133",
+      "rotation": -6.000000519062665,
+      "opacity": 0.08695652335882187
+    },
+    {
+      "id": "1216:141",
+      "type": "POLYGON",
+      "position": {
+        "x": 953.1581503544367,
+        "y": 1521.9386398604329
+      },
+      "size": {
+        "width": 701,
+        "height": 1073
+      },
+      "parent": "1216:133",
+      "rotation": -9.000000179888325,
+      "opacity": 0.10144927352666855
+    },
+    {
+      "id": "1216:142",
+      "type": "POLYGON",
+      "position": {
+        "x": 910.0431502696447,
+        "y": 1494.6626271459536
+      },
+      "size": {
+        "width": 697,
+        "height": 1063
+      },
+      "parent": "1216:133",
+      "rotation": -12.000000106560341,
+      "opacity": 0.11594203114509583
+    },
+    {
+      "id": "1216:143",
+      "type": "POLYGON",
+      "position": {
+        "x": 868.6337663878367,
+        "y": 1466.4738381960487
+      },
+      "size": {
+        "width": 693,
+        "height": 1053
+      },
+      "parent": "1216:133",
+      "rotation": -15.000000120055862,
+      "opacity": 0.1304347813129425
+    },
+    {
+      "id": "1216:144",
+      "type": "POLYGON",
+      "position": {
+        "x": 828.9666210268915,
+        "y": 1437.4747198949772
+      },
+      "size": {
+        "width": 689,
+        "height": 1043
+      },
+      "parent": "1216:133",
+      "rotation": -18.000000133551367,
+      "opacity": 0.14492753148078918
+    },
+    {
+      "id": "1216:145",
+      "type": "POLYGON",
+      "position": {
+        "x": 791.0723354450529,
+        "y": 1407.7688914305763
+      },
+      "size": {
+        "width": 685,
+        "height": 1033
+      },
+      "parent": "1216:133",
+      "rotation": -21.000000060223385,
+      "opacity": 0.15942029654979706
+    },
+    {
+      "id": "1216:146",
+      "type": "POLYGON",
+      "position": {
+        "x": 754.9753340789393,
+        "y": 1377.4604599575687
+      },
+      "size": {
+        "width": 681,
+        "height": 1023
+      },
+      "parent": "1216:133",
+      "rotation": -23.999999721049043,
+      "opacity": 0.17391304671764374
+    },
+    {
+      "id": "1216:147",
+      "type": "POLYGON",
+      "position": {
+        "x": 720.6937960181822,
+        "y": 1346.655144983597
+      },
+      "size": {
+        "width": 677,
+        "height": 1013
+      },
+      "parent": "1216:133",
+      "rotation": -26.99999950005627,
+      "opacity": 0.18840579688549042
+    },
+    {
+      "id": "1216:148",
+      "type": "POLYGON",
+      "position": {
+        "x": 688.2409627589295,
+        "y": 1315.4582276275032
+      },
+      "size": {
+        "width": 673,
+        "height": 1003
+      },
+      "parent": "1216:133",
+      "rotation": -30.00000100558417,
+      "opacity": 0.2028985470533371
+    },
+    {
+      "id": "1216:149",
+      "type": "POLYGON",
+      "position": {
+        "x": 657.6224640453147,
+        "y": 1283.9750978455559
+      },
+      "size": {
+        "width": 669,
+        "height": 993
+      },
+      "parent": "1216:133",
+      "rotation": -33.000000147378735,
+      "opacity": 0.21739129722118378
+    },
+    {
+      "id": "1216:150",
+      "type": "POLYGON",
+      "position": {
+        "x": 628.8390552162309,
+        "y": 1252.310471383491
+      },
+      "size": {
+        "width": 665,
+        "height": 983
+      },
+      "parent": "1216:133",
+      "rotation": -36.00000107353993,
+      "opacity": 0.23188406229019165
+    },
+    {
+      "id": "1216:151",
+      "type": "POLYGON",
+      "position": {
+        "x": 601.8852801260655,
+        "y": 1220.5686633896257
+      },
+      "size": {
+        "width": 661,
+        "height": 973
+      },
+      "parent": "1216:133",
+      "rotation": -39.000000721175205,
+      "opacity": 0.24637681245803833
+    },
+    {
+      "id": "1216:152",
+      "type": "POLYGON",
+      "position": {
+        "x": 576.749660709429,
+        "y": 1188.8528809496638
+      },
+      "size": {
+        "width": 657,
+        "height": 963
+      },
+      "parent": "1216:133",
+      "rotation": -41.999999450497945,
+      "opacity": 0.260869562625885
+    },
+    {
+      "id": "1216:153",
+      "type": "POLYGON",
+      "position": {
+        "x": 553.4149497341277,
+        "y": 1157.2642797997687
+      },
+      "size": {
+        "width": 653,
+        "height": 953
+      },
+      "parent": "1216:133",
+      "rotation": -45.000000565347904,
+      "opacity": 0.2753623127937317
+    },
+    {
+      "id": "1216:154",
+      "type": "POLYGON",
+      "position": {
+        "x": 531.8585697163253,
+        "y": 1125.9031561336524
+      },
+      "size": {
+        "width": 649,
+        "height": 943
+      },
+      "parent": "1216:133",
+      "rotation": -48.000001390821815,
+      "opacity": 0.28985506296157837
+    },
+    {
+      "id": "1216:155",
+      "type": "POLYGON",
+      "position": {
+        "x": 512.0527562282696,
+        "y": 1094.8674684839425
+      },
+      "size": {
+        "width": 645,
+        "height": 933
+      },
+      "parent": "1216:133",
+      "rotation": -50.99999945870571,
+      "opacity": 0.30434781312942505
+    },
+    {
+      "id": "1216:156",
+      "type": "POLYGON",
+      "position": {
+        "x": 493.9631745620245,
+        "y": 1064.2523406818582
+      },
+      "size": {
+        "width": 641,
+        "height": 923
+      },
+      "parent": "1216:133",
+      "rotation": -53.99999903171375,
+      "opacity": 0.3188405930995941
+    },
+    {
+      "id": "1216:157",
+      "type": "POLYGON",
+      "position": {
+        "x": 477.55173379318876,
+        "y": 1034.1508790715598
+      },
+      "size": {
+        "width": 637,
+        "height": 913
+      },
+      "parent": "1216:133",
+      "rotation": -57.00000142884308,
+      "opacity": 0.3333333432674408
+    },
+    {
+      "id": "1216:158",
+      "type": "POLYGON",
+      "position": {
+        "x": 462.77460655885807,
+        "y": 1004.653073217065
+      },
+      "size": {
+        "width": 633,
+        "height": 903
+      },
+      "parent": "1216:133",
+      "rotation": -60.00000012005586,
+      "opacity": 0.3478260934352875
+    },
+    {
+      "id": "1216:159",
+      "type": "POLYGON",
+      "position": {
+        "x": 449.5832829239771,
+        "y": 975.8456359671909
+      },
+      "size": {
+        "width": 629,
+        "height": 893
+      },
+      "parent": "1216:133",
+      "rotation": -62.99999881126864,
+      "opacity": 0.36231884360313416
+    },
+    {
+      "id": "1216:160",
+      "type": "POLYGON",
+      "position": {
+        "x": 437.92457038133944,
+        "y": 947.8120034555541
+      },
+      "size": {
+        "width": 625,
+        "height": 883
+      },
+      "parent": "1216:133",
+      "rotation": -66.00000120839796,
+      "opacity": 0.37681159377098083
+    },
+    {
+      "id": "1216:161",
+      "type": "POLYGON",
+      "position": {
+        "x": 427.7416951091218,
+        "y": 920.6319982992136
+      },
+      "size": {
+        "width": 621,
+        "height": 873
+      },
+      "parent": "1216:133",
+      "rotation": -69.00000078140602,
+      "opacity": 0.3913043439388275
+    },
+    {
+      "id": "1216:162",
+      "type": "POLYGON",
+      "position": {
+        "x": 418.972902837555,
+        "y": 894.3813915137798
+      },
+      "size": {
+        "width": 617,
+        "height": 863
+      },
+      "parent": "1216:133",
+      "rotation": -71.9999988492899,
+      "opacity": 0.4057970941066742
+    },
+    {
+      "id": "1216:163",
+      "type": "POLYGON",
+      "position": {
+        "x": 411.5527327399468,
+        "y": 869.1318647220323
+      },
+      "size": {
+        "width": 613,
+        "height": 853
+      },
+      "parent": "1216:133",
+      "rotation": -74.99999967476381,
+      "opacity": 0.4202898442745209
+    },
+    {
+      "id": "1216:164",
+      "type": "POLYGON",
+      "position": {
+        "x": 405.41252067026653,
+        "y": 844.9510186195403
+      },
+      "size": {
+        "width": 609,
+        "height": 843
+      },
+      "parent": "1216:133",
+      "rotation": -78.00000078961376,
+      "opacity": 0.43478259444236755
+    },
+    {
+      "id": "1216:165",
+      "type": "POLYGON",
+      "position": {
+        "x": 400.4798022773757,
+        "y": 821.9017707219027
+      },
+      "size": {
+        "width": 605,
+        "height": 833
+      },
+      "parent": "1216:133",
+      "rotation": -80.9999995189365,
+      "opacity": 0.4492753744125366
+    },
+    {
+      "id": "1216:166",
+      "type": "POLYGON",
+      "position": {
+        "x": 396.6795237078077,
+        "y": 800.0425533950984
+      },
+      "size": {
+        "width": 601,
+        "height": 823
+      },
+      "parent": "1216:133",
+      "rotation": -83.9999991665718,
+      "opacity": 0.4637681245803833
+    },
+    {
+      "id": "1216:167",
+      "type": "POLYGON",
+      "position": {
+        "x": 393.93353103674235,
+        "y": 779.4268611077132
+      },
+      "size": {
+        "width": 597,
+        "height": 813
+      },
+      "parent": "1216:133",
+      "rotation": -87.00000009273298,
+      "opacity": 0.47826087474823
+    },
+    {
+      "id": "1216:168",
+      "type": "POLYGON",
+      "position": {
+        "x": 392.16134825288464,
+        "y": 760.10364845609
+      },
+      "size": {
+        "width": 593,
+        "height": 803
+      },
+      "parent": "1216:133",
+      "rotation": -89.99999923452755,
+      "opacity": 0.49275362491607666
+    },
+    {
+      "id": "1216:169",
+      "type": "POLYGON",
+      "position": {
+        "x": 391.28032789763165,
+        "y": 742.1162963278475
+      },
+      "size": {
+        "width": 589,
+        "height": 793
+      },
+      "parent": "1216:133",
+      "rotation": -93.00000074005546,
+      "opacity": 0.5072463750839233
+    },
+    {
+      "id": "1216:170",
+      "type": "POLYGON",
+      "position": {
+        "x": 391.2059720693687,
+        "y": 725.5037721148474
+      },
+      "size": {
+        "width": 585,
+        "height": 783
+      },
+      "parent": "1216:133",
+      "rotation": -96.00000051906268,
+      "opacity": 0.52173912525177
+    },
+    {
+      "id": "1216:171",
+      "type": "POLYGON",
+      "position": {
+        "x": 391.8519104291481,
+        "y": 710.2992968667386
+      },
+      "size": {
+        "width": 581,
+        "height": 773
+      },
+      "parent": "1216:133",
+      "rotation": -99.00000017988833,
+      "opacity": 0.5362318754196167
+    },
+    {
+      "id": "1216:172",
+      "type": "POLYGON",
+      "position": {
+        "x": 393.13120455165335,
+        "y": 696.5311371084463
+      },
+      "size": {
+        "width": 577,
+        "height": 763
+      },
+      "parent": "1216:133",
+      "rotation": -102.00000010656035,
+      "opacity": 0.5507246255874634
+    },
+    {
+      "id": "1216:173",
+      "type": "POLYGON",
+      "position": {
+        "x": 394.9551846136019,
+        "y": 684.2222299435234
+      },
+      "size": {
+        "width": 573,
+        "height": 753
+      },
+      "parent": "1216:133",
+      "rotation": -105.00000012005587,
+      "opacity": 0.5652173757553101
+    },
+    {
+      "id": "1216:174",
+      "type": "POLYGON",
+      "position": {
+        "x": 397.2351791311703,
+        "y": 673.3903305946878
+      },
+      "size": {
+        "width": 569,
+        "height": 743
+      },
+      "parent": "1216:133",
+      "rotation": -108.00000013355138,
+      "opacity": 0.5797101259231567
+    },
+    {
+      "id": "1216:175",
+      "type": "POLYGON",
+      "position": {
+        "x": 399.8815874701286,
+        "y": 664.047700695417
+      },
+      "size": {
+        "width": 565,
+        "height": 733
+      },
+      "parent": "1216:133",
+      "rotation": -111.0000000602234,
+      "opacity": 0.5942028760910034
+    },
+    {
+      "id": "1216:176",
+      "type": "POLYGON",
+      "position": {
+        "x": 402.80549900383994,
+        "y": 656.2016685185154
+      },
+      "size": {
+        "width": 561,
+        "height": 723
+      },
+      "parent": "1216:133",
+      "rotation": -113.99999972104905,
+      "opacity": 0.6086956262588501
+    },
+    {
+      "id": "1216:177",
+      "type": "POLYGON",
+      "position": {
+        "x": 405.9176245840281,
+        "y": 649.8539003468686
+      },
+      "size": {
+        "width": 557,
+        "height": 713
+      },
+      "parent": "1216:133",
+      "rotation": -116.99999950005629,
+      "opacity": 0.6231883764266968
+    },
+    {
+      "id": "1216:178",
+      "type": "POLYGON",
+      "position": {
+        "x": 409.12986830759473,
+        "y": 645.0011375683098
+      },
+      "size": {
+        "width": 553,
+        "height": 703
+      },
+      "parent": "1216:133",
+      "rotation": -120.00000100558418,
+      "opacity": 0.6376811861991882
+    },
+    {
+      "id": "1216:179",
+      "type": "POLYGON",
+      "position": {
+        "x": 412.35448634349814,
+        "y": 641.6350344722014
+      },
+      "size": {
+        "width": 549,
+        "height": 693
+      },
+      "parent": "1216:133",
+      "rotation": -123.00000014737874,
+      "opacity": 0.6521739363670349
+    },
+    {
+      "id": "1216:180",
+      "type": "POLYGON",
+      "position": {
+        "x": 415.50524291291003,
+        "y": 639.7420888639317
+      },
+      "size": {
+        "width": 545,
+        "height": 683
+      },
+      "parent": "1216:133",
+      "rotation": -126.00000107353992,
+      "opacity": 0.6666666865348816
+    },
+    {
+      "id": "1216:181",
+      "type": "POLYGON",
+      "position": {
+        "x": 418.497315506851,
+        "y": 639.3039957975125
+      },
+      "size": {
+        "width": 541,
+        "height": 673
+      },
+      "parent": "1216:133",
+      "rotation": -129.0000007211752,
+      "opacity": 0.6811594367027283
+    },
+    {
+      "id": "1216:182",
+      "type": "POLYGON",
+      "position": {
+        "x": 421.2473580744336,
+        "y": 640.297411753847
+      },
+      "size": {
+        "width": 537,
+        "height": 663
+      },
+      "parent": "1216:133",
+      "rotation": -131.99999945049794,
+      "opacity": 0.695652186870575
+    },
+    {
+      "id": "1216:183",
+      "type": "POLYGON",
+      "position": {
+        "x": 423.6747032600215,
+        "y": 642.6946559086646
+      },
+      "size": {
+        "width": 533,
+        "height": 653
+      },
+      "parent": "1216:133",
+      "rotation": -135.00000056534793,
+      "opacity": 0.7101449370384216
+    },
+    {
+      "id": "1216:184",
+      "type": "POLYGON",
+      "position": {
+        "x": 425.6999948640223,
+        "y": 646.4631541367635
+      },
+      "size": {
+        "width": 529,
+        "height": 643
+      },
+      "parent": "1216:133",
+      "rotation": -138.0000013908218,
+      "opacity": 0.7246376872062683
+    },
+    {
+      "id": "1216:185",
+      "type": "POLYGON",
+      "position": {
+        "x": 427.24721545610737,
+        "y": 651.5663614387959
+      },
+      "size": {
+        "width": 525,
+        "height": 633
+      },
+      "parent": "1216:133",
+      "rotation": -140.9999994587057,
+      "opacity": 0.739130437374115
+    },
+    {
+      "id": "1216:186",
+      "type": "POLYGON",
+      "position": {
+        "x": 428.2428220735892,
+        "y": 657.963214411131
+      },
+      "size": {
+        "width": 521,
+        "height": 623
+      },
+      "parent": "1216:133",
+      "rotation": -143.99999903171377,
+      "opacity": 0.7536231875419617
+    },
+    {
+      "id": "1216:187",
+      "type": "POLYGON",
+      "position": {
+        "x": 428.6161072854593,
+        "y": 665.608670310372
+      },
+      "size": {
+        "width": 517,
+        "height": 613
+      },
+      "parent": "1216:133",
+      "rotation": -147.0000014288431,
+      "opacity": 0.7681159377098083
+    },
+    {
+      "id": "1216:188",
+      "type": "POLYGON",
+      "position": {
+        "x": 428.29974135553493,
+        "y": 674.4540418902616
+      },
+      "size": {
+        "width": 513,
+        "height": 603
+      },
+      "parent": "1216:133",
+      "rotation": -150.00000012005586,
+      "opacity": 0.782608687877655
+    },
+    {
+      "id": "1216:189",
+      "type": "POLYGON",
+      "position": {
+        "x": 427.22989015332496,
+        "y": 684.4470289958044
+      },
+      "size": {
+        "width": 509,
+        "height": 593
+      },
+      "parent": "1216:133",
+      "rotation": -152.99999881126865,
+      "opacity": 0.7971014380455017
+    },
+    {
+      "id": "1216:190",
+      "type": "POLYGON",
+      "position": {
+        "x": 425.3460340549209,
+        "y": 695.5319227908767
+      },
+      "size": {
+        "width": 505,
+        "height": 583
+      },
+      "parent": "1216:133",
+      "rotation": -156.00000120839795,
+      "opacity": 0.8115941882133484
+    },
+    {
+      "id": "1216:191",
+      "type": "POLYGON",
+      "position": {
+        "x": 422.5916754081918,
+        "y": 707.6497953229555
+      },
+      "size": {
+        "width": 501,
+        "height": 573
+      },
+      "parent": "1216:133",
+      "rotation": -159.00000078140602,
+      "opacity": 0.8260869383811951
+    },
+    {
+      "id": "1216:192",
+      "type": "POLYGON",
+      "position": {
+        "x": 418.9140784483716,
+        "y": 720.7389985278933
+      },
+      "size": {
+        "width": 497,
+        "height": 563
+      },
+      "parent": "1216:133",
+      "rotation": -161.9999988492899,
+      "opacity": 0.8405796885490417
+    },
+    {
+      "id": "1216:193",
+      "type": "POLYGON",
+      "position": {
+        "x": 414.2647293772716,
+        "y": 734.7350979430448
+      },
+      "size": {
+        "width": 493,
+        "height": 553
+      },
+      "parent": "1216:133",
+      "rotation": -164.9999996747638,
+      "opacity": 0.8550724387168884
+    },
+    {
+      "id": "1216:194",
+      "type": "POLYGON",
+      "position": {
+        "x": 408.59920998679445,
+        "y": 749.5713443507302
+      },
+      "size": {
+        "width": 489,
+        "height": 543
+      },
+      "parent": "1216:133",
+      "rotation": -168.00000078961378,
+      "opacity": 0.8695651888847351
+    },
+    {
+      "id": "1216:195",
+      "type": "POLYGON",
+      "position": {
+        "x": 401.8774450449164,
+        "y": 765.1789296298375
+      },
+      "size": {
+        "width": 485,
+        "height": 533
+      },
+      "parent": "1216:133",
+      "rotation": -170.9999995189365,
+      "opacity": 0.8840579986572266
+    },
+    {
+      "id": "1216:196",
+      "type": "POLYGON",
+      "position": {
+        "x": 394.06376125112,
+        "y": 781.4870025528835
+      },
+      "size": {
+        "width": 481,
+        "height": 523
+      },
+      "parent": "1216:133",
+      "rotation": -173.9999991665718,
+      "opacity": 0.8985507488250732
+    },
+    {
+      "id": "1216:197",
+      "type": "POLYGON",
+      "position": {
+        "x": 385.127039840012,
+        "y": 798.4232783702137
+      },
+      "size": {
+        "width": 477,
+        "height": 513
+      },
+      "parent": "1216:133",
+      "rotation": -177.00000009273296,
+      "opacity": 0.9130434989929199
+    },
+    {
+      "id": "1216:198",
+      "type": "POLYGON",
+      "position": {
+        "x": 375.04072814557367,
+        "y": 815.9142314733617
+      },
+      "size": {
+        "width": 473,
+        "height": 503
+      },
+      "parent": "1216:133",
+      "rotation": -179.99999923452754,
+      "opacity": 0.9275362491607666
+    },
+    {
+      "id": "1216:199",
+      "type": "POLYGON",
+      "position": {
+        "x": 363.7828080070394,
+        "y": 833.8852133059154
+      },
+      "size": {
+        "width": 469,
+        "height": 493
+      },
+      "parent": "1216:133",
+      "rotation": 176.9999992599446,
+      "opacity": 0.9420289993286133
+    },
+    {
+      "id": "1216:200",
+      "type": "POLYGON",
+      "position": {
+        "x": 351.33595260532456,
+        "y": 852.260810328924
+      },
+      "size": {
+        "width": 465,
+        "height": 483
+      },
+      "parent": "1216:133",
+      "rotation": 173.99999948093733,
+      "opacity": 0.95652174949646
+    },
+    {
+      "id": "1216:201",
+      "type": "POLYGON",
+      "position": {
+        "x": 337.68744747772143,
+        "y": 870.965138798063
+      },
+      "size": {
+        "width": 461,
+        "height": 473
+      },
+      "parent": "1216:133",
+      "rotation": 170.9999998201117,
+      "opacity": 0.9710144996643066
+    },
+    {
+      "id": "1216:202",
+      "type": "POLYGON",
+      "position": {
+        "x": 322.82956737899804,
+        "y": 889.9223248727176
+      },
+      "size": {
+        "width": 457,
+        "height": 463
+      },
+      "parent": "1216:133",
+      "rotation": 167.99999989343968,
+      "opacity": 0.9855072498321533
+    },
+    {
+      "id": "1216:203",
+      "type": "POLYGON",
+      "position": {
+        "x": 306.75860140035,
+        "y": 909.0563697738762
+      },
+      "size": {
+        "width": 453,
+        "height": 453
+      },
+      "parent": "1216:133",
+      "rotation": 164.99999987994414,
+      "opacity": 1
+    },
+    {
+      "id": "1216:204",
+      "type": "RECTANGLE",
+      "position": {
+        "x": 64,
+        "y": 612
+      },
+      "size": {
+        "width": 1605,
+        "height": 619
+      },
+      "parent": "1216:116",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:205",
+      "type": "TEXT",
+      "position": {
+        "x": 196,
+        "y": 48
+      },
+      "size": {
+        "width": 117,
+        "height": 34
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Serendale",
+      "parent": "1216:116",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:206",
+      "type": "TEXT",
+      "position": {
+        "x": 529,
+        "y": 263
+      },
+      "size": {
+        "width": 669,
+        "height": 98
+      },
+      "text": "A Fast Blockchain.",
+      "parent": "1216:116",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:207",
+      "type": "TEXT",
+      "position": {
+        "x": 655,
+        "y": 357
+      },
+      "size": {
+        "width": 417,
+        "height": 98
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Scalable AI.",
+      "parent": "1216:116",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:208",
+      "type": "GROUP",
+      "position": {
+        "x": 567,
+        "y": 54
+      },
+      "size": {
+        "width": 594,
+        "height": 22
+      },
+      "parent": "1216:116",
+      "children": [
+        "1216:209",
+        "1216:210",
+        "1216:211",
+        "1216:212",
+        "1216:213"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:209",
+      "type": "TEXT",
+      "position": {
+        "x": 737,
+        "y": 54
+      },
+      "size": {
+        "width": 67,
+        "height": 22
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Services",
+      "parent": "1216:208",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:210",
+      "type": "TEXT",
+      "position": {
+        "x": 567,
+        "y": 54
+      },
+      "size": {
+        "width": 130,
+        "height": 22
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Smart Contracts",
+      "parent": "1216:208",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:211",
+      "type": "TEXT",
+      "position": {
+        "x": 844,
+        "y": 54
+      },
+      "size": {
+        "width": 71,
+        "height": 22
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Solutions",
+      "parent": "1216:208",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:212",
+      "type": "TEXT",
+      "position": {
+        "x": 955,
+        "y": 54
+      },
+      "size": {
+        "width": 74,
+        "height": 22
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Roadmap",
+      "parent": "1216:208",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:213",
+      "type": "TEXT",
+      "position": {
+        "x": 1069,
+        "y": 54
+      },
+      "size": {
+        "width": 92,
+        "height": 22
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Whitepaper",
+      "parent": "1216:208",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:214",
+      "type": "TEXT",
+      "position": {
+        "x": 502,
+        "y": 473
+      },
+      "size": {
+        "width": 723,
+        "height": 99
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Our technology performing fast blockchain (120K TPS) and it has guaranteed AI-based data security. Proof of Stake, its consensus algorithm enables unlimited speeds.",
+      "parent": "1216:116",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:215",
+      "type": "GROUP",
+      "position": {
+        "x": 679,
+        "y": 604
+      },
+      "size": {
+        "width": 370,
+        "height": 70
+      },
+      "parent": "1216:116",
+      "children": [
+        "1216:216",
+        "1216:218"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:216",
+      "type": "FRAME",
+      "position": {
+        "x": 679,
+        "y": 604
+      },
+      "size": {
+        "width": 176,
+        "height": 70
+      },
+      "parent": "1216:215",
+      "children": [
+        "1216:217"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:217",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 22
+      },
+      "size": {
+        "width": 112,
+        "height": 26
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "text": "Get started",
+      "parent": "1216:216",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:218",
+      "type": "FRAME",
+      "position": {
+        "x": 867,
+        "y": 604
+      },
+      "size": {
+        "width": 182,
+        "height": 70
+      },
+      "parent": "1216:215",
+      "children": [
+        "1216:219"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:219",
+      "type": "TEXT",
+      "position": {
+        "x": 32,
+        "y": 22
+      },
+      "size": {
+        "width": 118,
+        "height": 26
+      },
+      "fillColor": "rgba(0,0,0,1.00)",
+      "text": "Ecosystems",
+      "parent": "1216:218",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:220",
+      "type": "GROUP",
+      "position": {
+        "x": 1404,
+        "y": 55
+      },
+      "size": {
+        "width": 128,
+        "height": 21
+      },
+      "parent": "1216:116",
+      "children": [
+        "1216:221",
+        "1216:223",
+        "1216:225",
+        "1216:227"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:221",
+      "type": "FRAME",
+      "position": {
+        "x": 1440,
+        "y": 55
+      },
+      "size": {
+        "width": 20,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1216:220",
+      "children": [
+        "1216:222"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:222",
+      "type": "VECTOR",
+      "position": {
+        "x": 1.6666666269302368,
+        "y": 0.8333333134651184
+      },
+      "size": {
+        "width": 16.66666603088379,
+        "height": 19.16666603088379
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1216:221",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:223",
+      "type": "FRAME",
+      "position": {
+        "x": 1404,
+        "y": 55
+      },
+      "size": {
+        "width": 20,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1216:220",
+      "children": [
+        "1216:224"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:224",
+      "type": "VECTOR",
+      "position": {
+        "x": 1.6666666269302368,
+        "y": 1.6666666269302368
+      },
+      "size": {
+        "width": 16.66666603088379,
+        "height": 16.262908935546875
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1216:223",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:225",
+      "type": "FRAME",
+      "position": {
+        "x": 1512,
+        "y": 55
+      },
+      "size": {
+        "width": 20,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1216:220",
+      "children": [
+        "1216:226"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:226",
+      "type": "VECTOR",
+      "position": {
+        "x": 1.2833333015441895,
+        "y": 3.3333332538604736
+      },
+      "size": {
+        "width": 17.433332443237305,
+        "height": 14.166666984558105
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1216:225",
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:227",
+      "type": "FRAME",
+      "position": {
+        "x": 1476,
+        "y": 56
+      },
+      "size": {
+        "width": 20,
+        "height": 20
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1216:220",
+      "children": [
+        "1216:228"
+      ],
+      "rotation": 0,
+      "opacity": 1
+    },
+    {
+      "id": "1216:228",
+      "type": "VECTOR",
+      "position": {
+        "x": 1.6666666269302368,
+        "y": 1.6666666269302368
+      },
+      "size": {
+        "width": 16.66666603088379,
+        "height": 16.66666603088379
+      },
+      "fillColor": "rgba(255,255,255,1.00)",
+      "parent": "1216:227",
+      "rotation": 0,
+      "opacity": 1
+    }
+  ]
+}
