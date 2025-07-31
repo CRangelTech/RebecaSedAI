@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Generador UI con IA</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(180deg, #404040, #1e1e1e);
+      color: #fff;
+      overflow: hidden;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 24px;
+      height: 100%;
+      width: 100%;
+      gap: 16px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 20px;
+      text-align: center;
+      color: #f4f4f4;
+    }
+
+    textarea {
+      flex-shrink: 0;
+      min-height: 100px;
+      border: none;
+      border-radius: 15px;
+      padding: 12px;
+      font-size: 14px;
+      resize: vertical;
+      background: linear-gradient(180deg, #5d5d5d, #414141);
+      color: #fff;
+      width: 100%;
+    }
+
+    textarea:focus {
+      background-color: #505072;
+      outline: none;
+    }
+
+    .response-box {
+      flex-shrink: 1;
+      background-color: #40405a;
+      padding: 12px;
+      border-radius: 10px;
+      font-size: 13px;
+      white-space: pre-wrap;
+      display: none;
+      overflow-y: auto;
+      max-height: 80px;
+    }
+
+    .generate-btn {
+      position: relative;
+      padding: 15px;
+      font-size: 1rem;
+      font-weight: 700;
+      color: white;
+      background: linear-gradient(45deg, #7b00ff, #00aaff);
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      overflow: hidden;
+      transition: all 0.4s ease;
+      box-shadow:
+        0 10px 30px rgba(37, 117, 252, 0.4),
+        0 0 0 4px rgba(255, 255, 255, 0.1),
+        inset 0 0 10px rgba(255, 255, 255, 0.3);
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      width: 50%;
+    }
+
+    .generate-btn:hover {
+      transform: translateY(-5px) scale(1.05);
+      box-shadow:
+        0 15px 40px rgba(37, 117, 252, 0.6),
+        0 0 0 6px rgba(255, 255, 255, 0.2),
+        inset 0 0 15px rgba(255, 255, 255, 0.5);
+    }
+
+    .generate-btn:active {
+      transform: translateY(0) scale(0.98);
+      box-shadow:
+        0 5px 20px rgba(37, 117, 252, 0.3),
+        0 0 0 3px rgba(255, 255, 255, 0.1),
+        inset 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .generate-btn::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(
+        45deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+      );
+      transform: rotate(45deg);
+      transition: all 0.6s ease;
+      z-index: 1;
+    }
+
+    .generate-btn:hover::before {
+      transform: rotate(45deg) translate(20%, 20%);
+    }
+
+    .generate-btn span {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .pulse {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+      background: inherit;
+      filter: blur(20px);
+      opacity: 0.7;
+      z-index: -1;
+      animation: pulse-animation 2s infinite;
+    }
+
+    @keyframes pulse-animation {
+      0% { transform: scale(1); opacity: 0.7; }
+      50% { transform: scale(1.05); opacity: 0.4; }
+      100% { transform: scale(1); opacity: 0.7; }
+    }
+
+    .star {
+      position: absolute;
+      background-color: white;
+      clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+      z-index: 1;
+    }
+
+    .star-1 { top: 15%; left: 10%; width: 12px; height: 12px; animation: twinkle 1.5s infinite; }
+    .star-2 { top: 20%; right: 15%; width: 10px; height: 10px; animation: twinkle 2s infinite 0.5s; }
+    .star-3 { bottom: 25%; left: 20%; width: 8px; height: 8px; animation: twinkle 1.8s infinite 0.3s; }
+    .star-4 { bottom: 15%; right: 25%; width: 14px; height: 14px; animation: twinkle 2.2s infinite 0.7s; }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; transform: scale(1.2); }
+    }
+
+    @media (max-height: 500px) {
+      .container {
+        padding: 12px;
+        gap: 10px;
+      }
+
+      h2 {
+        font-size: 16px;
+      }
+
+      textarea {
+        min-height: 80px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>🧠 Rebeca SedAI</h2>
+    <textarea id="prompt" placeholder="Escribe tu prompt aqui. Ej: Pantalla de login con campos y botón azul..."></textarea>
+
+    <!-- botón de generación -->
+    <button class="generate-btn" id="generate">
+      <div class="pulse"></div>
+      <div class="star star-1"></div>
+      <div class="star star-2"></div>
+      <div class="star star-3"></div>
+      <div class="star star-4"></div>
+      <span>Generar Interfaz</span>
+    </button>
+
+    <div id="response" class="response-box"></div>
+  </div>
+
+  <script>
+    const button = document.getElementById("generate");
+    const responseBox = document.getElementById("response");
+
+    button.onclick = () => {
+      const prompt = document.getElementById("prompt").value;
+      parent.postMessage({ pluginMessage: { type: "generate-ui", prompt } }, "*");
+      responseBox.style.display = "block";
+      responseBox.textContent = "⌛ Generando wireframe...";
+    };
+  </script>
+</body>
+</html>
